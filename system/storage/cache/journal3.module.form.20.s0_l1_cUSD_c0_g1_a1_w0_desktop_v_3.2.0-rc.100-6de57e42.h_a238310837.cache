@@ -1,0 +1,221 @@
+<?php $val = array (
+  'css' => '.module-form-20 .module-title{font-family:\'Urbanist\';font-weight:600;font-size:var(--j-font_size-font-size--title-module);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-transform:none;text-decoration:none;-webkit-text-decoration:none;line-height:1.4;margin-bottom:1.25em !important;white-space:normal;overflow:initial;text-overflow:initial;-webkit-line-clamp:initial;-webkit-line-clamp:2}.module-form-20 .module-title:after{display:none;margin-top:.7em}.module-form-20 .module-title .page-title-text:after{display:none;margin-top:.7em}.module-form-20 .module-title .filter-title-text:after{display:none;margin-top:.7em}.module-form-20 .module-title:after,.module-form-20 .module-title .page-title-text:after,.module-form-20 .module-title .filter-title-text:after{width:50px;height:2px;background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1))}.module-form-20 .buttons{margin-top:var(--j-gap-spacing-vertical-l);--element-margin-top:var(--j-gap-spacing-vertical-l);padding-top:var(--j-gap-spacing---9);--element-padding-top:var(--j-gap-spacing---9);border-width:0;border-top-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));--page-buttons-width:500px;--page-buttons-gap:14px}.module-form-20 .buttons .pull-left .btn,.module-form-20 .buttons .pull-left .btn:visited{color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1)) !important}.no-touchevents .module-form-20 .buttons .pull-left .btn:hover{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important;background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1))}.module-form-20 .buttons .pull-left .btn:active,.no-touchevents .module-form-20 .buttons .pull-left .btn:hover:active{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important}.module-form-20 .buttons .pull-left .btn{--focus-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important;border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.module-form-20 .buttons .pull-left .btn,.module-form-20 .buttons .pull-left .tooltip{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1))}.module-form-20 .buttons .pull-left .btn:active,.no-touchevents .module-form-20 .buttons .pull-left .btn:hover:active,.module-form-20 .buttons .pull-left .btn:focus:active,.no-touchevents .module-form-20 .buttons .pull-left .btn:focus:hover:active{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1))}.module-form-20 .buttons .pull-left .btn:focus,.module-form-20 .buttons .pull-left .btn[disabled]{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1)) !important}.no-touchevents .module-form-20 .buttons .pull-left .btn:hover,.no-touchevents .module-form-20 .buttons .pull-left .btn:active:hover{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-form-20 .buttons .pull-left .btn:active,.no-touchevents .module-form-20 .buttons .pull-left .btn:hover:active,.module-form-20 .buttons .pull-left .btn:focus:active{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important}.module-form-20 .buttons .pull-left .btn:focus{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-form-20 .buttons .pull-left .btn.btn.disabled:after{font-size:1em}.module-form-20 .buttons .pull-right .btn,.module-form-20 .buttons .pull-right .btn:visited{font-family:\'Inter\' !important;font-weight:400 !important;font-size:var(--j-font_size-font-size-400) !important;color:hsla(var(--j-color-scheme-button-foreground-h),var(--j-color-scheme-button-foreground-s),calc(var(--j-color-scheme-button-foreground-l) - 0%),calc(var(--j-color-scheme-button-foreground-a)*1)) !important;text-transform:none !important;text-decoration:none !important;-webkit-text-decoration:none !important;line-height:1 !important}.no-touchevents .module-form-20 .buttons .pull-right .btn:hover{color:hsla(var(--j-color-scheme-brand-primary-foreground-h),var(--j-color-scheme-brand-primary-foreground-s),calc(var(--j-color-scheme-brand-primary-foreground-l) - 0%),calc(var(--j-color-scheme-brand-primary-foreground-a)*1)) !important;background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - -5%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - -5%),calc(var(--j-color-scheme-brand-primary-a)*1))}.module-form-20 .buttons .pull-right .btn:active,.no-touchevents .module-form-20 .buttons .pull-right .btn:hover:active{color:hsla(var(--j-color-scheme-brand-primary-foreground-h),var(--j-color-scheme-brand-primary-foreground-s),calc(var(--j-color-scheme-brand-primary-foreground-l) - 0%),calc(var(--j-color-scheme-brand-primary-foreground-a)*1)) !important}.module-form-20 .buttons .pull-right .btn{--focus-color:hsla(var(--j-color-scheme-brand-primary-foreground-h),var(--j-color-scheme-brand-primary-foreground-s),calc(var(--j-color-scheme-brand-primary-foreground-l) - 0%),calc(var(--j-color-scheme-brand-primary-foreground-a)*1)) !important;border-width:1px;border-style:solid;border-color:rgba(0,0,0,0);padding:1.1em;--element-padding:1.1em;padding-right:2em;--element-padding-right:2em;padding-left:2em;--element-padding-left:2em;border-radius:99px !important;--element-border-radius:99px !important;--scale-active:.98}.module-form-20 .buttons .pull-right.btn{justify-content:center}.module-form-20 .buttons .pull-right .btn,.module-form-20 .buttons .pull-right .tooltip{background-color:hsla(var(--j-color-scheme-button-background-h),var(--j-color-scheme-button-background-s),calc(var(--j-color-scheme-button-background-l) - 0%),calc(var(--j-color-scheme-button-background-a)*1));--background-color:hsla(var(--j-color-scheme-button-background-h),var(--j-color-scheme-button-background-s),calc(var(--j-color-scheme-button-background-l) - 0%),calc(var(--j-color-scheme-button-background-a)*1))}.module-form-20 .buttons .pull-right .btn:active,.no-touchevents .module-form-20 .buttons .pull-right .btn:hover:active,.module-form-20 .buttons .pull-right .btn:focus:active,.no-touchevents .module-form-20 .buttons .pull-right .btn:focus:hover:active{background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 5%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 5%),calc(var(--j-color-scheme-brand-primary-a)*1))}.module-form-20 .buttons .pull-right .btn:focus,.module-form-20 .buttons .pull-right .btn[disabled]{background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 5%),calc(var(--j-color-scheme-brand-primary-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 5%),calc(var(--j-color-scheme-brand-primary-a)*1)) !important}.module-form-20 .buttons .pull-right .btn.btn.disabled:after{font-size:1em}.module-form-20 .buttons>div{flex-grow:0}.module-form-20 .buttons .pull-right:only-child{max-width:100%}.module-form-20 .buttons .pull-right:only-child .btn{width:100%}.module-form-20 .buttons .pull-right input[type=checkbox]{order:-1}.module-form-20 .buttons input+.btn,.module-form-20 .buttons .pull-right>span+.btn{margin-top:var(--j-gap-spacing---6);--element-margin-top:var(--j-gap-spacing---6)}div.module-form-20 .buttons .pull-right .btn,div.module-form-20 .buttons .pull-right .btn:visited{font-family:\'Inter\' !important;font-weight:400 !important;font-size:var(--j-font_size-font-size-400) !important;color:hsla(var(--j-color-scheme-button-foreground-h),var(--j-color-scheme-button-foreground-s),calc(var(--j-color-scheme-button-foreground-l) - 0%),calc(var(--j-color-scheme-button-foreground-a)*1)) !important;text-transform:none !important;text-decoration:none !important;-webkit-text-decoration:none !important;line-height:1 !important}.no-touchevents div.module-form-20 .buttons .pull-right .btn:hover{color:hsla(var(--j-color-scheme-brand-primary-foreground-h),var(--j-color-scheme-brand-primary-foreground-s),calc(var(--j-color-scheme-brand-primary-foreground-l) - 0%),calc(var(--j-color-scheme-brand-primary-foreground-a)*1)) !important;background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - -5%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - -5%),calc(var(--j-color-scheme-brand-primary-a)*1))}div.module-form-20 .buttons .pull-right .btn:active,.no-touchevents div.module-form-20 .buttons .pull-right .btn:hover:active{color:hsla(var(--j-color-scheme-brand-primary-foreground-h),var(--j-color-scheme-brand-primary-foreground-s),calc(var(--j-color-scheme-brand-primary-foreground-l) - 0%),calc(var(--j-color-scheme-brand-primary-foreground-a)*1)) !important}div.module-form-20 .buttons .pull-right .btn{--focus-color:hsla(var(--j-color-scheme-brand-primary-foreground-h),var(--j-color-scheme-brand-primary-foreground-s),calc(var(--j-color-scheme-brand-primary-foreground-l) - 0%),calc(var(--j-color-scheme-brand-primary-foreground-a)*1)) !important;border-width:1px;border-style:solid;border-color:rgba(0,0,0,0);padding:1.1em;--element-padding:1.1em;padding-right:2em;--element-padding-right:2em;padding-left:2em;--element-padding-left:2em;border-radius:99px !important;--element-border-radius:99px !important;--scale-active:.98}div.module-form-20 .buttons .pull-right.btn{justify-content:center}div.module-form-20 .buttons .pull-right .btn,div.module-form-20 .buttons .pull-right .tooltip{background-color:hsla(var(--j-color-scheme-button-background-h),var(--j-color-scheme-button-background-s),calc(var(--j-color-scheme-button-background-l) - 0%),calc(var(--j-color-scheme-button-background-a)*1));--background-color:hsla(var(--j-color-scheme-button-background-h),var(--j-color-scheme-button-background-s),calc(var(--j-color-scheme-button-background-l) - 0%),calc(var(--j-color-scheme-button-background-a)*1))}div.module-form-20 .buttons .pull-right .btn:active,.no-touchevents div.module-form-20 .buttons .pull-right .btn:hover:active,div.module-form-20 .buttons .pull-right .btn:focus:active,.no-touchevents div.module-form-20 .buttons .pull-right .btn:focus:hover:active{background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 5%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 5%),calc(var(--j-color-scheme-brand-primary-a)*1))}div.module-form-20 .buttons .pull-right .btn:focus,div.module-form-20 .buttons .pull-right .btn[disabled]{background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 5%),calc(var(--j-color-scheme-brand-primary-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 5%),calc(var(--j-color-scheme-brand-primary-a)*1)) !important}div.module-form-20 .buttons .pull-right .btn.btn.disabled:after{font-size:1em}div.module-form-20 .buttons .pull-right:only-child{max-width:100%}div.module-form-20 .buttons .pull-right:only-child .btn{width:100%}        ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Urbanist' => 
+      array (
+        600 => '600',
+      ),
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Contact Us',
+    'moduleTitle' => 'DEFAULT',
+    'pageButtons' => 'DEFAULT_BORDER',
+    'pageButtonsBackButton' => 'OUTLINE_FILL',
+    'pageButtonsContinueButton' => 'DEFAULT',
+    'buttonStyle' => 'DEFAULT',
+    'agree' => '3',
+    'sendButtonText' => '',
+    'sentText' => 'Your message has been successfully sent.',
+    'sentEmailTo' => '',
+    'sentEmailSubject' => '{{ $store }} - Enquiry from {{ $email }}',
+    'sentEmailLogo' => false,
+    'sentEmailTitle' => 'A new message has been received!',
+    'sentEmailField' => 'Field',
+    'sentEmailValue' => 'Value',
+    'sentEmailUsingModule' => 'Sent using module',
+    'sentEmailFrom' => 'Sent from',
+    'sentEmailIPAddress' => 'IP Address',
+    'redirect' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => true,
+    'module_id' => 20,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-form',
+      2 => 'module-form-20',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/form/edit/20',
+    'name' => 'Form / Contact Form',
+    'text_select' => ' --- Please Select --- ',
+    'text_loading' => 'Loading...',
+    'button_submit' => 'Submit',
+    'button_upload' => 'Upload File',
+    'datepicker' => 'en-gb',
+    'action' => 'https://control.betagroup.me/index.php?route=api/journal3/form&amp;module_id=20',
+    'agree_data' => 
+    array (
+      'information_id' => '3',
+      'title' => 'Privacy Policy',
+      'link' => 
+      array (
+        'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=3',
+        'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=3',
+      ),
+      'text' => 'I have read and agree to the <a href="https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=3" class="agree"><b>Privacy Policy</b></a>',
+      'error' => 'Warning: You must agree to the Privacy Policy!',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'name' => 'Name',
+        'label' => 'Your Name',
+        'placeholder' => '',
+        'type' => 'name',
+        'required' => true,
+        'index' => 1,
+        'id' => '20-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => NULL,
+          3 => '',
+        ),
+        'input_class' => '',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'Email',
+        'label' => 'Your Email',
+        'placeholder' => '',
+        'type' => 'email',
+        'required' => true,
+        'index' => 2,
+        'id' => '20-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => NULL,
+          3 => '',
+        ),
+        'input_class' => '',
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'name' => 'Topic',
+        'label' => 'Topic',
+        'placeholder' => '',
+        'type' => 'select',
+        'required' => false,
+        'index' => 3,
+        'id' => '20-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => NULL,
+          3 => '',
+        ),
+        'input_class' => '',
+        'items' => 
+        array (
+          1 => 
+          array (
+            'name' => 'Option 1',
+            'label' => 'Capture the information you need',
+            'index' => '3-1',
+            'id' => '20-3-1',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-1',
+              2 => NULL,
+              3 => NULL,
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'Option 2',
+            'label' => 'Add or remove any fields in contact forms',
+            'index' => '3-2',
+            'id' => '20-3-2',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-2',
+              2 => NULL,
+              3 => NULL,
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'Option 3',
+            'label' => 'Make any field required or not',
+            'index' => '3-3',
+            'id' => '20-3-3',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-3',
+              2 => NULL,
+              3 => NULL,
+            ),
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'name' => 'Textarea',
+        'label' => 'Message',
+        'placeholder' => '',
+        'type' => 'textarea',
+        'required' => true,
+        'index' => 4,
+        'id' => '20-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => NULL,
+          3 => '',
+        ),
+        'input_class' => '',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

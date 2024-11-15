@@ -1,0 +1,121 @@
+{{ header }}{{ column_left }}
+<div id="content">
+	<div class="page-header">
+		<div class="container-fluid">
+			<div class="float-end">
+				<button type="submit" form="form-blog" data-bs-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary">
+					<i class="fa fa-save"></i>
+				</button>
+				<a href="{{ cancel }}" data-bs-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-secondary">
+					<i class="fa fa-reply"></i>
+				</a>
+			</div>
+			<nav aria-label="breadcrumb">
+				<h1>{{ heading_title }}</h1>
+				<ol class="breadcrumb">
+					{% for breadcrumb in breadcrumbs %}
+						<li class="breadcrumb-item">
+							<a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a>
+						</li>
+					{% endfor %}
+				</ol>
+			</nav>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="card">
+			<div class="card-header">
+				<i class="fa fa-pencil"></i>
+				{{ text_form }}
+			</div>
+			<div class="card-body">
+				<form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-blog" class="row">
+					<div class="mb-3 row required">
+						<label for="input-title" class="col-md-2 col-form-label">{{ entry_title }}</label>
+						<div class="col-md-10">
+							<input type="text" name="title" id="input-title" value="{{ title }}" placeholder="{{ entry_title }}" class="form-control {% if error_title %}is-invalid{% endif %}"/>
+							 {% if error_title %}
+								<div id="error-title" class="invalid-feedback d-block">{{ error_title }}</div>
+							 {% endif %}
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="input-description" class="col-sm-2 col-form-label">Description</label>
+						<div class="col-sm-10">
+							<textarea name="description" placeholder="Description" id="input-description" data-oc-toggle="ckeditor" data-lang="{{ ckeditor }}" class="form-control">{{description}}</textarea>
+						</div>
+					</div>
+                    <div class="mb-3 row required">
+						<label for="input-url" class="col-md-2 col-form-label">{{ entry_url }}</label>
+						<div class="col-md-10">
+							<input type="text" name="url" id="input-url" value="{{ url }}" placeholder="{{ entry_url }}" class="form-control {% if error_url %}is-invalid{% endif %}"/>
+							 {% if error_url %}
+								<div id="error-url" class="invalid-feedback d-block">{{ error_url }}</div>
+							 {% endif %}
+						</div>
+					</div>
+                    <div class="mb-3 row required">
+						<label for="input-location" class="col-md-2 col-form-label">Location</label>
+						<div class="col-md-10">
+							<input type="text" name="location" id="input-location" value="{{ location }}" placeholder="{{ entry_location }}" class="form-control {% if error_location %}is-invalid{% endif %}"/>
+							 {% if error_location %}
+								<div id="error-location" class="invalid-feedback d-block">{{ error_location }}</div>
+							 {% endif %}
+						</div>
+					</div>
+                    <div class="mb-3 row">
+						<label for="type" class="col-md-2 col-form-label">Type</label>
+						<div class="col-md-10">
+							<select class="form-select" name="type" id="type">
+								{% for t in types %}
+								<option value="{{t}}" {% if t == type %}selected="selected"{% endif %}>{{t}}</option>
+								{% endfor %}
+							</select>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="input-image" class="col-sm-2 col-form-label">{{entry_image}}</label>
+						<div class="col-sm-10">
+							<div class="card image">
+								<img src="{{ thumb }}" alt="" title="" id="thumb-image" data-oc-placeholder="{{ placeholder }}" class="card-img-top"/>
+								<input type="hidden" name="image" value="{{ image }}" id="input-image"/>
+								<div class="card-body">
+									<button type="button" data-oc-toggle="image" data-oc-target="#input-image" data-oc-thumb="#thumb-image" class="btn btn-primary btn-sm btn-block">
+										<i class="fa-solid fa-pencil"></i>
+										{{ button_edit }}</button>
+									<button type="button" data-oc-toggle="clear" data-oc-target="#input-image" data-oc-thumb="#thumb-image" class="btn btn-warning btn-sm btn-block">
+										<i class="fa-regular fa-trash-can"></i>
+										{{ button_clear }}</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label class="col-sm-2 col-form-label">{{ entry_status}}</label>
+						<div class="col-sm-10">
+							<div class="form-check form-switch form-switch-lg">
+								<input type="hidden" name="status" value="0"/>
+								<input type="checkbox" name="status" value="1" id="input-status" class="form-check-input" {% if status %} checked {% endif %}/>
+							</div>
+							<div class="form-text">{{ help_status}}</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<style>
+	.cke_notification_warning {
+		display: none;
+	}
+</style>
+<script src="view/javascript/ckeditor/ckeditor.js"></script>
+<script src="view/javascript/ckeditor/adapters/jquery.js"></script>
+
+<script type="text/javascript">
+	$('textarea[data-oc-toggle=\'ckeditor\']').ckeditor({language: '{{ ckeditor }}'});
+</script>
+
+{{ footer }}

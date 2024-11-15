@@ -1,0 +1,161 @@
+<?php $val = array (
+  'css' => '.links-menu-751 .module-body,.links-menu-751 .module-body>.menu-item:before{--item-gap:var(--j-gap-spacing---5)}.links-menu-751 .menu-item a:before{margin-right:var(--j-gap-spacing---3);--element-margin-right:var(--j-gap-spacing---3)}.links-menu-751 .menu-item a .links-text{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size--title-menu);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));letter-spacing:-.1px;white-space:normal}.links-menu-751 .menu-item.is-title a .links-text{font-family:\'Urbanist\';font-weight:600;font-size:var(--j-font_size-font-size--title-item);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-transform:none;text-decoration:none;-webkit-text-decoration:none;line-height:1.3}.links-menu-751 .menu-item{flex-grow:0;width:auto;--align:flex-start;--max-width:max-content;max-width:var(--max-width);margin:var(--item-gap,0px) var(--align-right) var(--item-gap,0px) 0;flex-direction:column;align-items:var(--align);--align-left:var(--item-gap,0px);--align-right:auto}.links-menu-751 .module-body{justify-content:flex-start;padding-inline:0px;--display:block;flex-direction:column;columns:var(--column-width) var(--column-count);column-gap:var(--column-gap);margin:0;--column-count:auto;column-rule-style:none}.links-menu-751 .module-body:after{--display:none;--display-scroll:none}.links-menu-751 .menu-item:first-child{margin-top:0}.links-menu-751 .menu-item:before{width:100%;height:auto;border-width:1px 0 0;margin:calc(0px - var(--item-gap,0px)/2) 0 calc(var(--item-gap,0px)/2) 0}.links-menu-751 .is-title~.is-title{margin:var(--title-gap,0px) var(--align-right) var(--item-gap,0px) 0}.links-menu-751 .menu-item>a{justify-content:flex-start}.links-menu-751 .count-badge{display:inline-flex}.links-menu-751 .menu-item a .menu-label{color:rgba(13,82,214,1);background-color:rgba(225,235,254,1);--background-color:rgba(225,235,254,1);background-size:contain;position:static;transform:none;opacity:1;margin:0 0 0 calc(var(--label-margin,0px) + var(--label-triangle-size,0px))}.links-menu-751 .menu-item a .menu-label:before{border-right-color:currentColor}.links-menu-751 .menu-item a .menu-label:after{border-top-color:transparent}div.links-menu-751 .module-body,div.links-menu-751 .module-body>.menu-item:before{--item-gap:var(--j-gap-spacing---7)}div.links-menu-751 .menu-item a,div.links-menu-751 .menu-item a .links-text{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-400);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));text-decoration:none;-webkit-text-decoration:none;line-height:1.4}div.links-menu-751 .menu-item a:before{font-size:16px;color:hsla(var(--j-color-scheme-foreground-tertiary-h),var(--j-color-scheme-foreground-tertiary-s),calc(var(--j-color-scheme-foreground-tertiary-l) - 0%),calc(var(--j-color-scheme-foreground-tertiary-a)*0.8));margin-right:8px;--element-margin-right:8px} div.links-menu-751 .links-menu-item-1>a:before{content:\'\\eb7b\' !important;font-family:icomoon !important} div.links-menu-751 .links-menu-item-2>a:before{content:\'\\eb0f\' !important;font-family:icomoon !important} div.links-menu-751 .links-menu-item-3>a:before{content:\'\\eb06\' !important;font-family:icomoon !important} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+      'Urbanist' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'linksMenuStyle' => 'DEFAULT',
+    'linksMenuStylelabelStyle' => 'BLUE',
+    'status' => true,
+    'module_id' => 751,
+    'classes' => 
+    array (
+      0 => 'links-menu',
+      1 => 'links-menu-751',
+      2 => '',
+      3 => NULL,
+    ),
+    'image_width' => NULL,
+    'image_height' => NULL,
+    'image_resize' => NULL,
+    'edit' => 'module_layout/links_menu/edit/751',
+    'name' => 'Links Menu / Footer / Address, Phone, Contact',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '123 Main Str, London, UK',
+        'isTitle' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '31',
+          'href' => 'https://control.betagroup.me/index.php?route=information/contact',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-1',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      2 => 
+      array (
+        'title' => '1.800.555.8899',
+        'isTitle' => false,
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'tel:8005558989',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-2',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      3 => 
+      array (
+        'title' => 'Contact Us',
+        'isTitle' => false,
+        'link' => 
+        array (
+          'type' => 'popup',
+          'id' => '257',
+          'href' => 'javascript:open_popup(257)',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-3',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+    ),
+  ),
+);

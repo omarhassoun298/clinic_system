@@ -1,0 +1,78 @@
+{{ header }}{{ column_left }}
+<div id="content">
+	<div class="page-header">
+		<div class="container-fluid">
+			<div class="float-end">
+				<button type="submit" form="form-module" title="{{ button_save }}" class="btn btn-primary">
+					<i class="fa fa-save"></i>
+				</button>
+			</div>
+			<nav aria-label="breadcrumb">
+				<h1>{{ heading_title }}</h1>
+				<ol class="breadcrumb">
+					{% for breadcrumb in breadcrumbs %}
+						<li class="breadcrumb-item">
+							<a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a>
+						</li>
+					{% endfor %}
+				</ol>
+			</nav>
+		</div>
+	</div>
+	<div class="container-fluid">
+		{% if error_warning %}
+			<div class="alert alert-danger alert-dismissible fade show">
+				<i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+				<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+			</div>
+		{% endif %}
+
+		{% if success %}
+			<div class="alert alert-success alert-dismissible fade show">
+				<i class="fa fa-exclamation-circle"></i> {{ success }}
+				<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+			</div>
+		{% endif %}
+		<div class="card">
+			<div class="card-header">
+				<i class="fa fa-pencil"></i> {{ text_edit }}
+			</div>
+			<div class="card-body">
+				<form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-module" class="row ">
+					<div class="mb-3 row">
+						<label class="col-sm-2 col-form-label" for="input-title">{{ entry_title }}</label>
+						<div class="col-sm-10">
+							<input type="text" name="module_contact_us_component_title" id="input-title" value="{{ module_contact_us_component_title }}" placeholder="{{ entry_title }}" class="form-control"/>
+						</div>
+					</div>
+					<div class="mb-3 row">
+						<label class="col-sm-2 col-form-label" for="input-subtitle">{{ entry_subtitle }}</label>
+						<div class="col-sm-10">
+							<input type="text" name="module_contact_us_component_subtitle" id="input-subtitle" value="{{ module_contact_us_component_subtitle }}" placeholder="{{ entry_subtitle }}" class="form-control"/>
+						</div>
+					</div>
+					<div class="mb-3 row">
+						<label class="col-sm-2 col-form-label" for="input-buttonname">{{ entry_buttonname }}</label>
+						<div class="col-sm-10">
+							<input type="text" name="module_contact_us_component_buttonname" id="input-buttonname" value="{{ module_contact_us_component_buttonname }}" placeholder="{{ entry_buttonname }}" class="form-control"/>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="input-image" class="col-sm-2 col-form-label">{{entry_image}}</label>
+						<div class="col-sm-10">
+						<div class="card image">
+							<img src="{{ thumb }}" alt="" title="" id="thumb-image" data-oc-placeholder="{{ placeholder }}" class="card-img-top"/>
+							<input type="hidden" name="module_contact_us_component_image" value="{{ module_contact_us_component_image }}" id="input-image"/>
+							<div class="card-body">
+							<button type="button" data-oc-toggle="image" data-oc-target="#input-image" data-oc-thumb="#thumb-image" class="btn btn-primary btn-sm btn-block"><i class="fa-solid fa-pencil"></i> {{ button_edit }}</button>
+							<button type="button" data-oc-toggle="clear" data-oc-target="#input-image" data-oc-thumb="#thumb-image" class="btn btn-warning btn-sm btn-block"><i class="fa-regular fa-trash-can"></i> {{ button_clear }}</button>
+							</div>
+						</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{{ footer }}

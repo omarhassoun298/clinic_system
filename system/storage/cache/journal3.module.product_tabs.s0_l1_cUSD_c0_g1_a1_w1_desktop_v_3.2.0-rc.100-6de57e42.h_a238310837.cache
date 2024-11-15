@@ -1,0 +1,249 @@
+<?php $val = array (
+  'data' => 
+  array (
+    285 => 
+    array (
+      'module_id' => 285,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'default',
+        'positionTablet' => 'default',
+        'positionPhone' => 'details',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    512 => 
+    array (
+      'module_id' => 512,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'bottom',
+        'positionTablet' => '',
+        'positionPhone' => '',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    243 => 
+    array (
+      'module_id' => 243,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'default',
+        'positionTablet' => 'default',
+        'positionPhone' => 'details',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    284 => 
+    array (
+      'module_id' => 284,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'default',
+        'positionTablet' => 'default',
+        'positionPhone' => 'details',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    513 => 
+    array (
+      'module_id' => 513,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'bottom',
+        'positionTablet' => '',
+        'positionPhone' => '',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    534 => 
+    array (
+      'module_id' => 534,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'image',
+        'positionTablet' => '',
+        'positionPhone' => '',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    535 => 
+    array (
+      'module_id' => 535,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'image',
+        'positionTablet' => '',
+        'positionPhone' => '',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    1087 => 
+    array (
+      'module_id' => 1087,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'default',
+        'positionTablet' => 'default',
+        'positionPhone' => 'details',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+  ),
+  'all' => 
+  array (
+    285 => 285,
+    512 => 512,
+    243 => 243,
+    284 => 284,
+    513 => 513,
+    534 => 534,
+    535 => 535,
+    1087 => 1087,
+  ),
+  'special' => 
+  array (
+  ),
+  'outofstock' => 
+  array (
+  ),
+  'custom' => 
+  array (
+  ),
+);

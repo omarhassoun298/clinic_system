@@ -1,0 +1,93 @@
+<?php $val = array (
+  'css' => '.module-blog_tags-41 .tags{gap:var(--j-gap-spacing-gap-1);justify-content:flex-start;gap:var(--j-gap-spacing-gap-1)}.module-blog_tags-41 .tags b{display:none}.module-blog_tags-41 .tags a{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:99px;--element-border-radius:99px;padding:var(--j-gap-spacing---3);--element-padding:var(--j-gap-spacing---3);padding-right:var(--j-gap-spacing---4);--element-padding-right:var(--j-gap-spacing---4);padding-left:var(--j-gap-spacing---4);--element-padding-left:var(--j-gap-spacing---4);flex-grow:0;text-align:initial}.no-touchevents .module-blog_tags-41 .tags a:hover{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-blog_tags-41 .tags a,.module-blog_tags-41 .tags a:visited{font-family:\'Inter\';font-weight:400;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));line-height:1.25} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Filter by Tags',
+    'tagsStyle' => 'DEFAULT',
+    'status' => true,
+    'module_id' => 41,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blog_tags',
+      2 => 'module-blog_tags-41',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/blog_tags/edit/41',
+    'name' => 'Blog Tags',
+    'items' => 
+    array (
+      0 => 
+      array (
+        'name' => 'cool',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=cool',
+      ),
+      1 => 
+      array (
+        'name' => 'modern',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=modern',
+      ),
+      2 => 
+      array (
+        'name' => 'photography',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=photography',
+      ),
+      3 => 
+      array (
+        'name' => 'camera',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=camera',
+      ),
+      4 => 
+      array (
+        'name' => 'travel',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=travel',
+      ),
+      5 => 
+      array (
+        'name' => 'waves',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=waves',
+      ),
+      6 => 
+      array (
+        'name' => 'ocean',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=ocean',
+      ),
+      7 => 
+      array (
+        'name' => 'surf',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=surf',
+      ),
+      8 => 
+      array (
+        'name' => 'smart',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=smart',
+      ),
+      9 => 
+      array (
+        'name' => 'sweet',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_tag=sweet',
+      ),
+    ),
+  ),
+);

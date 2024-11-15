@@ -1,0 +1,186 @@
+<?php $val = array (
+  'css' => '.marquee-981:before{display:none}.marquee-981:after{display:none}.marquee-981 .marquee-slider{padding:var(--j-gap-spacing---5);--element-padding:var(--j-gap-spacing---5);--marquee-direction:marquee-left;--swap-direction:swap-left;--marquee-speed:60s;--marquee-play-state:paused}.marquee-981 .marquee-item:after{content:\'\\f111\' !important;font-family:icomoon !important;font-size:6px;color:hsla(var(--j-color-scheme-foreground-tertiary-h),var(--j-color-scheme-foreground-tertiary-s),calc(var(--j-color-scheme-foreground-tertiary-l) - 0%),calc(var(--j-color-scheme-foreground-tertiary-a)*1));transform:translate3d(0px,-1px,0)}.marquee-981 .marquee-item{--item-gap:calc(20px)}.marquee-981 .marquee-item>span{font-family:\'Urbanist\';font-weight:500;font-size:var(--j-font_size-font-size--title-item);color:rgba(0,33,71,1);text-transform:none;line-height:1.3}.marquee-981 .marquee-item:nth-child(odd)>span{font-family:\'Urbanist\';font-weight:700;color:rgba(27,27,27,1);text-transform:uppercase}     ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Urbanist' => 
+      array (
+        500 => '500',
+        700 => '700',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'color_scheme_module' => '',
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'repeat' => '5',
+    'status' => true,
+    'module_id' => 981,
+    'classes' => 
+    array (
+      0 => 'marquee',
+      1 => 'marquee-981',
+      2 => '',
+      3 => NULL,
+    ),
+    'image_width' => NULL,
+    'image_height' => NULL,
+    'image_resize' => NULL,
+    'edit' => 'module_layout/marquee/edit/981',
+    'name' => 'Marquee / Free Shipping Large',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Efficacy',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'marquee-item',
+          2 => 'marquee-item-1',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      2 => 
+      array (
+        'title' => 'Trustworthyness',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'marquee-item',
+          2 => 'marquee-item-2',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      3 => 
+      array (
+        'title' => 'Security',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'marquee-item',
+          2 => 'marquee-item-3',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      4 => 
+      array (
+        'title' => 'Legality and Legitimacy',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'marquee-item',
+          2 => 'marquee-item-4',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+    ),
+  ),
+);

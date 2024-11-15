@@ -1,0 +1,67 @@
+<?php $val = array (
+  'css' => '#content .product-blocks-665{padding-top:var(--j-gap-spacing-vertical-1);--element-padding-top:var(--j-gap-spacing-vertical-1);border-width:0;border-top-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1))}.grid-row-665-1>.row-bg{width:100%;left:0;transform:translate3d(0,0,0)}.grid-row-665-1:before{display:block}.grid-col-665-1-1{min-width:100%;display:block}.grid-col-665-1-1>.grid-items:before{display:none}.grid-items>.grid-item.grid-module-product_blocks-665-1-1-1{display:flex} ',
+  'js' => NULL,
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'type' => 'custom',
+    'position' => 'bottom',
+    'positionTablet' => '',
+    'positionPhone' => '',
+    'blockType' => 'grid',
+    'status' => true,
+    'grid_classes' => 
+    array (
+      0 => 'product-blocks-bottom',
+      1 => 'product-blocks-665',
+      2 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'color_scheme' => '',
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-665-1',
+          2 => '',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-665-1-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-product_blocks-665-1-1-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '505',
+                  'name' => 'Share Plugin Code',
+                  'type' => 'text',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

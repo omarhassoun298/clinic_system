@@ -1,0 +1,677 @@
+<?php $val = array (
+  'css' => '.grid-item div.accordion-menu.accordion-menu-1067>ul.j-menu>li.accordion-menu-item{--menu-item-gap:var(--j-gap-spacing---7)}.accordion-menu-1067>.j-menu>li.accordion-menu-item.is-divider{border-style:solid !important;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1)) !important}div.accordion-menu-1067>ul.j-menu>li.accordion-menu-item>a:before{margin-right:var(--j-gap-spacing-gap-2);--element-margin-right:var(--j-gap-spacing-gap-2)}div.accordion-menu-1067.accordion-menu .menu-item>a,div.accordion-menu-1067.accordion-menu .menu-item>a>.links-text,div.accordion-menu-1067.accordion-menu .desktop-language-wrapper button,div.accordion-menu-1067.accordion-menu .desktop-currency-wrapper button,div.accordion-menu-1067.accordion-menu .mobile-language-wrapper button,div.accordion-menu-1067.accordion-menu .mobile-currency-wrapper button,div.accordion-menu-1067.accordion-menu #cart>a{font-family:\'Urbanist\';font-weight:500;font-size:var(--j-font_size-font-size--title-item-list);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-transform:none;line-height:1.3}.no-touchevents div.accordion-menu-1067.accordion-menu .menu-item:hover>a,.no-touchevents div.accordion-menu-1067.accordion-menu .menu-item:hover>a>.links-text,div.accordion-menu-1067.accordion-menu .menu-item.active>a>.links-text,div.accordion-menu-1067.accordion-menu .menu-item.open>a>.links-text,div.accordion-menu-1067.accordion-menu .menu-item.panel-active>a>.links-text,.no-touchevents div.accordion-menu-1067.accordion-menu #cart:hover>a,.no-touchevents div.accordion-menu-1067.accordion-menu .desktop-language-wrapper .dropdown:hover button,.no-touchevents div.accordion-menu-1067.accordion-menu .desktop-currency-wrapper .dropdown:hover button,.no-touchevents div.accordion-menu-1067.accordion-menu .mobile-language-wrapper .dropdown:hover button,.no-touchevents div.accordion-menu-1067.accordion-menu .mobile-currency-wrapper .dropdown:hover button{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1));text-decoration-style:dotted;-webkit-text-decoration-style:dotted;text-decoration-line:underline;-webkit-text-decoration-line:underline;text-decoration-thickness:1px;-webkit-text-decoration-thickness:1px;text-underline-offset:3px}div.accordion-menu-1067.accordion-menu .menu-item.open>a,div.accordion-menu-1067.accordion-menu .menu-item.open>a>.links-text,div.accordion-menu-1067.accordion-menu .menu-item.active>a>.links-text,div.accordion-menu-1067.accordion-menu .menu-item.panel-active>a>.links-text{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1)) !important;text-decoration-style:dotted !important;-webkit-text-decoration-style:dotted !important;text-decoration-line:underline !important;-webkit-text-decoration-line:underline !important;text-decoration-thickness:1px !important;-webkit-text-decoration-thickness:1px !important;text-underline-offset:3px !important}div.accordion-menu-1067.accordion-menu .menu-item>a>.links-text>s{display:var(--display,block)}div.accordion-menu-1067.accordion-menu .menu-item>a>span>s{color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}div.accordion-menu-1067.accordion-menu .menu-item>a:before{font-size:18px;color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*0.5))}div.accordion-menu-1067.accordion-menu .menu-item>a:before,div.accordion-menu-1067.accordion-menu .menu-item>a .links-text em{margin-right:var(--j-gap-spacing---5);--element-margin-right:var(--j-gap-spacing---5)}.no-touchevents div.accordion-menu-1067.accordion-menu .menu-item:hover>a,div.accordion-menu-1067.accordion-menu .menu-item.active>a,div.accordion-menu-1067.accordion-menu .menu-item.open>a,div.accordion-menu-1067.accordion-menu .menu-item.panel-active>a,.no-touchevents div.accordion-menu-1067.accordion-menu .desktop-language-wrapper .dropdown:hover button,.no-touchevents div.accordion-menu-1067.accordion-menu .desktop-currency-wrapper .dropdown:hover button,.no-touchevents div.accordion-menu-1067.accordion-menu .mobile-language-wrapper .dropdown:hover button,.no-touchevents div.accordion-menu-1067.accordion-menu .mobile-currency-wrapper .dropdown:hover button{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}div.accordion-menu-1067.accordion-menu .menu-item:not(:first-child),div.accordion-menu-1067.accordion-menu.accordion-menu .menu-item>a+div,div.accordion-menu-1067.accordion-menu .accordion-menu .menu-item>a+div{border-style:none}div.accordion-menu-1067.accordion-menu .menu-item>a{padding:0;--element-padding:0px}div.accordion-menu-1067.accordion-menu .menu-item{--menu-item-gap:28px}div.accordion-menu-1067.accordion-menu .menu-item.has-image{--menu-item-gap:var(--j-gap-spacing---6)}div.accordion-menu-1067.accordion-menu .menu-item>a>.count-badge{position:relative;transform:none;margin-inline-start:var(--x,6px);margin-top:var(--margin-top,0px);inset-inline-start:initial}div.accordion-menu-1067.accordion-menu .menu-item .menu-image>img{background-color:rgba(247,247,247,1);--background-color:rgba(247,247,247,1)}div.accordion-menu-1067.accordion-menu .menu-item .menu-image{margin-right:var(--j-gap-spacing---5);--element-margin-right:var(--j-gap-spacing---5);padding:var(--j-gap-spacing---1);--element-padding:var(--j-gap-spacing---1);border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:99px;--element-border-radius:99px}div.accordion-menu-1067.accordion-menu .j-menu .j-menu>li{--menu-item-gap:18px}div.accordion-menu-1067.accordion-menu .j-menu>li{border-style:none}div.accordion-menu-1067.accordion-menu .j-menu .has-image .j-menu{border-width:0;border-left-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));margin-left:var(--j-gap-spacing---6);--element-margin-left:var(--j-gap-spacing---6)}div.accordion-menu-1067.accordion-menu .j-menu .j-menu{margin-left:var(--j-gap-spacing---4);--element-margin-left:var(--j-gap-spacing---4)}div.accordion-menu-1067.accordion-menu .j-menu .j-menu .j-menu{margin-left:var(--j-gap-spacing---6);--element-margin-left:var(--j-gap-spacing---6)}div.accordion-menu-1067.accordion-menu .j-menu .has-image .j-menu .j-menu{margin-left:var(--j-gap-spacing---9);--element-margin-left:var(--j-gap-spacing---9)}div.accordion-menu-1067.accordion-menu .j-menu .has-image .j-menu .j-menu .j-menu{margin-left:var(--j-gap-spacing---8);--element-margin-left:var(--j-gap-spacing---8)}div.accordion-menu-1067 .open-menu em:before{content:\'\\e409\' !important;font-family:icomoon !important;font-size:12px}div.accordion-menu-1067 .open-menu[aria-expanded=true] em:before{content:\'\\e40b\' !important;font-family:icomoon !important;transform:translate3d(0px,1px,0)}div.accordion-menu-1067 .j-menu>.menu-item>a span.open-menu{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:999px;--element-border-radius:999px;min-width:24px;height:24px}.no-touchevents div.accordion-menu-1067 .j-menu>.menu-item:hover>a span.open-menu,div.accordion-menu-1067 .j-menu>.menu-item.panel-active>a span.open-menu,div.accordion-menu-1067 .accordion-menu-item.open>a>.open-menu{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1))}div.accordion-menu-1067 .j-menu>li:not(.mega-menu)>div .j-menu>li>a{padding-inline-start:24px !important}div.accordion-menu-1067 .j-menu>li:not(.mega-menu).has-image>div .j-menu>li>a{padding-inline-start:32px !important}div.accordion-menu-1067 .j-menu>li:not(.mega-menu)>div .j-menu>li>div>.j-menu>li>a{padding-inline-start:20px !important}div.accordion-menu-1067.accordion-menu .j-menu .j-menu li>a,div.accordion-menu-1067.accordion-menu .j-menu .j-menu li>a>.links-text{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size--title-menu);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));letter-spacing:-.1px}@media (max-width:900px){div.accordion-menu-1067.accordion-menu .j-menu .j-menu li>a,div.accordion-menu-1067.accordion-menu .j-menu .j-menu li>a>.links-text{font-size:var(--j-font_size-font-size-500)}}       .accordion-menu-1067 .j-menu .accordion-menu-item-7>a:before{content:\'\\eb69\' !important;font-family:icomoon !important} .accordion-menu-1067 .j-menu .accordion-menu-item-8>a:before{content:\'\\e9fe\' !important;font-family:icomoon !important} .accordion-menu-1067 .j-menu .accordion-menu-item-9>a:before{content:\'\\eaf6\' !important;font-family:icomoon !important} .accordion-menu-1067 .j-menu .accordion-menu-item-10>a:before{content:\'\\eb0a\' !important;font-family:icomoon !important} .accordion-menu-1067 .j-menu .accordion-menu-item-11>a:before{content:\'\\eafd\' !important;font-family:icomoon !important} .accordion-menu-1067 .j-menu .accordion-menu-item-12>a:before{content:\'\\eb02\' !important;font-family:icomoon !important} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Urbanist' => 
+      array (
+        500 => '500',
+      ),
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'categoryImage' => false,
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'menuModule' => 'DEFAULT',
+    'menu' => 'OFF_CANVAS',
+    'menuAccordionMenuStyle' => 'OFF_CANVAS',
+    'menuAccordionMenuStyleMenuImage' => 'DEFAULT',
+    'status' => true,
+    'module_id' => 1067,
+    'classes' => 
+    array (
+      0 => 'accordion-menu',
+      1 => 'accordion-menu-1067',
+      2 => '',
+      3 => NULL,
+    ),
+    'image_width' => 30,
+    'image_height' => 30,
+    'image_resize' => 'fill',
+    'edit' => 'module_layout/accordion_menu/edit/1067',
+    'name' => 'Off Canvas / Custom Links',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'All Departments',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '9',
+          'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=9',
+          'name' => 'All Departments',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-1',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      2 => 
+      array (
+        'title' => 'Latest Products',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '9',
+          'href' => 'https://control.betagroup.me/index.php?route=product/catalog&amp;sort=p.date_added&amp;order=DESC',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-2',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      3 => 
+      array (
+        'title' => 'Special Offers',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '9',
+          'href' => 'https://control.betagroup.me/index.php?route=product/special',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-3',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      4 => 
+      array (
+        'title' => 'Our Brands',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '9',
+          'href' => 'https://control.betagroup.me/index.php?route=product/manufacturer',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-4',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      5 => 
+      array (
+        'title' => 'Journal Demos',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '10',
+          'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=10',
+          'name' => 'Journal Demos',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-5',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      6 => 
+      array (
+        'title' => '',
+        'isDivider' => true,
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-6',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      7 => 
+      array (
+        'title' => 'Home',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '9',
+          'href' => 'https://control.betagroup.me/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-7',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      8 => 
+      array (
+        'title' => 'Account',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/account',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-8',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      9 => 
+      array (
+        'title' => 'Contact',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=information/contact',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-9',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      10 => 
+      array (
+        'title' => 'Blog',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'blog_home',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=journal3/blog',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-10',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      11 => 
+      array (
+        'title' => 'FAQ',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '7',
+          'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=7',
+          'name' => 'FAQ',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-11',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      12 => 
+      array (
+        'title' => 'More...',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-12',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => true,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+          13 => 
+          array (
+            'title' => 'About Us',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '4',
+              'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=4',
+              'name' => 'About Us',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-13',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+          14 => 
+          array (
+            'title' => 'Gallery Page',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '13',
+              'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=13',
+              'name' => 'Gallery',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-14',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+          15 => 
+          array (
+            'title' => 'Custom Blocks',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '12',
+              'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=12',
+              'name' => 'Custom Blocks',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-15',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+          16 => 
+          array (
+            'title' => 'Tabbed Blocks',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '15',
+              'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=15',
+              'name' => 'Tabbed Page Blocks',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-16',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+          17 => 
+          array (
+            'title' => 'Coming Soon',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '11',
+              'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=11',
+              'name' => 'Coming Soon',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-17',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+          18 => 
+          array (
+            'title' => '404 Not Found',
+            'link' => 
+            array (
+              'type' => 'custom',
+              'id' => '',
+              'href' => 'index.php?route=error/not_found',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-18',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+    ),
+  ),
+);

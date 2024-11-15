@@ -1,0 +1,101 @@
+<?php $val = array (
+  'settings' => 
+  array (
+    'column_left' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'column_right' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+  ),
+  'php' => 
+  array (
+    'ContentWidth' => '',
+    'ContentGutter' => '',
+    'headerDesktop' => '',
+    'headerMobile' => '',
+    'footerMenu' => '',
+    'footerMenuPhone' => '',
+  ),
+  'js' => 
+  array (
+  ),
+  'fonts' => 
+  array (
+  ),
+  'css' => '',
+);

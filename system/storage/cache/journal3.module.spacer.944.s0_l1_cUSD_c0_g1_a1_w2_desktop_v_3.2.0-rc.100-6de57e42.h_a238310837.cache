@@ -1,0 +1,30 @@
+<?php $val = array (
+  'css' => '.module-spacer-944 .spacer-divider{border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1))} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'status' => true,
+    'module_id' => 944,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-spacer',
+      2 => 'module-spacer-944',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/spacer/edit/944',
+    'name' => 'Row Spacer - Divider / Border',
+    'items' => 
+    array (
+    ),
+  ),
+);

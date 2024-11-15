@@ -1,0 +1,46 @@
+<?php $val = array (
+  'css' => '.module-text-361 .module-title{font-family:\'Urbanist\';font-weight:600;font-size:var(--j-font_size-font-size--title-module);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-transform:none;text-decoration:none;-webkit-text-decoration:none;line-height:1.4;margin-bottom:1.25em !important;white-space:normal;overflow:initial;text-overflow:initial;-webkit-line-clamp:initial;-webkit-line-clamp:2}.module-text-361 .module-title:after{display:none;margin-top:.7em}.module-text-361 .module-title .page-title-text:after{display:none;margin-top:.7em}.module-text-361 .module-title .filter-title-text:after{display:none;margin-top:.7em}.module-text-361 .module-title:after,.module-text-361 .module-title .page-title-text:after,.module-text-361 .module-title .filter-title-text:after{width:50px;height:2px;background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1))}.module-text-361 .module-body{--text-module-align-v:flex-start;max-width:1000px;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Urbanist' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'NEW in Journal 3.2!',
+    'titleStyle' => 'SMALL',
+    'contentType' => 'text',
+    'content' => 'The new Catalog Blocks module can display your entire category structure with subcategories in a single module. All top categories can be displayed as open blocks or tabs or accordions, and each block loads the available sub-categories in a Catalog Menu type style. Optionally you can assign a Products module inside each block, relevant to each category. (Edit or remove this info text from Journal > Layouts > All Departments...).',
+    'dynamic' => 'journal3/blocks_example',
+    'status' => true,
+    'module_id' => 361,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-text',
+      2 => 'module-text-361',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/text/edit/361',
+    'name' => 'Text / Catalog Blocks / All Departments Page',
+    'items' => 
+    array (
+    ),
+  ),
+);

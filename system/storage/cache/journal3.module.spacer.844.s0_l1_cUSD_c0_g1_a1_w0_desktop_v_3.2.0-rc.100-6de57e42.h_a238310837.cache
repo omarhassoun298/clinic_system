@@ -1,0 +1,30 @@
+<?php $val = array (
+  'css' => '.module-spacer-844{height:var(--j-gap-spacing-vr-row-m)}.module-spacer-844 .spacer-icon:before{font-size:60px;color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1))} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'status' => true,
+    'module_id' => 844,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-spacer',
+      2 => 'module-spacer-844',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/spacer/edit/844',
+    'name' => 'Row Spacer - 60',
+    'items' => 
+    array (
+    ),
+  ),
+);

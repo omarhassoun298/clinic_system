@@ -1,0 +1,107 @@
+<?php $val = array (
+  'css' => ' .module-grid-769>.grid-row-1{--col-gap:var(--j-gap-spacing----11)}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols{border-radius:2px;--element-border-radius:2px}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col{flex-basis:calc((900px + 1px - (100*var(--unit,1%)))*9999);--unit:1%}.module-grid-769>.grid-row-1:before{display:block;left:0;width:100vw}.module-grid-769>.grid-row-1>.video-row{display:block}.module-grid-769>.grid-row-1>.wave-top{display:block;transform:translate3d(0,-63%,0) scale(1)}.module-grid-769>.grid-row-1>.wave-bottom{transform:translate3d(0,63%,0) scale(-1);display:block} .module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1{min-width:30%;display:block}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items>.grid-item{height:100%}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items>.grid-item>.module{height:100%}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items>.grid-item>.module>.module-body{height:100%}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items{justify-content:center}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items:before{display:none} .grid-items>.grid-item.grid-module-grid-769-1-1-1{display:flex} .module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-2{min-width:70%;display:block}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-2>.grid-items>.grid-item:not(:empty){height:auto}.module-grid-769>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-2>.grid-items:before{display:none} .grid-items>.grid-item.grid-module-grid-769-1-2-1{display:flex} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-769',
+      3 => 'grid-rows',
+      4 => '',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'color_scheme' => '',
+        'videoBgStatus' => false,
+        'videoBg' => '',
+        'videoInline' => false,
+        'waveStatus' => false,
+        'waveDirection' => '5',
+        'wave2Status' => false,
+        'wave2Direction' => '5',
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-1',
+          2 => '',
+          3 => '',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'color_scheme' => '',
+            'name' => 'New Column',
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+              2 => '',
+              3 => '',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-grid-769-1-1-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '770',
+                  'name' => 'Title Module / Builder + Products Copy',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'color_scheme' => '',
+            'name' => 'New Column',
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+              2 => '',
+              3 => '',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-grid-769-1-2-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '861',
+                  'name' => 'Gallery / Simple Carousel Copy',
+                  'type' => 'gallery',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    'edit' => 'module_layout/grid/edit/769',
+    'name' => 'Builder / Title Module + Gallery',
+  ),
+);

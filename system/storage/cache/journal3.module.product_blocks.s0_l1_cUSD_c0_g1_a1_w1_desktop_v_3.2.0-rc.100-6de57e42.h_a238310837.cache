@@ -1,0 +1,65 @@
+<?php $val = array (
+  'data' => 
+  array (
+    646 => 
+    array (
+      'module_id' => 646,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'position' => 'bottom',
+        'positionTablet' => '',
+        'positionPhone' => '',
+        'blockType' => 'grid',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    665 => 
+    array (
+      'module_id' => 665,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'position' => 'bottom',
+        'positionTablet' => '',
+        'positionPhone' => '',
+        'blockType' => 'grid',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '#content .product-blocks-665{padding-top:var(--j-gap-spacing-vertical-1);--element-padding-top:var(--j-gap-spacing-vertical-1);border-width:0;border-top-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1))} ',
+    ),
+  ),
+  'all' => 
+  array (
+    646 => 646,
+    665 => 665,
+  ),
+  'special' => 
+  array (
+  ),
+  'outofstock' => 
+  array (
+  ),
+  'custom' => 
+  array (
+  ),
+);

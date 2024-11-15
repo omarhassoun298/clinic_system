@@ -1,0 +1,78 @@
+<?php $val = array (
+  'css' => '.module-blog_categories-42 a+a{margin-top:16px}.module-blog_categories-42 a span{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size--title-menu);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));letter-spacing:-.1px}.no-touchevents .module-blog_categories-42 a:hover span{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1));text-decoration-style:dotted;-webkit-text-decoration-style:dotted;text-decoration-line:underline;-webkit-text-decoration-line:underline;text-decoration-thickness:1px;-webkit-text-decoration-thickness:1px;text-underline-offset:3px}.module-blog_categories-42 a:before{content:\'\\f111\' !important;font-family:icomoon !important;font-size:4px;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));margin-right:var(--j-gap-spacing-gap-1);--element-margin-right:var(--j-gap-spacing-gap-1)}.module-blog_categories-42 span{white-space:normal;overflow:initial;text-overflow:initial} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Blog Categories',
+    'status' => true,
+    'module_id' => 42,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blog_categories',
+      2 => 'module-blog_categories-42',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/blog_categories/edit/42',
+    'name' => 'Blog Categories',
+    'items' => 
+    array (
+      0 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'module-item',
+        ),
+        'name' => 'Shopping',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_category_id=2',
+      ),
+      1 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'module-item',
+        ),
+        'name' => 'Traveling',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_category_id=3',
+      ),
+      2 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'module-item',
+        ),
+        'name' => 'Branding',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_category_id=4',
+      ),
+      3 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'module-item',
+        ),
+        'name' => 'New Products',
+        'href' => 'https://control.betagroup.me/index.php?route=journal3/blog&amp;journal_blog_category_id=5',
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,1916 @@
+<?php $val = array (
+  'css' => '.module-slider-1099{--transition-speed:.55s;--ease:cubic-bezier(.215,.61,.355,1);--slide-min-height:240px;--slide-reduction-type:var(--slide-custom-reduction,0px);background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:none;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1))}.module-slider-1099 .swiper-slide .slide-link{z-index:2}.module-slider-1099>.slider-wrapper>.swiper-container>.swiper-wrapper>.swiper-slide{width:100% !important;height:auto}div.module-slider-1099 .slider-carousel{--slide-width:70%px}.module-slider-1099 .slider-carousel>.swiper-container>.swiper-wrapper{transform:translate3d(calc((100% - var(--slide-width,0px))/2 - (var(--slide-gap,0px)/2)),0,0)}.module-slider-1099>.slider-wrapper>.swiper-container>.swiper-wrapper>.swiper-slide:after{display:block}.module-slider-1099 .slider-wrapper .swiper-container,.module-slider-1099{border-radius:2px;--element-border-radius:2px}.module-slider-1099 .slide-content .slide-cols{max-width:calc(100% - var(--cols-content-gutter,0px)*2);--cols-content-gutter:0px}.module-slider-1099 .slider-thumbs .swiper-container{max-width:100%;margin:0;overflow:visible !important}.module-slider-1099 .slider-wrapper .swiper-container:before{display:none}.no-touchevents .module-slider-1099:hover{border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.module-slider-1099 .slide-content:before{display:none}.module-slider-1099 .slider-wrapper>.swiper-container{overflow:hidden !important}.module-slider-1099 .slider-thumbs .swiper-slide{overflow:initial}.module-slider-1099 .slide-content{--object-position-h:left;justify-content:flex-start;--object-position-v:top;align-self:flex-start}.module-slider-1099 .slide-content>img{align-self:flex-start;width:100%;height:100%}.module-slider-1099 .slide-content>video{align-self:flex-start;width:100%;height:100%}.module-slider-1099 .swiper-wrapper{cursor:grab}.module-slider-1099 .swiper-wrapper:active{cursor:grabbing}.module-slider-1099 .parallax-bg{background-position:center center;background-size:cover;--parallax-opacity:.8;--parallax-bg-width:140%}.module-slider-1099 .parallax-bg:before{background-position:center center;background-size:cover}.module-slider-1099 .slider-thumbs{display:block;order:1;background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1))}.module-slider-1099 .slider-thumbs .swiper-slide .thumb-text{display:flex;top:auto;right:auto;bottom:0;left:0;transform:translate3d(var(--thumb-padding,0),calc(0px - var(--thumb-padding,0)),0)}.module-slider-1099 .slider-thumbs .swiper-slide:first-child{margin-inline-start:unset}.module-slider-1099 .slider-thumbs .swiper-slide:last-child{margin-inline-end:unset}.module-slider-1099 .swiper-slide .thumb-text{flex-direction:row}.module-slider-1099 .slider-thumbs .thumb-text{text-align:center}.module-slider-1099 .slide-layers{align-items:flex-start;margin-inline:0 auto;justify-content:center;height:100%;--slide-layer-gap:var(--j-gap-spacing---6)}.module-slider-1099 .slide-text{text-align:start}.module-slider-1099 .slide-col{justify-content:center;--slides-cols-width:55%;--stack-unit:1vw}.module-slider-1099 .module-subitem.slide-button{--slide-layer-gap-custom:var(--j-gap-spacing---3)}.module-slider-1099 .slide-col-right{order:2}.module-slider-1099 .slide-col-left{order:1}.module-slider-1099 .slide-col-left .slide-layers{padding:var(--j-gap-spacing-gap-general-3);--element-padding:var(--j-gap-spacing-gap-general-3);padding-right:0;--element-padding-right:0px;padding-bottom:var(--j-gap-spacing---9);--element-padding-bottom:var(--j-gap-spacing---9)}.module-slider-1099 .slide-image img{object-position:center}.module-slider-1099 .slide-layers .slide-image{align-self:center}.module-slider-1099 div.module-item .module-subitem.slide-image{position:relative;inset:initial;z-index:initial;width:auto;height:auto}.module-slider-1099 div.module-item .module-subitem.slide-image img{width:auto;height:auto}.module-slider-1099 figcaption{top:auto;bottom:0;position:absolute}.module-slider-1099 .btn.btn,.module-slider-1099 .btn.btn:visited{color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1)) !important}.no-touchevents .module-slider-1099 .btn.btn:hover{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important;background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1))}.module-slider-1099 .btn.btn:active,.no-touchevents .module-slider-1099 .btn.btn:hover:active{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important}.module-slider-1099 .btn.btn{--focus-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important;border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.module-slider-1099 .btn.btn,.module-slider-1099 .btn.tooltip{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1))}.module-slider-1099 .btn.btn:active,.no-touchevents .module-slider-1099 .btn.btn:hover:active,.module-slider-1099 .btn.btn:focus:active,.no-touchevents .module-slider-1099 .btn.btn:focus:hover:active{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1))}.module-slider-1099 .btn.btn:focus,.module-slider-1099 .btn.btn[disabled]{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1)) !important}.no-touchevents .module-slider-1099 .btn.btn:hover,.no-touchevents .module-slider-1099 .btn.btn:active:hover{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-slider-1099 .btn.btn:active,.no-touchevents .module-slider-1099 .btn.btn:hover:active,.module-slider-1099 .btn.btn:focus:active{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important}.module-slider-1099 .btn.btn:focus{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-slider-1099 .btn.btn.btn.disabled:after{font-size:1em}.module-slider-1099 .slide-button-2.btn,.module-slider-1099 .slide-button-2.btn:visited{font-size:var(--j-font_size-font-size-400) !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1)) !important;text-decoration-style:dotted !important;-webkit-text-decoration-style:dotted !important;text-decoration-line:underline !important;-webkit-text-decoration-line:underline !important;text-decoration-thickness:1px !important;-webkit-text-decoration-thickness:1px !important;text-underline-offset:3px !important}.no-touchevents .module-slider-1099 .slide-button-2.btn:hover{color:hsla(var(--j-color-scheme-text-link-hover-h),var(--j-color-scheme-text-link-hover-s),calc(var(--j-color-scheme-text-link-hover-l) - 0%),calc(var(--j-color-scheme-text-link-hover-a)*1)) !important;background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;box-shadow:none}.module-slider-1099 .slide-button-2.btn{justify-content:flex-start;outline-style:none !important;border-style:none;padding:0;--element-padding:0px;padding-bottom:2px;--element-padding-bottom:2px;border-radius:0 !important;--element-border-radius:0px !important}.module-slider-1099 .slide-button-2.btn,.module-slider-1099 .slide-button-2.tooltip{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}.module-slider-1099 .slide-button-2.btn:active,.no-touchevents .module-slider-1099 .slide-button-2.btn:hover:active,.module-slider-1099 .slide-button-2.btn:focus:active,.no-touchevents .module-slider-1099 .slide-button-2.btn:focus:hover:active{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}.module-slider-1099 .slide-button-2.btn:focus,.module-slider-1099 .slide-button-2.btn[disabled]{background:0 0 !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;--background-color:transparent !important}.module-slider-1099 .slide-button-2.btn:active,.no-touchevents .module-slider-1099 .slide-button-2.btn:hover:active,.module-slider-1099 .slide-button-2.btn:focus:active{box-shadow:none}.module-slider-1099 .slide-button-2.btn:focus{box-shadow:none}.module-slider-1099 .slide-button-2.btn.btn.disabled:after{font-size:1em}.module-slider-1099 .module-subitem .slide-button-2:after{content:\'\\f105\' !important;font-family:icomoon !important}.module-slider-1099 .slide-button-group{flex-direction:row}.module-slider-1099 .slide-button{width:auto}.module-slider-1099 .swiper-slide .slide-icon{align-items:center;justify-content:flex-end}.module-slider-1099 .swiper-slide .slide-icon .has-icon{animation-name:none}.module-slider-1099 .swiper-slide .slide-icon .has-svg{animation-name:none}.module-slider-1099 .swiper-pagination-wrapper{display:flex;--pagination-offset-y:-20px;justify-content:center;align-items:flex-end;max-width:var(--content-max-width,100%);padding-inline-start:var(--content-gutter,0);padding-inline-end:var(--content-gutter-right,var(--content-gutter,0))}.module-slider-1099 .swiper-pagination-bullets{--bullet-width:140px;--bullet-height:10px;--bullet-dot-size:5px;--stroke-width:3px;--timer-bullet-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1));--bullet-gap:16px;flex-direction:row}.module-slider-1099 .swiper-pagination-dots svg{width:18px;display:block}.module-slider-1099 .swiper-pagination-bullets .swiper-pagination-bullet [class*=swiper-timeline]{visibility:visible}.module-slider-1099 .swiper-pagination-bullet:not(.swiper-pagination-bullet-active){opacity:1}.module-slider-1099 .swiper-pagination-bullet:before{display:none}.module-slider-1099 .swiper-pagination-bullets:not(.swiper-pagination-dots) .swiper-pagination-bullet{border-width:3px;border-style:solid}.module-slider-1099 .swiper-pagination-bullet{background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*0.5));--background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*0.5))}.no-touchevents .module-slider-1099 .swiper-pagination-bullet:hover{background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1))}.module-slider-1099 .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1))}.module-slider-1099 .swiper-pagination-fraction{padding:8px;--element-padding:8px;padding-top:4px;--element-padding-top:4px;padding-bottom:4px;--element-padding-bottom:4px;margin:12px;--element-margin:12px;border-radius:3px;--element-border-radius:3px}.module-slider-1099 .swiper-buttons{display:flex;--button-width:32px;--button-height:32px;flex-direction:column;align-items:flex-end;justify-content:center;gap:6px}.module-slider-1099 .auto-carousel-buttons span:before,.module-slider-1099 .swiper-buttons>div:before,.module-slider-1099 .scroll-top em:before,.module-slider-1099 .lg-content .lg-icon:before{content:\'\\e93f\' !important;font-family:icomoon !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.no-touchevents .module-slider-1099 .auto-carousel-buttons span:hover:before,.no-touchevents .module-slider-1099 .swiper-buttons>div:hover:before,.no-touchevents .module-slider-1099 .scroll-top em:hover:before,.no-touchevents .module-slider-1099 .lg-content .lg-icon:hover:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-slider-1099 .auto-carousel-buttons span:active:before,.module-slider-1099 .swiper-buttons>div:active:before,.module-slider-1099 .scroll-top em:active:before,.module-slider-1099 .lg-content .lg-icon:active:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-slider-1099 .auto-carousel-buttons span,.module-slider-1099 .swiper-buttons>div,.module-slider-1099 .scroll-top em,.module-slider-1099 .lg-content .lg-icon{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));border-radius:99px;--element-border-radius:99px}.no-touchevents .module-slider-1099 .auto-carousel-buttons span:hover,.no-touchevents .module-slider-1099 .swiper-buttons>div:hover,.no-touchevents .module-slider-1099 .scroll-top em:hover,.no-touchevents .module-slider-1099 .lg-content .lg-icon:hover{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-slider-1099 .auto-carousel-buttons span:active,.module-slider-1099 .swiper-buttons>div:active,.module-slider-1099 .scroll-top em:active,.module-slider-1099 .lg-content .lg-icon:active{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-slider-1099 .slider-wrapper .swiper-container+.swiper-buttons .swiper-button-disabled{opacity:.5}.module-slider-1099 .slider-wrapper .swiper-container:not(.swiper-initialized)+.swiper-buttons .swiper-button-prev{opacity:.5}.module-slider-1099 div.swiper-buttons{max-width:100%;padding-inline-start:0;padding-inline-end:0}.module-slider-1099 .swiper-buttons .swiper-button-next{order:-1}.module-slider-1099 .swiper-buttons>div:before{font-size:16px}div.module-slider-1099 div.swiper-buttons{padding:var(--j-gap-spacing---6);--element-padding:var(--j-gap-spacing---6)}.module-slider-1099 .swiper-buttons>div.swiper-button-prev{display:flex}.module-slider-1099 .swiper-buttons>div.swiper-button-next{display:flex}.module-slider-1099 .static-text-1{display:block}.module-slider-1099 .static-text-2{display:block}.module-slider-1099 .static-text-wrapper{align-items:center;justify-content:center}.module-slider-1099 .swiper-timeline{--timer-color:rgba(239,20,250,1);height:3px}.module-slider-1099 .slider-timer{--timer-max-width:100%;max-width:var(--timer-max-width,100%);display:block;top:0;bottom:auto;left:0;right:auto;transform:translate3d(0,0,0)}.module-slider-1099 .journal-loading{display:none}.module-slider-1099 .swiper-scrollbar{display:block;bottom:16px;background-color:hsla(var(--j-color-scheme-background-shade-h),var(--j-color-scheme-background-shade-s),calc(var(--j-color-scheme-background-shade-l) - 0%),calc(var(--j-color-scheme-background-shade-a)*1));--background-color:hsla(var(--j-color-scheme-background-shade-h),var(--j-color-scheme-background-shade-s),calc(var(--j-color-scheme-background-shade-l) - 0%),calc(var(--j-color-scheme-background-shade-a)*1))}.module-slider-1099 .slider-wrapper .swiper-scrollbar{max-width:400px}.module-slider-1099 .swiper-scrollbar .swiper-scrollbar-drag{height:5px;background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));--background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-slider-1099 .slide-col-left .slide-layers:after{display:none}.module-slider-1099 .slide-col-right .slide-layers:after{display:none}@media (max-width:900px){.module-slider-1099 .swiper-buttons{--button-width:26px;--button-height:26px}.module-slider-1099 .swiper-buttons>div:before{font-size:12px}}@media (max-width:500px){.module-slider-1099 .slide-layers{--slide-layer-gap:var(--j-gap-spacing---5)}.module-slider-1099 .module-subitem.slide-button{--slide-layer-gap-custom:var(--j-gap-spacing---1)}.module-slider-1099 .module-subitem.slide-button .slide-button-group .btn.slide-button-1{font-family:\'Inter\' !important;font-weight:400 !important;font-size:var(--j-font_size-font-size-200) !important;text-transform:none !important;text-decoration:none !important;-webkit-text-decoration:none !important;letter-spacing:0 !important;line-height:1 !important;padding:.8em !important;--element-padding:.8em !important;padding-right:1.4em !important;--element-padding-right:1.4em !important;padding-left:1.4em !important;--element-padding-left:1.4em !important}.module-slider-1099 .swiper-buttons{display:none}}  .module-slider-1099 .module-item-1 .module-subitem-1 .hotspot-1{display:flex}.module-slider-1099 .module-item-1 .module-subitem-1 .hotspot-2{display:flex}.module-slider-1099 .module-item-1 .module-subitem-1 .hotspot-3{display:flex}.module-slider-1099 .module-item-1 .module-subitem-1 figcaption{display:block}.module-slider-1099 .module-item-1 .module-subitem-1.slide-text .slide-text-item span{font-family:\'Urbanist\';font-weight:500;font-size:var(--j-font_size-font-size-300);color:rgba(242,119,99,1);text-transform:uppercase;letter-spacing:.5px;line-height:1.3;display:block}.module-slider-1099 .module-item-1 .module-subitem-1.slide-text .slide-text-item span s{box-shadow:0 1.3px 1.4px rgba(0,0,0,.006),0 3.1px 3.5px rgba(0,0,0,.008),0 5.8px 6.5px rgba(0,0,0,.01),0 10.3px 11.6px rgba(0,0,0,.012),0 19.2px 21.7px rgba(0,0,0,.014),0 46px 52px rgba(0,0,0,.02)} .module-slider-1099 .module-item-1 .module-subitem-2.slide-icon .has-icon{animation-name:var(--animation);--animation:rotate;--speed:7.5s}.module-slider-1099 .module-item-1 .module-subitem-2.slide-icon .has-svg{animation-name:var(--animation);--animation:rotate;--speed:7.5s}.module-slider-1099 .module-item-1 .module-subitem-2 .hotspot-1{display:flex}.module-slider-1099 .module-item-1 .module-subitem-2 .hotspot-2{display:flex}.module-slider-1099 .module-item-1 .module-subitem-2 .hotspot-3{display:flex}.module-slider-1099 .module-item-1 .module-subitem-2 figcaption{display:block}.module-slider-1099 .module-item-1 .module-subitem-2.slide-text{--layer-max-width:500px}.module-slider-1099 .module-item-1 .module-subitem-2.slide-text .slide-text-item span{font-family:\'Urbanist\';font-weight:700;font-size:36px;color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));line-height:1.2;display:block}.module-slider-1099 .module-item-1 .module-subitem-2.slide-button .slide-button-group{flex-direction:row}@media (max-width:1200px){.module-slider-1099 .module-item-1 .module-subitem-2.slide-text .slide-text-item span{font-size:var(--j-font_size-font-size--1000)}}@media (max-width:500px){.module-slider-1099 .module-item-1 .module-subitem-2.slide-text .slide-text-item span{font-size:var(--j-font_size-font-size-700)}} .module-slider-1099 .module-item-1 .module-subitem-4.slide-icon .has-icon:before{content:\'\\e95c\' !important;font-family:icomoon !important;transform:translate3d(0px,-1px,0)}.module-slider-1099 .module-item-1 .module-subitem-4.slide-icon .has-text{max-width:80%;transform:rotate(-20deg)}.module-slider-1099 .module-item-1 .module-subitem-4.slide-icon{align-items:center;justify-content:flex-end}.module-slider-1099 .module-item-1 .module-subitem-4.slide-icon .can-rotate{--bg-size:300}.module-slider-1099 .module-item-1 .module-subitem-4.slide-icon .has-icon{animation-name:none}.module-slider-1099 .module-item-1 .module-subitem-4.slide-icon .has-svg{animation-name:none}.module-slider-1099 .module-item-1 .module-subitem-4 .hotspot-1{display:flex}.module-slider-1099 .module-item-1 .module-subitem-4 .hotspot-2{display:flex}.module-slider-1099 .module-item-1 .module-subitem-4 .hotspot-3{display:flex}.module-slider-1099 .module-item-1 .module-subitem-4 figcaption{display:block}.module-slider-1099 .module-item-1 .module-subitem-4.slide-text .slide-text-item span{display:block} .module-slider-1099 .module-item-1 .module-subitem-5 .hotspot-1{display:flex}.module-slider-1099 .module-item-1 .module-subitem-5 .hotspot-2{display:flex}.module-slider-1099 .module-item-1 .module-subitem-5 .hotspot-3{display:flex}.module-slider-1099 .module-item-1 .module-subitem-5 figcaption{display:block}.module-slider-1099 .module-item-1 .module-subitem-5.slide-text .slide-text-item span{display:block} .module-slider-1099 .swiper-slide.thumb-item-2 .thumb-text{font-size:max(1.4rem,2vmin)} .module-slider-1099 .module-item-2 .module-subitem-1 .hotspot-1{display:flex}.module-slider-1099 .module-item-2 .module-subitem-1 .hotspot-2{display:flex}.module-slider-1099 .module-item-2 .module-subitem-1 .hotspot-3{display:flex}.module-slider-1099 .module-item-2 .module-subitem-1 figcaption{display:block}.module-slider-1099 .module-item-2 .module-subitem-1.slide-text .slide-text-item span{font-family:\'Urbanist\';font-weight:500;font-size:var(--j-font_size-font-size-300);color:rgba(242,119,99,1);text-transform:uppercase;letter-spacing:.5px;line-height:1.3;display:block}.module-slider-1099 .module-item-2 .module-subitem-1.slide-text .slide-text-item span s{box-shadow:0 1.3px 1.4px rgba(0,0,0,.006),0 3.1px 3.5px rgba(0,0,0,.008),0 5.8px 6.5px rgba(0,0,0,.01),0 10.3px 11.6px rgba(0,0,0,.012),0 19.2px 21.7px rgba(0,0,0,.014),0 46px 52px rgba(0,0,0,.02)} .module-slider-1099 .module-item-2 .module-subitem-2.slide-icon .has-icon{animation-name:var(--animation);--animation:rotate;--speed:7.5s}.module-slider-1099 .module-item-2 .module-subitem-2.slide-icon .has-svg{animation-name:var(--animation);--animation:rotate;--speed:7.5s}.module-slider-1099 .module-item-2 .module-subitem-2 .hotspot-1{display:flex}.module-slider-1099 .module-item-2 .module-subitem-2 .hotspot-2{display:flex}.module-slider-1099 .module-item-2 .module-subitem-2 .hotspot-3{display:flex}.module-slider-1099 .module-item-2 .module-subitem-2 figcaption{display:block}.module-slider-1099 .module-item-2 .module-subitem-2.slide-text{--layer-max-width:800px}.module-slider-1099 .module-item-2 .module-subitem-2.slide-text .slide-text-item span{font-family:\'Urbanist\';font-weight:700;font-size:36px;color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));line-height:1.2;display:block}.module-slider-1099 .module-item-2 .module-subitem-2.slide-button .slide-button-group{flex-direction:row}@media (max-width:1200px){.module-slider-1099 .module-item-2 .module-subitem-2.slide-text .slide-text-item span{font-size:var(--j-font_size-font-size--1000)}}@media (max-width:500px){.module-slider-1099 .module-item-2 .module-subitem-2.slide-text .slide-text-item span{font-size:var(--j-font_size-font-size-700)}} .module-slider-1099 .module-item-2 .module-subitem-4.slide-icon .has-icon:before{content:\'\\e95c\' !important;font-family:icomoon !important;transform:translate3d(0px,-1px,0)}.module-slider-1099 .module-item-2 .module-subitem-4.slide-icon .has-text{max-width:80%;transform:rotate(-20deg)}.module-slider-1099 .module-item-2 .module-subitem-4.slide-icon{align-items:center;justify-content:flex-end}.module-slider-1099 .module-item-2 .module-subitem-4.slide-icon .can-rotate{--bg-size:300}.module-slider-1099 .module-item-2 .module-subitem-4.slide-icon .has-icon{animation-name:none}.module-slider-1099 .module-item-2 .module-subitem-4.slide-icon .has-svg{animation-name:none}.module-slider-1099 .module-item-2 .module-subitem-4 .hotspot-1{display:flex}.module-slider-1099 .module-item-2 .module-subitem-4 .hotspot-2{display:flex}.module-slider-1099 .module-item-2 .module-subitem-4 .hotspot-3{display:flex}.module-slider-1099 .module-item-2 .module-subitem-4 figcaption{display:block}.module-slider-1099 .module-item-2 .module-subitem-4.slide-text .slide-text-item span{display:block} .module-slider-1099 .module-item-2 .module-subitem-5 .hotspot-1{display:flex}.module-slider-1099 .module-item-2 .module-subitem-5 .hotspot-2{display:flex}.module-slider-1099 .module-item-2 .module-subitem-5 .hotspot-3{display:flex}.module-slider-1099 .module-item-2 .module-subitem-5 figcaption{display:none}.module-slider-1099 .module-item-2 .module-subitem-5.slide-text .slide-text-item span{display:block} .module-slider-1099 .swiper-slide.thumb-item-3 .thumb-text{font-size:max(1.4rem,2vmin)} .module-slider-1099 .module-item-3 .module-subitem-1 .hotspot-1{display:flex}.module-slider-1099 .module-item-3 .module-subitem-1 .hotspot-2{display:flex}.module-slider-1099 .module-item-3 .module-subitem-1 .hotspot-3{display:flex}.module-slider-1099 .module-item-3 .module-subitem-1 figcaption{display:block}.module-slider-1099 .module-item-3 .module-subitem-1.slide-text .slide-text-item span{font-family:\'Urbanist\';font-weight:500;font-size:var(--j-font_size-font-size-300);color:rgba(242,119,99,1);text-transform:uppercase;letter-spacing:.5px;line-height:1.3;display:block}.module-slider-1099 .module-item-3 .module-subitem-1.slide-text .slide-text-item span s{box-shadow:0 1.3px 1.4px rgba(0,0,0,.006),0 3.1px 3.5px rgba(0,0,0,.008),0 5.8px 6.5px rgba(0,0,0,.01),0 10.3px 11.6px rgba(0,0,0,.012),0 19.2px 21.7px rgba(0,0,0,.014),0 46px 52px rgba(0,0,0,.02)} .module-slider-1099 .module-item-3 .module-subitem-2.slide-icon .has-icon{animation-name:var(--animation);--animation:rotate;--speed:7.5s}.module-slider-1099 .module-item-3 .module-subitem-2.slide-icon .has-svg{animation-name:var(--animation);--animation:rotate;--speed:7.5s}.module-slider-1099 .module-item-3 .module-subitem-2 .hotspot-1{display:flex}.module-slider-1099 .module-item-3 .module-subitem-2 .hotspot-2{display:flex}.module-slider-1099 .module-item-3 .module-subitem-2 .hotspot-3{display:flex}.module-slider-1099 .module-item-3 .module-subitem-2 figcaption{display:block}.module-slider-1099 .module-item-3 .module-subitem-2.slide-text{--layer-max-width:800px}.module-slider-1099 .module-item-3 .module-subitem-2.slide-text .slide-text-item span{font-family:\'Urbanist\';font-weight:700;font-size:36px;color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));line-height:1.2;display:block}.module-slider-1099 .module-item-3 .module-subitem-2.slide-button .slide-button-group{flex-direction:row}@media (max-width:1200px){.module-slider-1099 .module-item-3 .module-subitem-2.slide-text .slide-text-item span{font-size:var(--j-font_size-font-size--1000)}}@media (max-width:500px){.module-slider-1099 .module-item-3 .module-subitem-2.slide-text .slide-text-item span{font-size:var(--j-font_size-font-size-700)}} .module-slider-1099 .module-item-3 .module-subitem-4.slide-icon .has-icon:before{content:\'\\e95c\' !important;font-family:icomoon !important;transform:translate3d(0px,-1px,0)}.module-slider-1099 .module-item-3 .module-subitem-4.slide-icon .has-text{max-width:80%;transform:rotate(-20deg)}.module-slider-1099 .module-item-3 .module-subitem-4.slide-icon{align-items:center;justify-content:flex-end}.module-slider-1099 .module-item-3 .module-subitem-4.slide-icon .can-rotate{--bg-size:300}.module-slider-1099 .module-item-3 .module-subitem-4.slide-icon .has-icon{animation-name:none}.module-slider-1099 .module-item-3 .module-subitem-4.slide-icon .has-svg{animation-name:none}.module-slider-1099 .module-item-3 .module-subitem-4 .hotspot-1{display:flex}.module-slider-1099 .module-item-3 .module-subitem-4 .hotspot-2{display:flex}.module-slider-1099 .module-item-3 .module-subitem-4 .hotspot-3{display:flex}.module-slider-1099 .module-item-3 .module-subitem-4 figcaption{display:block}.module-slider-1099 .module-item-3 .module-subitem-4.slide-text .slide-text-item span{display:block} .module-slider-1099 .module-item-3 .module-subitem-5 .hotspot-1{display:flex}.module-slider-1099 .module-item-3 .module-subitem-5 .hotspot-2{display:flex}.module-slider-1099 .module-item-3 .module-subitem-5 .hotspot-3{display:flex}.module-slider-1099 .module-item-3 .module-subitem-5 figcaption{display:block}.module-slider-1099 .module-item-3 .module-subitem-5.slide-text .slide-text-item span{display:block} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+      'Urbanist' => 
+      array (
+        500 => '500',
+        700 => '700',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'color_scheme' => '',
+    'imageDimensions' => 
+    array (
+      'width' => 1000,
+      'height' => 450,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'dynamic' => false,
+    'dynamicPath' => '',
+    'slidesPerView' => '1',
+    'loop' => false,
+    'shuffle' => false,
+    'autoplay' => true,
+    'parallax' => true,
+    'parallax_bg' => false,
+    'parallaxValue' => '-10%',
+    'parallaxImageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'thumbnails' => false,
+    'thumbnailsDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'slidesLayersImageCaptionStyle' => 'SLIDER_IMAGE_CAPTION',
+    'button1Style' => 'OUTLINE_FILL',
+    'button2Style' => 'LINK_UNDERLINE',
+    'slidesLayersImageDimensions' => 
+    array (
+      'width' => 500,
+      'height' => 500,
+      'resize' => 'fill',
+    ),
+    'slideParallaxOffsetX' => '-32',
+    'slideParallaxOffsetY' => '',
+    'slideParallaxOpacity' => '',
+    'slideParallaxDuration' => '',
+    'slideParallaxScale' => '',
+    'colParallaxOffsetX' => '-60',
+    'colParallaxOffsetY' => '',
+    'colParallaxOpacity' => '.75',
+    'colParallaxDuration' => '',
+    'colParallaxScale' => '.80',
+    'timerPagination' => true,
+    'pagination' => 'bullets',
+    'bulletsType' => 'dots',
+    'buttonsStatus' => true,
+    'iconButtonsStyle' => 'DEFAULT',
+    'staticTextType' => 'text',
+    'staticText' => '',
+    'staticTextLink' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'static2TextType' => 'text',
+    'static2Text' => '',
+    'static2TextLink' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'timerPlacement' => 'bullets',
+    'timerPosition' => 'top',
+    'timerAlign' => 'start',
+    'scrollbar' => false,
+    'status' => true,
+    'module_id' => 1099,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-slider',
+      2 => 'module-slider-1099',
+      3 => '',
+      4 => '',
+    ),
+    'edit' => 'module_layout/slider/edit/1099',
+    'name' => 'Slider / Home / Main Slider 1',
+    'width' => 1000,
+    'height' => 450,
+    'options' => 
+    array (
+      'speed' => 550,
+      'pauseOnMouseEnter' => false,
+      'slidesPerView' => 1,
+      'centeredSlides' => true,
+      'effect' => 'slide',
+      'loop' => false,
+      'threshold' => '',
+      'shuffle' => false,
+      'centerInsufficientSlides' => false,
+      'parallax' => true,
+      'parallax_bg' => false,
+      'overflow' => true,
+      'overflowThumbs' => false,
+      'simulateTouch' => true,
+      'thumbsFreeMode' => false,
+      'timerPagination' => true,
+      'bulletsType' => 'dots',
+      'allowTouchMove' => true,
+      'timerPlacement' => 'bullets',
+      'autoplay' => 
+      array (
+        'delay' => '4000',
+        'disableOnInteraction' => false,
+        'pauseOnMouseEnter' => false,
+      ),
+      'pagination' => 
+      array (
+        'type' => 'bullets',
+      ),
+    ),
+    'syncWith' => '',
+    'lazyload_placeholder' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAHCAQMAAABGxXHeAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAE1JREFUeNrtwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwYN18AAHMl4bIAAAAAElFTkSuQmCC',
+    'lazyload_thumb_placeholder' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWAQMAAAAGz+OhAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABpJREFUSMftwTEBAAAAwqD1T20ND6AAAIB3Awu4AAFdkeOZAAAAAElFTkSuQmCC',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'color_scheme' => '',
+        'type' => 'image',
+        'thumbText' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 1,
+        'id' => '1099-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => '',
+          3 => '',
+          4 => 'swiper-slide',
+        ),
+        'thumb_classes' => 
+        array (
+          0 => 'swiper-slide',
+          1 => 'thumb-item-1',
+        ),
+        'image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAHCAQMAAABGxXHeAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAE1JREFUeNrtwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwYN18AAHMl4bIAAAAAElFTkSuQmCC',
+        'image2x' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAAOEAQMAAADDpjjIAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAPJJREFUeNrtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBHA3KZAAGNR0Q6AAAAAElFTkSuQmCC',
+        'items' => 
+        array (
+          1 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'text',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'textContainerStyle' => 'MEDIA_LABEL_CAPS',
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '1-1',
+            'id' => '1099-1-1',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-1',
+              2 => '',
+              3 => '',
+              4 => 'slide-text',
+            ),
+            'text' => 'New Arrivals',
+          ),
+          2 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'text',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'textContainerStyle' => 'SLIDER_MAIN_TEXT_MEDIUM',
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '1-2',
+            'id' => '1099-1-2',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-2',
+              2 => '',
+              3 => '',
+              4 => 'slide-text',
+            ),
+            'text' => 'Sound that goes straight to your heart',
+          ),
+          4 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'button',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'button_1_text' => 'Shop Now',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '1-4',
+            'id' => '1099-1-4',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-4',
+              2 => '',
+              3 => '',
+              4 => 'slide-button',
+            ),
+          ),
+          5 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'image',
+            'videoType' => 'html5',
+            'position' => 'right',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '1-5',
+            'id' => '1099-1-5',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-5',
+              2 => '',
+              3 => '',
+              4 => 'slide-image',
+            ),
+            'width' => 500,
+            'height' => 500,
+            'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/demos/1/v1/Hero/1-500x500.png',
+            'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/demos/1/v1/Hero/1-1000x1000.png',
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'color_scheme' => '',
+        'type' => 'image',
+        'thumbText' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 2,
+        'id' => '1099-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => '',
+          3 => '',
+          4 => 'swiper-slide',
+        ),
+        'thumb_classes' => 
+        array (
+          0 => 'swiper-slide',
+          1 => 'thumb-item-2',
+        ),
+        'image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAHCAQMAAABGxXHeAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAE1JREFUeNrtwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwYN18AAHMl4bIAAAAAElFTkSuQmCC',
+        'image2x' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAAOEAQMAAADDpjjIAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAPJJREFUeNrtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBHA3KZAAGNR0Q6AAAAAElFTkSuQmCC',
+        'items' => 
+        array (
+          1 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'text',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'textContainerStyle' => 'MEDIA_LABEL_CAPS',
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '2-1',
+            'id' => '1099-2-1',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-1',
+              2 => '',
+              3 => '',
+              4 => 'slide-text',
+            ),
+            'text' => 'Optional Label',
+          ),
+          2 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'text',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'textContainerStyle' => 'SLIDER_MAIN_TEXT_MEDIUM',
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '2-2',
+            'id' => '1099-2-2',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-2',
+              2 => '',
+              3 => '',
+              4 => 'slide-text',
+            ),
+            'text' => 'Full design control at any resolution',
+          ),
+          4 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'button',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'button_1_text' => 'Shop Now',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '2-4',
+            'id' => '1099-2-4',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-4',
+              2 => '',
+              3 => '',
+              4 => 'slide-button',
+            ),
+          ),
+          5 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'image',
+            'videoType' => 'html5',
+            'position' => 'right',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => 'Image layer caption...',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '2-5',
+            'id' => '1099-2-5',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-5',
+              2 => '',
+              3 => '',
+              4 => 'slide-image',
+            ),
+            'width' => 500,
+            'height' => 500,
+            'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/demos/1/v1/Hero/2-500x500.png',
+            'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/demos/1/v1/Hero/2-1000x1000.png',
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'color_scheme' => '',
+        'type' => 'image',
+        'thumbText' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 3,
+        'id' => '1099-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => '',
+          3 => '',
+          4 => 'swiper-slide',
+        ),
+        'thumb_classes' => 
+        array (
+          0 => 'swiper-slide',
+          1 => 'thumb-item-3',
+        ),
+        'image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAHCAQMAAABGxXHeAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAE1JREFUeNrtwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwYN18AAHMl4bIAAAAAElFTkSuQmCC',
+        'image2x' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAAOEAQMAAADDpjjIAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAPJJREFUeNrtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBHA3KZAAGNR0Q6AAAAAElFTkSuQmCC',
+        'items' => 
+        array (
+          1 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'text',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'textContainerStyle' => 'MEDIA_LABEL_CAPS',
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '3-1',
+            'id' => '1099-3-1',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-1',
+              2 => '',
+              3 => '',
+              4 => 'slide-text',
+            ),
+            'text' => 'Journal Layouts',
+          ),
+          2 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'text',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'textContainerStyle' => 'SLIDER_MAIN_TEXT_MEDIUM',
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '3-2',
+            'id' => '1099-3-2',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-2',
+              2 => '',
+              3 => '',
+              4 => 'slide-text',
+            ),
+            'text' => 'Best mobile options for any screen size',
+          ),
+          4 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'button',
+            'videoType' => 'html5',
+            'position' => 'left',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'button_1_text' => 'Shop Now',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '3-4',
+            'id' => '1099-3-4',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-4',
+              2 => '',
+              3 => '',
+              4 => 'slide-button',
+            ),
+          ),
+          5 => 
+          array (
+            'color_scheme' => '',
+            'type' => 'image',
+            'videoType' => 'html5',
+            'position' => 'right',
+            'iconAbsolute' => true,
+            'svgCode' => '',
+            'iconSVGCode-hold' => '',
+            'iconText' => '',
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'fill',
+            ),
+            'imageLink' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'shapeType-hold' => 'icon',
+            'alt' => '',
+            'caption' => '',
+            'hotspot1' => false,
+            'hotspot1Type' => 'link',
+            'hotspot1Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot1Product' => '',
+            'hotspot1Content' => '',
+            'hotspot2Type' => 'link',
+            'hotspot2Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot2Product' => '',
+            'hotspot2Content' => '',
+            'hotspot3Type' => 'link',
+            'hotspot3Link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'hotspot3Product' => '',
+            'hotspot3Content' => '',
+            'hotspot2' => false,
+            'hotspot3' => false,
+            'button_1_text' => '',
+            'button_1_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'button_2_text' => '',
+            'button_2_link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'layerParallaxOffsetX' => '',
+            'layerParallaxOffsetY' => '',
+            'layerParallaxOpacity' => '',
+            'layerParallaxScale' => '',
+            'layerParallaxDuration' => '',
+            'index' => '3-5',
+            'id' => '1099-3-5',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-5',
+              2 => '',
+              3 => '',
+              4 => 'slide-image',
+            ),
+            'width' => 500,
+            'height' => 500,
+            'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/demos/1/v1/Hero/3-500x500.png',
+            'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/demos/1/v1/Hero/3-1000x1000.png',
+          ),
+        ),
+      ),
+    ),
+  ),
+);

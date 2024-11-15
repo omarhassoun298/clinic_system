@@ -1,0 +1,111 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="float-end">
+        <button type="submit" form="form-faq_category" data-bs-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary">
+          <i class="fa fa-save"></i>
+        </button>
+        <a href="{{ cancel }}" data-bs-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-secondary">
+          <i class="fa fa-reply"></i>
+        </a>
+      </div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li class="breadcrumb-item"><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-header">
+        <i class="fa fa-pencil"></i> {{ text_form }}
+      </div>
+      <div class="card-body">
+        <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-faq_category" class="row ">
+          <div class="mb-3 row required">
+            <label class="col-sm-2 col-form-label" for="input-title">{{ entry_title }}</label>
+            <div class="col-sm-10">
+              <input type="text" name="title" id="input-title" value="{{ title }}" placeholder="{{ entry_title }}" class="form-control {% if error_title %} is-invalid {% endif %}" />
+              {% if error_title %}
+                <div class="invalid-feedback d-block">{{error_title}}</div>
+              {% endif %}
+            </div>
+          </div>
+           <div class="row mb-3">
+            <label for="input-text" class="col-sm-2 col-form-label">Text</label>
+            <div class="col-sm-10">
+              <textarea name="text" placeholder="Text" id="input-text" data-oc-toggle="ckeditor" data-lang="{{ ckeditor }}" class="form-control">{{text}}</textarea>
+            </div>
+          </div>
+           <div class="row mb-3">
+                <label for="input-parent" class="col-sm-2 col-form-label">{{ entry_parent }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="filter_name" value="{{ parent_title }}" placeholder="{{ entry_parent }}" id="input-parent" data-oc-target="autocomplete-parent" class="form-control"/>
+                  <ul id="autocomplete-parent" class="dropdown-menu"></ul>
+                  <input type="hidden" name="faq_category_id" value="{{ faq_category_id }}" id="input-parent-id" />
+                  <div class="form-text">{{ help_parent }}</div>
+                  <div id="error-parent" class="invalid-feedback"></div>
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  	<style>
+	.cke_notification_warning {
+    display: none ;
+  }
+	</style>
+  <script src="view/javascript/ckeditor/ckeditor.js"></script>
+  <script src="view/javascript/ckeditor/adapters/jquery.js"></script>
+  <script type="text/javascript">
+  $('textarea[data-oc-toggle=\'ckeditor\']').ckeditor({
+    language: '{{ ckeditor }}'
+  });
+
+    $('#button-filter').on('click', function() {
+      var url = '';
+
+      var filter_name = $('input[name=\'filter_name\']').val();
+      if (filter_name) {
+        url += '&filter_name=' + encodeURIComponent(filter_name);
+      }
+
+      location = 'index.php?route=catalog/faq_category&user_token={{ user_token }}' + url;
+    });
+
+    $('button[form=\'form-product\']').on('click', function(e) {
+      $('#form-product').attr('action', $(this).attr('formaction'));
+    });
+
+    $('#input-parent').autocomplete({
+    'source': function (request, response) {
+        $.ajax({
+            url: 'index.php?route=catalog/faq_category/autocomplete&user_token={{ user_token }}&filter_title=' + encodeURIComponent(request),
+            dataType: 'json',
+            success: function (json) {
+                json.unshift({
+                    'title': '{{ text_none }}',
+                    'faq_category_id': '0'
+                });
+
+                response($.map(json, function (item) {
+                    return {
+                        value: item['faq_category_id'],
+                        label: item['title']
+                    }
+                }));
+            }
+        });
+    },
+    'select': function (item) {
+        $('#input-parent').val(item['label']);
+        $('#input-parent-id').val(item['value']);
+    }
+});
+  </script>
+
+{{ footer }}

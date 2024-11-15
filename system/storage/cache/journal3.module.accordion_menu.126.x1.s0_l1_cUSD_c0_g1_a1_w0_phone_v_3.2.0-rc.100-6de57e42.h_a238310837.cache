@@ -1,0 +1,577 @@
+<?php $val = array (
+  'css' => '.accordion-menu-126>.j-menu>li.accordion-menu-item.is-divider{border-style:solid !important;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1)) !important}div.accordion-menu-126.accordion-menu .menu-item>a,div.accordion-menu-126.accordion-menu .menu-item>a>.links-text,div.accordion-menu-126.accordion-menu .desktop-language-wrapper button,div.accordion-menu-126.accordion-menu .desktop-currency-wrapper button,div.accordion-menu-126.accordion-menu .mobile-language-wrapper button,div.accordion-menu-126.accordion-menu .mobile-currency-wrapper button,div.accordion-menu-126.accordion-menu #cart>a{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size--title-menu);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));letter-spacing:-.1px}div.accordion-menu-126.accordion-menu .menu-item.active>a>.links-text,div.accordion-menu-126.accordion-menu .menu-item.open>a>.links-text,div.accordion-menu-126.accordion-menu .menu-item.panel-active>a>.links-text{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-decoration-style:dotted;-webkit-text-decoration-style:dotted;text-decoration-line:underline;-webkit-text-decoration-line:underline;text-decoration-thickness:1px;-webkit-text-decoration-thickness:1px;text-underline-offset:3px}div.accordion-menu-126.accordion-menu .menu-item>a>.links-text>s{display:none;--display:block;margin:.1em 0}div.accordion-menu-126.accordion-menu .menu-item.main-menu-item>a>.links-text{--display:inline-block}div.accordion-menu-126.accordion-menu .dropdown>a:after,div.accordion-menu-126.accordion-menu .dropdown>button:after,div.accordion-menu-126.accordion-menu .desktop-language-wrapper .dropdown .dropdown-toggle:after,div.accordion-menu-126.accordion-menu .desktop-currency-wrapper .dropdown .dropdown-toggle:after,div.accordion-menu-126.accordion-menu .mobile-language-wrapper .dropdown .dropdown-toggle:after,div.accordion-menu-126.accordion-menu .mobile-currency-wrapper .dropdown .dropdown-toggle:after{opacity:.7}div.accordion-menu-126.accordion-menu .menu-item>a>.links-text{max-width:var(--menu-max-width,none);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:1px}div.accordion-menu-126.accordion-menu.language-currency .currency-title{max-width:var(--menu-max-width,none);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}div.accordion-menu-126.accordion-menu.language-currency .language-title{max-width:var(--menu-max-width,none);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}div.accordion-menu-126.accordion-menu .menu-item>a>span>s{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-100);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));line-height:1.1}div.accordion-menu-126.accordion-menu .menu-item>a:before{font-size:1em}div.accordion-menu-126.accordion-menu .menu-item>a:before,div.accordion-menu-126.accordion-menu .menu-item>a .links-text em{margin-right:var(--j-gap-spacing---3);--element-margin-right:var(--j-gap-spacing---3)}div.accordion-menu-126.accordion-menu .menu-item{--menu-item-gap:var(--j-gap-spacing---3)}div.accordion-menu-126.accordion-menu .menu-item>a>.count-badge{position:relative;transform:none;margin-inline-start:var(--x,6px);margin-top:var(--margin-top,0px);inset-inline-start:initial;--margin-top:-1px}div.accordion-menu-126.accordion-menu .menu-item .menu-image>img{background-color:rgba(247,247,247,1);--background-color:rgba(247,247,247,1)}div.accordion-menu-126.accordion-menu .menu-item .menu-image{margin-right:var(--j-gap-spacing---5);--element-margin-right:var(--j-gap-spacing---5);padding:var(--j-gap-spacing---1);--element-padding:var(--j-gap-spacing---1);border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:99px;--element-border-radius:99px}div.accordion-menu-126.accordion-menu .j-menu>li{--menu-item-gap:var(--j-gap-spacing---6)}div.accordion-menu-126.accordion-menu .j-menu>li>a{padding:0;--element-padding:0px}div.accordion-menu-126.accordion-menu .j-menu .j-menu{margin-left:var(--j-gap-spacing---6);--element-margin-left:var(--j-gap-spacing---6)}div.accordion-menu-126 .open-menu em:before{content:\'\\e409\' !important;font-family:icomoon !important;font-size:1em}div.accordion-menu-126 .open-menu[aria-expanded=true] em:before{content:\'\\e40b\' !important;font-family:icomoon !important}div.accordion-menu-126.accordion-menu .j-menu .j-menu li>a,div.accordion-menu-126.accordion-menu .j-menu .j-menu li>a>.links-text{font-size:93%}            ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'categoryImage' => false,
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'My Account',
+    'menuModule' => 'DEFAULT',
+    'menu' => 'DEFAULT',
+    'menuAccordionMenuStyle' => 'DEFAULT',
+    'menuAccordionMenuStyleMenuImage' => 'DEFAULT',
+    'status' => true,
+    'module_id' => 126,
+    'classes' => 
+    array (
+      0 => 'accordion-menu',
+      1 => 'accordion-menu-126',
+      2 => '',
+      3 => NULL,
+    ),
+    'image_width' => 40,
+    'image_height' => 40,
+    'image_resize' => 'fill',
+    'edit' => 'module_layout/accordion_menu/edit/126',
+    'name' => 'Accordion Menu / Account Layout',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'My Account',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/account',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-1',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      2 => 
+      array (
+        'title' => 'Address Book',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/address',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-2',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      3 => 
+      array (
+        'title' => 'Wishlist',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/wishlist',
+          'name' => '',
+          'total' => '{{ $wishlist }}',
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'wishlist-badge',
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-3',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      4 => 
+      array (
+        'title' => 'Order History',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/order',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-4',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      5 => 
+      array (
+        'title' => 'Downloads',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/download',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-5',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      6 => 
+      array (
+        'title' => 'Recurring Payments',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/recurring',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-6',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      7 => 
+      array (
+        'title' => 'Reward Points',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/reward',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-7',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      8 => 
+      array (
+        'title' => 'Returns',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/return/insert',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-8',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      9 => 
+      array (
+        'title' => 'Transactions',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/transaction',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-9',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      10 => 
+      array (
+        'title' => 'Newsletter',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://control.betagroup.me/index.php?route=account/newsletter',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-10',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+      11 => 
+      array (
+        'title' => 'Custom Menus',
+        'isDivider' => false,
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-11',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => true,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+          12 => 
+          array (
+            'title' => 'All Menus Are',
+            'link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-12',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+          13 => 
+          array (
+            'title' => 'Fully Customizable',
+            'link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-13',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+          14 => 
+          array (
+            'title' => 'Add/Remove Links',
+            'link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-14',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+          15 => 
+          array (
+            'title' => 'As Needed',
+            'link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'accordion-menu-item-15',
+              'dropdown' => false,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+            'isOpen' => true,
+          ),
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+        'isOpen' => false,
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,122 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="float-end">
+        <button type="submit" form="form-faq_category" data-bs-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary">
+          <i class="fa fa-save"></i>
+        </button>
+        <a href="{{ cancel }}" data-bs-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-secondary">
+          <i class="fa fa-reply"></i>
+        </a>
+      </div>
+      <nav aria-label="breadcrumb">
+            <h1>{{ heading_title }}</h1>
+        <ol class="breadcrumb">
+          {% for breadcrumb in breadcrumbs %}
+          <li class="breadcrumb-item"><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+          {% endfor %}
+        </ol>
+      </nav>
+    </div>
+  </div>
+  
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-header">
+        <i class="fa fa-pencil"></i> {{ text_form }}
+      </div>
+      <div class="card-body">
+        <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-faq_category" class="row">
+          <div class="mb-3 row required">
+            <label for="input-title" class="col-md-2 col-form-label">{{ entry_title }}</label>
+            <div class="col-md-10">
+              <input type="text" name="title" id="input-title" value="{{ title }}" placeholder="{{ entry_title }}" class="form-control {% if error_title %} is-invalid {% endif %}" />
+              {% if error_title %}
+              <div class="invalid-feedback d-block"> {{error_title}}</div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="mb-3 row required">
+            <label for="input-subtitle" class="col-md-2 col-form-label">{{ entry_subtitle }}</label>
+            <div class="col-md-10">
+              <input type="text" name="subtitle" id="input-subtitle" value="{{ subtitle }}" placeholder="{{ entry_subtitle }}" class="form-control {% if error_sub_title %} is-invalid {% endif %}" />
+             {% if error_sub_title %}
+              <div class="invalid-feedback d-block"> {{error_sub_title}}</div>
+              {% endif %}
+            </div>
+          </div>
+           <div class="row mb-3">
+              <label for="input-parent" class="col-sm-2 col-form-label">{{ entry_parent }}</label>
+              <div class="col-sm-10">
+                <input type="text" name="filter_name" value="{{ parent_title }}" placeholder="{{ entry_parent }}" id="input-parent" data-oc-target="autocomplete-parent" class="form-control"/>
+                <ul id="autocomplete-parent" class="dropdown-menu"></ul>
+                <input type="hidden" name="parent_id" value="{{ parent_id }}" id="input-parent-id"/>
+                <div class="form-text">{{ help_parent }}</div>
+                <div id="error-parent" class="invalid-feedback"></div>
+              </div>
+           </div>
+          <div class="row mb-3">
+            <label for="input-image" class="col-sm-2 col-form-label">{{entry_image}}</label>
+            <div class="col-sm-10">
+              <div class="card image">
+                <img src="{{ thumb }}" alt="" title="" id="thumb-image" data-oc-placeholder="{{ placeholder }}" class="card-img-top"/> <input type="hidden" name="image" value="{{ image }}" id="input-image"/>
+                <div class="card-body">
+                  <button type="button" data-oc-toggle="image" data-oc-target="#input-image" data-oc-thumb="#thumb-image" class="btn btn-primary btn-sm btn-block"><i class="fa-solid fa-pencil"></i> {{ button_edit }}</button>
+                  <button type="button" data-oc-toggle="clear" data-oc-target="#input-image" data-oc-thumb="#thumb-image" class="btn btn-warning btn-sm btn-block"><i class="fa-regular fa-trash-can"></i> {{ button_clear }}</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  $('#button-filter').on('click', function() {
+    var url = '';
+    var filter_name = $('input[name=\'filter_name\']').val();
+
+    if (filter_name) {
+      url += '&filter_name=' + encodeURIComponent(filter_name);
+    }
+
+    location = 'index.php?route=catalog/faq_category&user_token={{ user_token }}' + url;
+  });
+
+  $('button[form=\'form-product\']').on('click', function(e) {
+    $('#form-product').attr('action', $(this).attr('formaction'));
+  });
+
+$('#input-parent').autocomplete({
+    'source': function (request, response) {
+        $.ajax({
+            url: 'index.php?route=catalog/faq_category/autocomplete&user_token={{ user_token }}&filter_title=' + encodeURIComponent(request),
+            dataType: 'json',
+            success: function (json) {
+                json.unshift({
+                    'title': '{{ text_none }}',
+                    'faq_category_id': '0'
+                });
+
+                response($.map(json, function (item) {
+                    return {
+                        value: item['faq_category_id'],
+                        label: item['title']
+                    }
+                }));
+            }
+        });
+    },
+    'select': function (item) {
+        $('#input-parent').val(item['label']);
+        $('#input-parent-id').val(item['value']);
+    }
+});
+  
+</script>
+
+{{ footer }}

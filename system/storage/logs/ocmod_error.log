@@ -1,0 +1,46 @@
+2024-10-05 6:30:16 - 
+
+MOD: Journal Theme
+NOT FOUND!
+CODE: if (isset($this->request->get['route']) && substr($this->request->get['route'], 0, 4) == 'api/') {
+FILE: catalog/controller/startup/session.php
+
+
+MOD: Journal Theme
+NOT FOUND!
+CODE: $result = $this->registry->get('event')->trigger('view/' . $route . '/before', array(&$route, &$data, &$output));
+FILE: system/engine/loader.php
+
+
+MOD: <b style="color:#4170bd">ADV Products Report</b>
+NOT FOUND!
+CODE: $report = array();
+FILE: admin/controller/common/column_left.php
+
+
+MOD: <b style="color:#4170bd">ADV Profit Module</b>
+NOT FOUND!
+CODE: if ($this->user->hasPermission('access', 'catalog/download')) {
+FILE: admin/controller/common/column_left.php
+
+
+MOD: <b style="color:#4170bd">ADV Sales Profit Report</b>
+NOT FOUND!
+CODE: $report = array();
+FILE: admin/controller/common/column_left.php
+
+
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+NOT FOUND!
+CODE: $report = array();
+FILE: admin/controller/common/column_left.php
+----------------------------------------------------------------
+MOD: Admin Quick Edit PRO
+MISSING FILE!
+/var/www/vhosts/betagroup.me/control.betagroup.me/system/library/db/mysql.php
+
+
+MOD: حزمة اللغة العربية
+NOT FOUND!
+CODE: <link href="view/stylesheet/bootstrap.css" type="text/css" rel="stylesheet" />
+FILE: admin/view/template/common/header.twig

@@ -1,0 +1,48 @@
+{{ header }}
+<style>
+	.primarycolor {
+		color: rgba(0, 33, 71, 1) !important;
+	}
+</style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	new WOW().init();
+</script>
+{{ journal3_top }}
+{% if column_left and column_right %}
+{% set class = 'col-sm-6' %}
+{% elseif column_left or column_right %}
+{% set class = 'col-sm-9' %}
+{% else %}
+{% set class = 'col-sm-12' %}
+{% endif %}
+<div id="content" class="{{ class }}">{{ content_top }}</div>
+<div class="bootstrap-5-container">
+	<div class="row align-items-center justify-content-around bg-white py-5">
+		<div class="col-md-4 col-10 row gap-4 wow slideInLeft">
+			<h3 class="display-3 brand_primary fw-bold text-dark">How can we better support you?</h3>
+			<p>Search our knowledge base for answers to common questions.</p>
+		</div>
+		<div class="col-md-4 col-sm-8 text-center wow slideInRight">
+			<img src="https://help.sarwa.co/hc/theming_assets/01HZKSZWNKFY4M58K2269KN1H0"/>
+		</div>
+	</div>
+	<div class="container-xl bg-light">
+		<div class="row bg-white my-5 pb-5 px-5">
+			{% for category in categories %}
+			<div class="col-md-4 mt-5 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="{{ loop.index * 0.05 }}s">
+				<div class="card p-3 border-0 shadow mb-2 h-100">
+					<a href="{{category.href}}" class="text-decoration-none text-center text-dark py-5 d-flex flex-column align-items-center justify-content-center gap-3 w-100">
+						<img src="{{category.image}}" class="mb-4"/>
+						<h3 class="primarycolor fs-2 fw-bolder">{{category.title}}</h3>
+						<p class="primarycolor">{{category.subtitle}}</p>
+					</a>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	{{contact_us_component}}
+</div>
+{{ footer }}

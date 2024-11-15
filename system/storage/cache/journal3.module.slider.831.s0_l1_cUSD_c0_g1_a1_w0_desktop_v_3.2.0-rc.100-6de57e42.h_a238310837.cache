@@ -1,0 +1,196 @@
+<?php $val = array (
+  'css' => '.module-slider-831{--transition-speed:.3s;--slide-min-height:250px;--slide-reduction-type:var(--slide-custom-reduction,0px)}.module-slider-831 .swiper-slide .slide-link{z-index:2}.module-slider-831>.slider-wrapper>.swiper-container>.swiper-wrapper>.swiper-slide{width:100% !important;height:auto}div.module-slider-831 .slider-carousel{--slide-width:100%px}.module-slider-831 .slider-carousel{--slide-gap:0px}.module-slider-831 .slider-carousel>.swiper-container{padding-inline-start:max(0px,calc(50% - var(--content-max-width,0px)/2 + var(--content-gutter,0px)))}.module-slider-831>.slider-wrapper>.swiper-container>.swiper-wrapper>.swiper-slide:after{display:block}.module-slider-831 .slide-content .slide-cols{max-width:calc(100% - var(--cols-content-gutter,0px)*2);--cols-content-gutter:var(--content-gutter)}.module-slider-831 .slider-thumbs .swiper-container{max-width:100%;margin:0;overflow:hidden !important}.module-slider-831 .slider-wrapper .swiper-container:before{display:none;background-color:rgba(0,0,0,.8);--background-color:rgba(0,0,0,.8);opacity:.1;mix-blend-mode:multiply}.module-slider-831 .slide-content:before{display:none;mix-blend-mode:multiply}.module-slider-831 .slider-wrapper>.swiper-container{overflow:hidden !important}.module-slider-831 .slider-thumbs .swiper-slide{overflow:initial}.module-slider-831 .slide-content{--object-position-v:center}.module-slider-831 .slide-content>img{align-self:center;width:100%;height:100%}.module-slider-831 .slide-content>video{align-self:center;width:100%;height:100%}.module-slider-831 .swiper-wrapper{cursor:grab}.module-slider-831 .swiper-wrapper:active{cursor:grabbing}.module-slider-831 .parallax-bg{background-position:center center;background-size:cover;--parallax-opacity:.8;--parallax-bg-width:140%}.module-slider-831 .parallax-bg:before{background-position:center center;background-size:cover}.module-slider-831 .slider-thumbs{display:block;--thumbs-per-view:4;--thumb-gap:24px;order:1}.module-slider-831 .slider-thumbs .swiper-slide .thumb-text{display:flex;top:auto;right:auto;bottom:0;left:0;transform:translate3d(var(--thumb-padding,0),calc(0px - var(--thumb-padding,0)),0)}.module-slider-831 .slider-thumbs .swiper-slide:first-child{margin-inline-start:unset}.module-slider-831 .slider-thumbs .swiper-slide:last-child{margin-inline-end:unset}.module-slider-831 .swiper-slide .thumb-text{flex-direction:row}.module-slider-831 .slider-thumbs .thumb-text{text-align:center}.module-slider-831 .slide-layers{align-items:center;margin-inline:auto;justify-content:center;height:100%;--slide-layer-gap:3%}.module-slider-831 .slide-text{text-align:center}.module-slider-831 .slide-col{justify-content:center;--stack-unit:1vw}.module-slider-831 .slide-col-right{order:2}.module-slider-831 .slide-col-left{order:1}.module-slider-831 .slide-col-left .slide-layers{padding:5%;--element-padding:5%}.module-slider-831 .slide-image img{object-position:center}.module-slider-831 .slide-layers .slide-image{align-self:center}.module-slider-831 div.module-item .module-subitem.slide-image{position:relative;inset:initial;z-index:initial;width:auto;height:auto}.module-slider-831 div.module-item .module-subitem.slide-image img{width:auto;height:auto}.module-slider-831 figcaption{top:auto;bottom:0;position:absolute}.module-slider-831 .slide-button{--slide-button-gap:20px;width:auto}.module-slider-831 .slide-button-group{flex-direction:row}.module-slider-831 .swiper-slide .slide-icon{align-items:center;justify-content:flex-end}.module-slider-831 .swiper-slide .slide-icon .has-icon{animation-name:none}.module-slider-831 .swiper-slide .slide-icon .has-svg{animation-name:none}.module-slider-831 .swiper-pagination-wrapper{display:flex;justify-content:center;align-items:flex-end;max-width:100%}.module-slider-831 .swiper-pagination-bullets .swiper-pagination-bullet [class*=swiper-timeline]{visibility:hidden}.module-slider-831 .swiper-pagination-bullets{flex-direction:row}.module-slider-831 .swiper-pagination-bullet:before{display:none}.module-slider-831 .swiper-pagination-fraction{padding:8px;--element-padding:8px;margin:12px;--element-margin:12px}.module-slider-831 .swiper-buttons{display:flex;flex-direction:row;align-items:center;justify-content:space-between}.module-slider-831 .slider-wrapper .swiper-container+.swiper-buttons .swiper-button-disabled{opacity:.5}.module-slider-831 .slider-wrapper .swiper-container:not(.swiper-initialized)+.swiper-buttons .swiper-button-prev{opacity:.5}.module-slider-831 .swiper-buttons .swiper-button-next{order:initial}.module-slider-831 .swiper-buttons>div:before{content:\'\\e5c4\' !important;font-family:icomoon !important}.module-slider-831 .swiper-buttons>div.swiper-button-next:before{content:\'\\e5c8\' !important;font-family:icomoon !important}.module-slider-831 .swiper-buttons>div.swiper-button-prev{display:flex}.module-slider-831 .swiper-buttons>div.swiper-button-next{display:flex}.module-slider-831 .static-text-1{display:block;font-family:\'Urbanist\';font-weight:700;font-size:var(--j-font_size-font-size--title-section);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));line-height:1.3;margin-bottom:var(--j-gap-spacing---6);--element-margin-bottom:var(--j-gap-spacing---6)}.module-slider-831 .static-text-2{display:block;max-width:900px;color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*0.9));text-align:center}.module-slider-831 .static-text-wrapper{align-items:center;justify-content:center}.module-slider-831 .slider-timer{--timer-max-width:100%;max-width:var(--timer-max-width,100%);display:block;top:0;bottom:auto;left:0;right:auto;transform:translate3d(0,0,0)}.module-slider-831 .swiper-pagination-dots svg{display:none}.module-slider-831 .journal-loading{display:none}.module-slider-831 .swiper-scrollbar{display:block}.module-slider-831 .swiper-scrollbar .swiper-scrollbar-drag{height:5px}.module-slider-831 .slide-col-left .slide-layers:after{display:none}.module-slider-831 .slide-col-right .slide-layers:after{display:none} .module-slider-831 .module-item-1 .slide-content{--object-position-h:left;justify-content:flex-start}.module-slider-831 .module-item.module-item-1 .slide-content-image{background-position:center center;background-size:cover}.no-touchevents .module-slider-831 .module-item.module-item-1:hover .slide-content-image{background-position:center center;background-size:cover}.module-slider-831 .module-item-1 .slide-content:before{display:none;background-color:rgba(0,0,0,.8);--background-color:rgba(0,0,0,.8);opacity:.3} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Urbanist' => 
+      array (
+        700 => '700',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'color_scheme' => '',
+    'imageDimensions' => 
+    array (
+      'width' => 1500,
+      'height' => 250,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'dynamic' => false,
+    'dynamicPath' => '',
+    'slidesPerView' => '1',
+    'loop' => false,
+    'shuffle' => false,
+    'autoplay' => false,
+    'parallax' => false,
+    'parallax_bg' => false,
+    'parallaxValue' => '-10%',
+    'parallaxImageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'thumbnails' => false,
+    'thumbnailsDimensions' => 
+    array (
+      'width' => 200,
+      'height' => 200,
+      'resize' => 'fill',
+    ),
+    'slidesLayersImageCaptionStyle' => 'CONTAINER_WQOOIL',
+    'slidesLayersImageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'slideParallaxOffsetX' => '',
+    'slideParallaxOffsetY' => '',
+    'slideParallaxOpacity' => '',
+    'slideParallaxDuration' => '',
+    'slideParallaxScale' => '',
+    'colParallaxOffsetX' => '',
+    'colParallaxOffsetY' => '',
+    'colParallaxOpacity' => '',
+    'colParallaxDuration' => '',
+    'colParallaxScale' => '',
+    'timerPagination' => true,
+    'pagination' => 'none',
+    'bulletsType' => 'bullets',
+    'buttonsStatus' => false,
+    'staticTextType' => 'title',
+    'staticText' => '',
+    'staticTextLink' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'static2TextType' => 'text',
+    'static2Text' => 'Create custom page headers with the new Slider module, edit this from Journal > Modules > Slider Blocks...',
+    'static2TextLink' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'timerPlacement' => 'slider',
+    'timerPosition' => 'top',
+    'timerAlign' => 'start',
+    'scrollbar' => false,
+    'status' => true,
+    'module_id' => 831,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-slider',
+      2 => 'module-slider-831',
+      3 => '',
+      4 => '',
+    ),
+    'edit' => 'module_layout/slider/edit/831',
+    'name' => 'Slider / Page Header / Custom Image + Page Title',
+    'width' => 1500,
+    'height' => 250,
+    'options' => 
+    array (
+      'speed' => 300,
+      'pauseOnMouseEnter' => false,
+      'slidesPerView' => 1,
+      'centeredSlides' => false,
+      'effect' => 'slide',
+      'loop' => false,
+      'threshold' => '',
+      'shuffle' => false,
+      'centerInsufficientSlides' => false,
+      'parallax' => false,
+      'parallax_bg' => false,
+      'overflow' => true,
+      'overflowThumbs' => true,
+      'simulateTouch' => true,
+      'thumbsFreeMode' => false,
+      'timerPagination' => true,
+      'bulletsType' => 'bullets',
+      'allowTouchMove' => true,
+      'timerPlacement' => 'slider',
+    ),
+    'syncWith' => '',
+    'lazyload_placeholder' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABdwAAAD6AQMAAACBNherAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAEVJREFUeNrtwYEAAAAAw6D5Ux/hAlUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3wC4kgAB0W83vQAAAABJRU5ErkJggg==',
+    'lazyload_thumb_placeholder' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABxJREFUWMPtwYEAAAAAw6D5U1/hAFUBAAAAAHwGFFAAAQCfIxUAAAAASUVORK5CYII=',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'color_scheme' => '',
+        'type' => 'image',
+        'thumbText' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 1,
+        'id' => '831-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => '',
+          3 => '',
+          4 => 'swiper-slide',
+        ),
+        'thumb_classes' => 
+        array (
+          0 => 'swiper-slide',
+          1 => 'thumb-item-1',
+        ),
+        'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/demos/2/v1/Background/bg-1500x250w.jpg',
+        'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/demos/2/v1/Background/bg-3000x500w.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

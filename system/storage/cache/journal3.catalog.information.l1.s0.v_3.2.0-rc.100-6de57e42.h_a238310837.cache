@@ -1,0 +1,134 @@
+<?php $val = array (
+  3 => 
+  array (
+    'information_id' => '3',
+    'title' => 'Privacy Policy',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=3',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=3',
+    ),
+  ),
+  4 => 
+  array (
+    'information_id' => '4',
+    'title' => 'About Us',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=4',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=4',
+    ),
+  ),
+  5 => 
+  array (
+    'information_id' => '5',
+    'title' => 'Terms &amp; Conditions',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=5',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=5',
+    ),
+  ),
+  6 => 
+  array (
+    'information_id' => '6',
+    'title' => 'Delivery Information',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=6',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=6',
+    ),
+  ),
+  7 => 
+  array (
+    'information_id' => '7',
+    'title' => 'FAQ',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=7',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=7',
+    ),
+  ),
+  8 => 
+  array (
+    'information_id' => '8',
+    'title' => '404 ',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=8',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=8',
+    ),
+  ),
+  9 => 
+  array (
+    'information_id' => '9',
+    'title' => 'All Departments',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=9',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=9',
+    ),
+  ),
+  10 => 
+  array (
+    'information_id' => '10',
+    'title' => 'Journal Demos',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=10',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=10',
+    ),
+  ),
+  11 => 
+  array (
+    'information_id' => '11',
+    'title' => 'Coming Soon',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=11',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=11',
+    ),
+  ),
+  12 => 
+  array (
+    'information_id' => '12',
+    'title' => 'Custom Blocks',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=12',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=12',
+    ),
+  ),
+  13 => 
+  array (
+    'information_id' => '13',
+    'title' => 'Gallery',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=13',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=13',
+    ),
+  ),
+  15 => 
+  array (
+    'information_id' => '15',
+    'title' => 'Tabbed Page Blocks',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=15',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=15',
+    ),
+  ),
+  16 => 
+  array (
+    'information_id' => '16',
+    'title' => 'Store Locations',
+    'link' => 
+    array (
+      'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=16',
+      'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=16',
+    ),
+  ),
+  'text_agree' => 'I have read and agree to the <a href="%s" class="agree"><b>%s</b></a>',
+  'error_agree' => 'Warning: You must agree to the %s!',
+);

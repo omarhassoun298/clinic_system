@@ -1,0 +1,51 @@
+{{ header }}
+<style>
+	.primarycolor {
+		color: rgba(0, 33, 71, 1) !important;
+	}
+</style>
+<ul class="breadcrumb">
+	{% for breadcrumb in breadcrumbs %}
+		<li>
+			<a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a>
+		</li>
+	{% endfor %}
+</ul>
+<div class="container">
+	<div style="margin-bottom:20px;">
+		<h3 class="fs-2 fw-bolder text-dark">{{category_info.title}}</h3>
+		<p class="primarycolor">{{category_info.subtitle}}</p>
+	</div>
+	 {% for subcategory in subcategories %}
+    <div class="panel-group" id="faq-66dacf5760b22333-collapse" style="background:white; padding-right:10px padding-left:10px; {% if loop.index > 1 %}margin-top:15px;{% endif %}">
+    <div class="module-item module-item-{{ loop.index }} panel">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#faq-66dacf5760b22333-collapse-{{ loop.index }}" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#faq-66dacf5760b22333-collapse" aria-expanded="false" style="margin-left:10px; font-size:17px; font-weight:bold;">
+                    {{ subcategory.title }}
+                    <i class="fa fa-caret-down pull-right"></i>
+                </a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse" id="faq-66dacf5760b22333-collapse-{{ loop.index }}" aria-expanded="false">
+            <div class="panel-body">
+                <div class="block-body expand-block">
+                    <div class="block-wrapper">
+                        <div class="block-content" style="margin-left:10px;">
+                            {% for faq in subcategory.faqs %}
+                                <a href="{{ faq.href }}" 
+   style="display: block; margin-bottom: 10px; font-size:15px;  color: black;"
+   onmouseover="this.style.color='lightgreen'" 
+   onmouseout="this.style.color='black'">{{faq.title}}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ {% endfor %}
+
+</div>
+{{ footer }}

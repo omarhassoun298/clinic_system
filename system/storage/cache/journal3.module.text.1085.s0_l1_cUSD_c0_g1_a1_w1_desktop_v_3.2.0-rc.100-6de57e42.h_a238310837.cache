@@ -1,0 +1,38 @@
+<?php $val = array (
+  'css' => '.module-text-1085 .module-body{--text-module-align-v:flex-start;max-width:1000px;margin-bottom:var(--j-gap-spacing-vertical-l);--element-margin-bottom:var(--j-gap-spacing-vertical-l)} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Builder in Product TAB',
+    'contentType' => 'text',
+    'content' => 'NEW! Since Journal 3.2, the much improved T.A.B (Tabs Accordion Blocks) system supports the page builder inside the tab content. Unlimited Blocks, Tabs or Accordions with any HTML content or the builder interface (supporting custom rows/columns/modules) can be assigned to any individual product or to certain groups of products, like entire categories, brands, products with specific options, attributes, price range, etc.
+
+You can indicate any criteria via the advanced product assignment mechanism and only those products matching your criteria will display the modules.
+
+Also, any module can be selectively activated per device (desktop/tablet/phone), customer login status and other criteria. Imagine the possibilities.',
+    'dynamic' => 'journal3/blocks_example',
+    'status' => true,
+    'module_id' => 1085,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-text',
+      2 => 'module-text-1085',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/text/edit/1085',
+    'name' => 'Text / Product TAB builder sample text',
+    'items' => 
+    array (
+    ),
+  ),
+);

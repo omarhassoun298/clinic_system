@@ -1,0 +1,263 @@
+<?php $val = array (
+  'css' => '.icons-menu-228 a:before{color:hsla(var(--j-color-scheme-foreground-tertiary-h),var(--j-color-scheme-foreground-tertiary-s),calc(var(--j-color-scheme-foreground-tertiary-l) - 0%),calc(var(--j-color-scheme-foreground-tertiary-a)*0.9));font-size:30px}.no-touchevents .icons-menu-228 a:hover:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.icons-menu-228 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis;display:none}.icons-menu-228{--icon-spacing:8px}.icons-menu-228 ul{justify-content:flex-start}.icons-menu-228 .module-title{text-align:left}.icons-menu-228 .module-title:after{left:0;right:auto;transform:none}@media (max-width:500px){.icons-menu-228 a:before{font-size:24px}} .icons-menu-228 .icons-menu-item-1.icon-menu-icon>a:before{content:\'\\f1f0\' !important;font-family:icomoon !important} .icons-menu-228 .icons-menu-item-2.icon-menu-icon>a:before{content:\'\\f1f1\' !important;font-family:icomoon !important} .icons-menu-228 .icons-menu-item-3.icon-menu-icon>a:before{content:\'\\f1f3\' !important;font-family:icomoon !important} .icons-menu-228 .icons-menu-item-4.icon-menu-icon>a:before{content:\'\\f1f2\' !important;font-family:icomoon !important} .icons-menu-228 .icons-menu-item-5.icon-menu-icon>a:before{content:\'\\f1f4\' !important;font-family:icomoon !important} .icons-menu-228 .icons-menu-item-6.icon-menu-icon>a:before{content:\'\\f1f5\' !important;font-family:icomoon !important} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'tooltipStatus' => true,
+    'tooltipPosition' => 'top',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'module_id' => 228,
+    'classes' => 
+    array (
+      0 => 'icons-menu',
+      1 => 'icons-menu-228',
+      2 => '',
+      3 => NULL,
+    ),
+    'image_width' => NULL,
+    'image_height' => NULL,
+    'image_resize' => 'fill',
+    'edit' => 'module_layout/icons_menu/edit/228',
+    'name' => 'Icons Menu / Payment Icons',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Visa',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-1',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          5 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      2 => 
+      array (
+        'title' => 'Mastercard',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-2',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          5 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      3 => 
+      array (
+        'title' => 'Amex',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-3',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          5 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      4 => 
+      array (
+        'title' => 'Discover',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-4',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          5 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      5 => 
+      array (
+        'title' => 'Paypal',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-5',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          5 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      6 => 
+      array (
+        'title' => 'Stripe',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-6',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          5 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+    ),
+  ),
+);

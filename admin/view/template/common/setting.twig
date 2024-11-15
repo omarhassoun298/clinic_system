@@ -1,0 +1,163 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="float-end">
+        <button type="submit" id="button-save" form="form-setting" data-bs-toggle="tooltip" title="{{ button_save }}"  class="btn btn-primary">
+          <i class="fa fa-save"></i>
+        </button>
+      </div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li class="breadcrumb-item"><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {% if error_warning %}
+    <div class="alert alert-danger alert-dismissible fade show"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endif %}
+    {% if success %}
+    <div class="alert alert-success alert-dismissible fade show"><i class="fa fa-check-circle"></i> {{ success }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endif %}
+    <div class="card">
+      <div class="card-header">
+        <i class="fa fa-pencil"></i> {{ text_edit }}
+      </div>
+      <div class="card-body">
+       <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-setting">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="tab-general-tab" data-bs-toggle="tab" href="#tab-general" role="tab" aria-controls="tab-general" aria-selected="true">{{ tab_general }}</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="tab-nationalities-tab" data-bs-toggle="tab" href="#tab-nationalities" role="tab" aria-controls="tab-nationalities" aria-selected="false">Nationalities</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div id="tab-general" class="tab-pane active">
+              <div class="row mb-3">
+                    <label for="input-country" class="col-sm-2 col-form-label">Default Country</label>
+                    <div class="col-sm-10">
+                        <select name="module_setting_default_country_id" id="input-country" class="form-control">
+                            {% for country in countries %}
+                                {% if country.country_id == module_setting_default_country_id %}
+                                    <option value="{{ country.country_id }}" selected="selected">{{ country.name }}</option>
+                                {% else %}
+                                    <option value="{{ country.country_id }}">{{ country.name }}</option>
+                                {% endif %}
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="input-zone" class="col-sm-2 col-form-label">Default Region / State</label>
+                    <div class="col-sm-10">
+                        <select name="module_setting_default_zone_id" id="input-zone" class="form-control">
+                        </select>
+                    </div>
+                </div>
+
+               <div class="row mb-3">
+                    <label for="input-zone" class="col-sm-2 col-form-label">Default Nationality</label>
+                    <div class="col-sm-10">
+                        <select name="module_setting_default_nationality" class="form-control">
+                            {% for nationality in module_setting_nationalities %}
+                                {% if nationality == module_setting_default_nationality %}
+                                    <option value="{{ nationality }}" selected="selected">{{ nationality }}</option>
+                                {% else %}
+                                    <option value="{{ nationality }}">{{ nationality }}</option>
+                                {% endif %}
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tab-nationalities">
+                <div class="table-responsive">
+                    <table id="nationalities" class="table table-bordered table-hover">
+                        <tbody>
+                            {% set nationality_row = 0 %}
+                            {% for nationality in module_setting_nationalities %}
+                            <tr id="nationality-row-{{ nationality_row }}">
+                                <td class="text-end"><input type="text" name="module_setting_nationalities[{{ nationality_row }}]" value="{{ nationality }}" placeholder="Nationality" class="form-control"/></td>
+                                <td class="text-end"><button type="button" onclick="$('#nationality-row-{{ nationality_row }}').remove();" data-bs-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger"><i class="fa-solid fa-minus-circle"></i></button></td>
+                            </tr>
+                            {% set nationality_row = nationality_row + 1 %}
+                            {% endfor %}
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                            <td></td>
+                            <td class="text-end"><button type="button" id="button-nationality" data-bs-toggle="tooltip" title="Add Nationality" class="btn btn-primary"><i class="fa-solid fa-plus-circle"></i></button></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script>
+   var nationality_row = {{ nationality_row }};
+
+    $('#button-nationality').on('click', function () {
+        html = '<tr id="nationality-row-' + nationality_row + '">';
+        html += '  <td class="text-end"><input type="text" name="module_setting_nationalities[' + nationality_row + ']" value="" placeholder="Nationality" class="form-control"/></td>';
+        html += '  <td class="text-end"><button type="button" onclick="$(\'#nationality-row-' + nationality_row + '\').remove();" data-bs-toggle="tooltip" title="{{ button_remove|escape('js') }}" class="btn btn-danger"><i class="fa-solid fa-minus-circle"></i></button></td>';
+        html += '</tr>';
+
+        $('#nationalities tbody').append(html);
+
+        var inputName = "module_setting_nationalities[" + nationality_row + "]";
+        $('input[name="' + inputName + '"]').focus();
+
+        nationality_row++;
+    });
+  </script>
+  <script type="text/javascript">
+    $('select[name="module_setting_default_country_id"]').on('change', function() {
+      $.ajax({
+        url: 'index.php?route=localisation/country/country&user_token={{ user_token }}&country_id=' + this.value,
+        dataType: 'json',
+        beforeSend: function() {
+          $('select[name="module_setting_default_country_id"]').prop('disabled', true);
+        },
+        complete: function() {
+          $('select[name="module_setting_default_country_id"]').prop('disabled', false);
+        },
+        success: function(json) {
+          let html = '<option value="">{{ text_select }}</option>';
+          if (json['zone'] && json['zone'] !== '') {
+            for (let i = 0; i < json['zone'].length; i++) {
+              html += '<option value="' + json['zone'][i]['zone_id'] + '"';
+              if (json['zone'][i]['zone_id'] == '{{ module_setting_default_zone_id }}') {
+                html += ' selected="selected"';
+              }
+              html += '>' + json['zone'][i]['name'] + '</option>';
+            }
+          } else {
+            html += '<option value="0" selected="selected">{{ text_none }}</option>';
+          }
+          $('select[name="module_setting_default_zone_id"]').html(html);
+          $('#button-save').prop('disabled', false);
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+          alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+        }
+      });
+    });
+
+    $('select[name="module_setting_default_country_id"]').trigger('change');
+  </script>
+</div>
+{{ footer }}

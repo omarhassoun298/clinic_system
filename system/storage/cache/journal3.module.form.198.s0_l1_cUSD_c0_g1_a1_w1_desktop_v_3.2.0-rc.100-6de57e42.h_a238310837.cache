@@ -1,0 +1,227 @@
+<?php $val = array (
+  'css' => '.module-form-198 .module-title{font-family:\'Urbanist\';font-weight:600;font-size:var(--j-font_size-font-size--title-module);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-transform:none;text-decoration:none;-webkit-text-decoration:none;line-height:1.4;margin-bottom:1.25em !important;white-space:normal;overflow:initial;text-overflow:initial;-webkit-line-clamp:initial;-webkit-line-clamp:2}.module-form-198 .module-title:after{display:none;margin-top:.7em}.module-form-198 .module-title .page-title-text:after{display:none;margin-top:.7em}.module-form-198 .module-title .filter-title-text:after{display:none;margin-top:.7em}.module-form-198 .module-title:after,.module-form-198 .module-title .page-title-text:after,.module-form-198 .module-title .filter-title-text:after{width:50px;height:2px;background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1))}         ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Urbanist' => 
+      array (
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Ask a Question About This Product',
+    'moduleTitle' => 'DEFAULT',
+    'agree' => '3',
+    'sendButtonText' => '',
+    'sentText' => 'Your message has been successfully sent.',
+    'sentEmailTo' => '',
+    'sentEmailSubject' => '{{ $store }} - Enquiry from {{ $email }}',
+    'sentEmailLogo' => false,
+    'sentEmailTitle' => 'A new message has been received!',
+    'sentEmailField' => 'Field',
+    'sentEmailValue' => 'Value',
+    'sentEmailUsingModule' => 'Sent using module',
+    'sentEmailFrom' => 'Sent from',
+    'sentEmailIPAddress' => 'IP Address',
+    'redirect' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => true,
+    'module_id' => 198,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-form',
+      2 => 'module-form-198',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/form/edit/198',
+    'name' => 'Form / Ask Question',
+    'text_select' => ' --- Please Select --- ',
+    'text_loading' => 'Loading...',
+    'button_submit' => 'Submit',
+    'button_upload' => 'Upload File',
+    'datepicker' => 'en-gb',
+    'action' => 'https://control.betagroup.me/index.php?route=api/journal3/form&amp;module_id=198',
+    'agree_data' => 
+    array (
+      'information_id' => '3',
+      'title' => 'Privacy Policy',
+      'link' => 
+      array (
+        'href' => 'https://control.betagroup.me/index.php?route=information/information&amp;information_id=3',
+        'agree' => 'https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=3',
+      ),
+      'text' => 'I have read and agree to the <a href="https://control.betagroup.me/index.php?route=information/information/agree&amp;information_id=3" class="agree"><b>Privacy Policy</b></a>',
+      'error' => 'Warning: You must agree to the Privacy Policy!',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'name' => 'Name',
+        'label' => 'Your Name',
+        'placeholder' => '',
+        'type' => 'name',
+        'required' => true,
+        'index' => 1,
+        'id' => '198-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => NULL,
+          3 => '',
+        ),
+        'input_class' => '',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'Email',
+        'label' => 'Your Email',
+        'placeholder' => '',
+        'type' => 'email',
+        'required' => true,
+        'index' => 2,
+        'id' => '198-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => NULL,
+          3 => '',
+        ),
+        'input_class' => '',
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'name' => 'Topic',
+        'label' => 'Topic',
+        'placeholder' => '',
+        'type' => 'select',
+        'required' => true,
+        'index' => 3,
+        'id' => '198-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => NULL,
+          3 => '',
+        ),
+        'input_class' => '',
+        'items' => 
+        array (
+          1 => 
+          array (
+            'name' => 'Option 1',
+            'label' => 'How does it fit?',
+            'index' => '3-1',
+            'id' => '198-3-1',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-1',
+              2 => NULL,
+              3 => NULL,
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'Option 2',
+            'label' => 'How do you wash it?',
+            'index' => '3-2',
+            'id' => '198-3-2',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-2',
+              2 => NULL,
+              3 => NULL,
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'Option 3',
+            'label' => 'Customize this form with any fields...',
+            'index' => '3-3',
+            'id' => '198-3-3',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-3',
+              2 => NULL,
+              3 => NULL,
+            ),
+          ),
+          4 => 
+          array (
+            'name' => 'Option 4',
+            'label' => 'Product name is included in the email',
+            'index' => '3-4',
+            'id' => '198-3-4',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-4',
+              2 => NULL,
+              3 => NULL,
+            ),
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'name' => 'Message',
+        'label' => 'Message',
+        'placeholder' => 'Customize this form with any fields. Messages received include the product link from which the message was sent.',
+        'type' => 'textarea',
+        'required' => false,
+        'index' => 4,
+        'id' => '198-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => NULL,
+          3 => '',
+        ),
+        'input_class' => '',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

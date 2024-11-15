@@ -1,0 +1,47 @@
+<?php $val = array (
+  'css' => '.module-countdown-494 .countdown>div{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));border-style:none;background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));padding:var(--j-gap-spacing---3);--element-padding:var(--j-gap-spacing---3);border-radius:2px;--element-border-radius:2px;justify-content:center}.module-countdown-494 .countdown>div>span{color:hsla(var(--j-color-scheme-foreground-tertiary-h),var(--j-color-scheme-foreground-tertiary-s),calc(var(--j-color-scheme-foreground-tertiary-l) - 0%),calc(var(--j-color-scheme-foreground-tertiary-a)*1))}.module-countdown-494 .countdown{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;box-shadow:none;border-style:none;margin:0;--element-margin:0px;padding:0;--element-padding:0px;outline-style:none;border-radius:0;--element-border-radius:0px;order:initial}.module-countdown-494 .countdown>div+div{margin-left:var(--j-gap-spacing---5);--element-margin-left:var(--j-gap-spacing---5)}div.module-countdown-494 .countdown>div{font-size:var(--j-font_size-font-size-900);border-radius:999px;--element-border-radius:999px;--custom-item-size:90px;aspect-ratio:1}.module-countdown-494>.module-body>.countdown>div{width:var(--custom-item-size,auto)}.module-countdown-494>.module-body>.countdown{justify-content:center}.module-countdown-494 .countdown-text{margin-inline:auto}.module-countdown-494>.module-body .module-text:before{align-self:center}.module-countdown-494>.module-body .module-text{align-items:center;text-align:center;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.module-countdown-494 .module-text>div>.module-title{font-family:\'Urbanist\';font-weight:700;font-size:var(--j-font_size-font-size--title-section);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));line-height:1.3;border-style:none;margin-bottom:1em !important;white-space:normal;overflow:initial;text-overflow:initial;-webkit-line-clamp:initial;-webkit-line-clamp:2}.module-countdown-494 .module-text>div>.module-title:after{display:none}.module-countdown-494 .module-text>div>.module-title .page-title-text:after{display:none}.module-countdown-494 .module-text>div>.module-title .filter-title-text:after{display:none}div.module-countdown-494 .module-text>div>.module-title{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important;margin-bottom:var(--j-gap-spacing---5) !important;--element-margin-bottom:var(--j-gap-spacing---5) !important}div.module-countdown-494 .module-text{text-align:center}div.module-countdown-494 .module-text>div>.title.module-title:after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.module-countdown-494{width:100%;--gap:var(--j-gap-spacing-gap-4);--text-max-width:100%;--text-min-width:800px} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Urbanist' => 
+      array (
+        700 => '700',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'countdownStyle' => 'SEPARATED',
+    'title' => 'Online Store Coming Soon',
+    'moduleTitle' => 'LARGE',
+    'text' => 'We are working on the final details of our store, we\'re launching in:',
+    'productsModule' => '',
+    'status' => true,
+    'module_id' => 494,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-countdown',
+      2 => 'module-countdown-494',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/countdown/edit/494',
+    'name' => 'Countdown / Maintenance / Coming Soon',
+    'date' => 'Wed Dec 31 2025 13:34:13 +0000',
+    'items' => 
+    array (
+    ),
+  ),
+);

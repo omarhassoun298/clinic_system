@@ -1,0 +1,113 @@
+<?php $val = array (
+  'css' => '.module-background_slider-658 .module-item{align-items:center;justify-content:flex-end} .module-background_slider-658 .module-item-1 .slide-content-image{background-position:center center;background-size:cover} .module-background_slider-658 .module-item-2 .slide-content-image{background-position:center center;background-size:cover}.module-background_slider-658 .module-item.module-item-2{align-items:center;justify-content:center} .module-background_slider-658 .module-item-3 .slide-content-image{background-position:center center;background-size:cover} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => 1500,
+      'height' => 1000,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'shuffle' => false,
+    'status' => true,
+    'module_id' => 658,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-background_slider',
+      2 => 'module-background_slider-658',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/background_slider/edit/658',
+    'name' => 'Background Slider / Maintenance',
+    'width' => 1500,
+    'height' => 1000,
+    'options' => 
+    array (
+      'effect' => 'fade',
+      'direction' => 'horizontal',
+      'speed' => 2500,
+      'shuffle' => false,
+      'autoplay' => 
+      array (
+        'delay' => '4000',
+      ),
+    ),
+    'syncWith' => '',
+    'lazyload_placeholder' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABdwAAAPoAQMAAAD+wK6mAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAM5JREFUeNrtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+DOJmAAF7ROtBAAAAAElFTkSuQmCC',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'type' => 'image',
+        'alt' => '',
+        'index' => 1,
+        'id' => '658-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => NULL,
+          3 => '',
+          4 => 'swiper-slide',
+        ),
+        'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/backgrounds/soft/soft-3-1500x1000w.jpg',
+        'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/backgrounds/soft/soft-3-3000x2000w.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'type' => 'image',
+        'alt' => '',
+        'index' => 2,
+        'id' => '658-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => NULL,
+          3 => '',
+          4 => 'swiper-slide',
+        ),
+        'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/backgrounds/soft/soft-4-1500x1000h.jpg',
+        'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/backgrounds/soft/soft-4-3000x2000h.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'type' => 'image',
+        'alt' => '',
+        'index' => 3,
+        'id' => '658-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => NULL,
+          3 => '',
+          4 => 'swiper-slide',
+        ),
+        'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/backgrounds/nature/item-3-1500x1000h.jpg',
+        'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/assets/backgrounds/nature/item-3-3000x2000h.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

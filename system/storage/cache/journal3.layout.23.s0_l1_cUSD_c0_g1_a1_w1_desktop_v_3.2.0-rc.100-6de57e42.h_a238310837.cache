@@ -1,0 +1,101 @@
+<?php $val = array (
+  'settings' => 
+  array (
+    'column_left' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'column_right' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+  ),
+  'php' => 
+  array (
+    'ContentWidth' => '',
+    'ContentGutter' => '',
+    'headerDesktop' => '',
+    'headerMobile' => '',
+    'footerMenu' => '',
+    'footerMenuPhone' => '',
+  ),
+  'js' => 
+  array (
+  ),
+  'fonts' => 
+  array (
+  ),
+  'css' => 'html.layout-23 body{--container-max-width:1200px}.layout-23 .breadcrumbs{display:none}.layout-23:not(.popup) .page-title{display:none !important}.layout-23:not(.popup) div.site-wrapper>.page-title+.breadcrumbs{padding:0 !important}',
+);

@@ -1,0 +1,234 @@
+<?php $val = array (
+  'css' => ' .top-menu-638 .top-menu-item-2{display:block}div.top-menu-638 .j-menu li.top-menu-item-2>a:before{content:\'\\eb97\' !important;font-family:icomoon !important}.top-menu-638>ul>.top-menu-item-2>a{text-align:left}.top-menu-638>ul>.top-menu-item-2>a>.links-text{display:block}.top-menu-638>ul>.top-menu-item-2>a .count-badge{position:relative} .top-menu-638 .top-menu-item-3{display:block}div.top-menu-638 .j-menu li.top-menu-item-3>a:before{content:\'\\eaf6\' !important;font-family:icomoon !important}.top-menu-638>ul>.top-menu-item-3>a{text-align:left}.top-menu-638>ul>.top-menu-item-3>a>.links-text{display:block}.top-menu-638>ul>.top-menu-item-3>a .count-badge{position:relative} .top-menu-638 .top-menu-item-4{display:block}div.top-menu-638 .j-menu li.top-menu-item-4>a:before{content:\'\\eaf9\' !important;font-family:icomoon !important}.top-menu-638>ul>.top-menu-item-4>a{text-align:left}.top-menu-638>ul>.top-menu-item-4>a>.links-text{display:block}.top-menu-638>ul>.top-menu-item-4>a .count-badge{position:relative} .top-menu-638 .top-menu-item-5{display:block}.top-menu-638 .top-menu-item-6{display:block}.top-menu-638 .top-menu-item-7{display:block}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'dropdown_color_scheme' => 'color-scheme-scheme-1',
+    'scheduledStatus' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'status' => true,
+    'module_id' => 638,
+    'classes' => 
+    array (
+      0 => 'top-menu',
+      1 => 'top-menu-638',
+      2 => '',
+      3 => NULL,
+    ),
+    'image_width' => 40,
+    'image_height' => 40,
+    'image_resize' => 'fill',
+    'edit' => 'module_header/top_menu/edit/638',
+    'name' => 'Phone / Contact / FAQ / Order',
+    'items' => 
+    array (
+      2 => 
+      array (
+        'dropdown_color_scheme' => '',
+        'title' => '1.800.555.8989',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'tel:8005558989',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-2',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      3 => 
+      array (
+        'dropdown_color_scheme' => '',
+        'title' => 'Contact',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '6',
+          'href' => 'http://localhost/raoul_beta/index.php?route=information/contact',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-3',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      4 => 
+      array (
+        'dropdown_color_scheme' => '',
+        'title' => 'FAQ',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '7',
+          'href' => 'http://localhost/raoul_beta/index.php?route=information/information&amp;information_id=7',
+          'name' => 'FAQ',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-4',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => true,
+          'drop-menu' => true,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+          5 => 
+          array (
+            'title' => 'Create',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '7',
+              'href' => 'http://localhost/raoul_beta/index.php?route=information/information&amp;information_id=7',
+              'name' => 'FAQ',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-5',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+          6 => 
+          array (
+            'title' => 'Unlimited',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '6',
+              'href' => 'http://localhost/raoul_beta/index.php?route=information/information&amp;information_id=6',
+              'name' => 'Delivery Information',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-6',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+          7 => 
+          array (
+            'title' => 'Menus',
+            'link' => 
+            array (
+              'type' => 'page',
+              'id' => '',
+              'href' => 'http://localhost/raoul_beta/index.php?route=information/contact',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-7',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+    ),
+  ),
+);

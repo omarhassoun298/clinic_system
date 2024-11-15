@@ -1,0 +1,124 @@
+<?php $val = array (
+  'css' => '.product_extra-285>.expand-block>.block-wrapper>.expand-content{max-height:100%;overflow:visible}.product_extra-285>.expand-block>.block-wrapper>.expand-content>.block-expand-overlay{display:none}.product_extra-285 .block-content{max-width:900px;column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.product_extra-285 .expand-content{max-height:100%;overflow:visible;max-height:70px}.popup-wrapper.popup-block-285 .popup-container{width:500px}.product_blocks>.product_extra-285:not(.panel,.product-extra-popup,.tab-pane){flex-basis:100%;flex-grow:1}.product_blocks>.product_extra-285.product-extra-popup:not(.panel):not(.tab-pane){flex-basis:auto;flex-grow:0}.product_extra-285 .title{display:block} .grid-row-285-1:before{display:block}.grid-col-285-1-1{min-width:100%;display:block}.grid-col-285-1-1>.grid-items:before{display:none}.grid-items>.grid-item.grid-module-product_tabs-285-1-1-1{display:flex} ',
+  'js' => NULL,
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'title' => 'Custom Tabs',
+    'sort' => '4',
+    'sortTablet' => '',
+    'sortPhone' => '',
+    'display' => 'tabs',
+    'displayTablet' => '',
+    'displayPhone' => '',
+    'accordionOpen' => false,
+    'popup' => false,
+    'image' => '',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'tabType' => 'grid',
+    'link' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'contentType' => 'html',
+    'shortDescriptionLimit' => '150',
+    'shortDescriptionReadMore' => 'Read More',
+    'dynamic' => 'journal3/blocks_example',
+    'expandButton' => false,
+    'status' => NULL,
+    'id' => 'product_tabs-66fa507571a3f',
+    'classes' => 
+    array (
+      0 => '',
+      1 => 'product-extra-html',
+      2 => 'product_extra-285',
+      'tab-pane' => true,
+      'panel' => false,
+      'product-extra-popup' => false,
+      'panel-active' => false,
+    ),
+    'popup_classes' => 
+    array (
+      0 => 'popup-block-285',
+    ),
+    'grid_classes' => 
+    array (
+      0 => 'product-blocks-default',
+      1 => 'product-blocks-285',
+      2 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'color_scheme' => '',
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-285-1',
+          2 => '',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-285-1-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-product_tabs-285-1-1-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '1085',
+                  'name' => 'Text / Journal Demos Copy',
+                  'type' => 'text',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    'tab_classes' => 
+    array (
+      0 => 'product_tabs-285-tab',
+    ),
+    'panel_classes' => 
+    array (
+      0 => 'panel-collapse',
+      1 => 'collapse',
+      'in' => false,
+    ),
+    'content' => '<p><b>NEW!</b> Since Journal 3.2, the much improved T.A.B (Tabs Accordion Blocks) system supports the page builder inside the tab content. Unlimited Blocks, Tabs or Accordions with any HTML content or the builder interface (supporting custom rows/columns/modules) can be assigned to any individual product or to certain groups of products, like entire categories, brands, products with specific options, attributes, price range, etc. </p><p>You can indicate any criteria via the advanced product assignment mechanism and only those products matching your criteria will display the modules.</p><p>Also, any module can be selectively activated per device (desktop/tablet/phone), customer login status and other criteria. Imagine the possibilities.&nbsp;</p>',
+  ),
+);

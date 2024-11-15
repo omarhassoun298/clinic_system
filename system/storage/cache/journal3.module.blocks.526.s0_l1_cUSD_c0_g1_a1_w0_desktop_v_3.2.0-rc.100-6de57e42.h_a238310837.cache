@@ -1,0 +1,550 @@
+<?php $val = array (
+  'css' => 'html:not(.mobile) .module-blocks-526 .swiper-container{overflow:hidden !important}.module-blocks-526 .swiper-buttons.auto-carousel-buttons span:before,.module-blocks-526 .swiper-buttons.swiper-buttons>div:before,.module-blocks-526 .swiper-buttons.scroll-top em:before,.module-blocks-526 .swiper-buttons.lg-content .lg-icon:before{content:\'\\e93f\' !important;font-family:icomoon !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.no-touchevents .module-blocks-526 .swiper-buttons.auto-carousel-buttons span:hover:before,.no-touchevents .module-blocks-526 .swiper-buttons.swiper-buttons>div:hover:before,.no-touchevents .module-blocks-526 .swiper-buttons.scroll-top em:hover:before,.no-touchevents .module-blocks-526 .swiper-buttons.lg-content .lg-icon:hover:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-blocks-526 .swiper-buttons.auto-carousel-buttons span:active:before,.module-blocks-526 .swiper-buttons.swiper-buttons>div:active:before,.module-blocks-526 .swiper-buttons.scroll-top em:active:before,.module-blocks-526 .swiper-buttons.lg-content .lg-icon:active:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-blocks-526 .swiper-buttons.auto-carousel-buttons span,.module-blocks-526 .swiper-buttons.swiper-buttons>div,.module-blocks-526 .swiper-buttons.scroll-top em,.module-blocks-526 .swiper-buttons.lg-content .lg-icon{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));border-radius:99px;--element-border-radius:99px}.no-touchevents .module-blocks-526 .swiper-buttons.auto-carousel-buttons span:hover,.no-touchevents .module-blocks-526 .swiper-buttons.swiper-buttons>div:hover,.no-touchevents .module-blocks-526 .swiper-buttons.scroll-top em:hover,.no-touchevents .module-blocks-526 .swiper-buttons.lg-content .lg-icon:hover{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-blocks-526 .swiper-buttons.auto-carousel-buttons span:active,.module-blocks-526 .swiper-buttons.swiper-buttons>div:active,.module-blocks-526 .swiper-buttons.scroll-top em:active,.module-blocks-526 .swiper-buttons.lg-content .lg-icon:active{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-blocks-526 .swiper-button-prev:before{transform:scaleX(-1)}.module-blocks-526 .swiper-buttons:not(.slider-navigation){display:flex;top:50%;width:calc(100% - (10px*2))}.touchevents .module-blocks-526 .swiper-buttons:not(.slider-navigation){display:none}.module-blocks-526 .swiper-button-prev{left:0;right:auto;transform:translate(0,-50%) scale(var(--disabled-scale,1))}.module-blocks-526 .swiper-button-next{left:auto;right:0;transform:translate(0,-50%) scale(var(--disabled-scale,1))}.module-blocks-526 .swiper-buttons:not(.slider-navigation) div{--width:28px;--height:28px}.module-blocks-526 .swiper-button-disabled{opacity:0}.module-blocks-526 .swiper-container:not(.swiper-container-initialized)+.swiper-buttons:not(.slider-navigation) .swiper-button-prev{opacity:0;--disabled-scale:0}.module-blocks-526 .swiper-buttons:not(.slider-navigation)>.swiper-button-disabled{--disabled-scale:0}.module-blocks-526 .swiper-pagination{display:inline-flex;align-items:center;flex-wrap:wrap;position:absolute;bottom:15px;left:50%;transform:translate3d(-50%,0,0)}.module-blocks-526 .swiper-wrapper{cursor:auto}.module-blocks-526 .swiper{padding-bottom:15px}.module-blocks-526 .swiper-pagination-bullet{width:6px;height:6px;background-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*0.5))}.module-blocks-526 .swiper-pagination>span+span{margin-inline-start:8px}.no-touchevents .module-blocks-526 .swiper-pagination-bullet:hover{background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-blocks-526 .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-blocks-526 .swiper-pagination>span{border-radius:999px;--element-border-radius:999px}.module-blocks-526.blocks-grid>.module-body>.ipr-grid>.block-item.swiper-slide{margin-right:0;width:calc((100% - 0*0px)/1 - .01px)}.module-blocks-526.blocks-grid>.module-body>.ipr-grid>.block-item:not(.swiper-slide){padding:0;width:calc(100%/1 - .01px)}.one-column #content .module-blocks-526.blocks-grid>.module-body>.ipr-grid>.block-item.swiper-slide{margin-right:0;width:calc((100% - 0*0px)/1 - .01px)}.one-column #content .module-blocks-526.blocks-grid>.module-body>.ipr-grid>.block-item:not(.swiper-slide){padding:0;width:calc(100%/1 - .01px)}.two-column #content .module-blocks-526.blocks-grid>.module-body>.ipr-grid>.block-item.swiper-slide{margin-right:0;width:calc((100% - 0*0px)/1 - .01px)}.two-column #content .module-blocks-526.blocks-grid>.module-body>.ipr-grid>.block-item:not(.swiper-slide){padding:0;width:calc(100%/1 - .01px)}.side-column .module-blocks-526.blocks-grid>.module-body>.ipr-grid>.block-item.swiper-slide{margin-right:0;width:calc((100% - 0*0px)/1 - .01px)}.side-column .module-blocks-526.blocks-grid>.module-body>.ipr-grid>.block-item:not(.swiper-slide){padding:0;width:calc(100%/1 - .01px)}.module-blocks-526>.module-body>.flex-grid{--flex-grid-width:500px}.module-blocks-526>.module-body>.flex-grid>*{flex-grow:1}div.module-blocks-526.blocks-grid>.module-body>.auto-grid{--grid-min-width:1000px;--grid-gap:50px;--auto-grow-type:auto-fit;--item-width:var(--item-fit)}.module-blocks-526.blocks-grid>.module-body>.auto-grid{margin-inline-start:unset;margin-inline-end:unset;--fr:1fr}.module-blocks-526.blocks-grid>.module-body>.auto-grid>.auto-grid-items{grid-auto-flow:row dense;overflow-x:initial;padding-inline-start:unset;padding-inline-end:unset}.module-blocks-526.blocks-grid>.module-body>.auto-grid>.auto-carousel-controls{display:none}.module-blocks-526.blocks-grid>.module-body>.auto-grid>.auto-carousel-items:after{display:none}.module-blocks-526.blocks-grid>.module-body>.auto-grid>.auto-grid-items.is-gliding a{pointer-events:auto}.module-blocks-526.blocks-grid>.module-body>.auto-grid>.auto-grid-items:before{--fader-status:0;display:none}.module-blocks-526.blocks-grid>.module-body>.auto-grid>.auto-grid-items:after{--fader-status:0;display:none}div.module-blocks-526.blocks-grid>.module-body>.auto-grid .auto-carousel-controls{--auto-carousel-controls-max-width:min(min(var(--content-max-width,100%) - var(--scroll-padding,0px)*2,var(--content-max-width,100%) - var(--content-gutter,0)*2),100% - var(--scroll-padding,0px)*2)}.module-blocks-526>.module-body>div .block-wrapper .block-title.module-title{font-family:\'Urbanist\';font-weight:700;font-size:var(--j-font_size-font-size--title-section);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));line-height:1.3;border-style:none;margin-bottom:1em !important;white-space:normal;overflow:initial;text-overflow:initial;-webkit-line-clamp:initial;-webkit-line-clamp:2}.module-blocks-526>.module-body>div .block-wrapper .block-title.module-title:after{display:none}.module-blocks-526>.module-body>div .block-wrapper .block-title.module-title .page-title-text:after{display:none}.module-blocks-526>.module-body>div .block-wrapper .block-title.module-title .filter-title-text:after{display:none}.module-blocks-526>.module-body>div .block-item:before{display:none}.module-blocks-526>.module-body>div .block-item{color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.module-blocks-526>.module-body>div .block-footer{margin-top:var(--j-gap-spacing-vertical-l);--element-margin-top:var(--j-gap-spacing-vertical-l)}.module-blocks-526>.module-body>div .block-footer .btn{width:auto}.module-blocks-526>.module-body>div .block-item:nth-child(even) .block-footer .btn{width:auto}.module-blocks-526>.module-body>div .block-header .title{order:-1}.module-blocks-526>.module-body>div .block-body{--image-split-ratio:40% !important;--block-body-gap:var(--j-gap-spacing-gap-5)}.module-blocks-526>.module-body>div .block-header{--unit:1%;flex-basis:calc((600px - (100*var(--unit,1%)))*9999);display:var(--display);align-items:center;text-align:center;justify-content:flex-start}.module-blocks-526>.module-body>div .block-item>.block-body{--display:flex;flex-direction:row;--image-split-ratio:50%;gap:var(--block-body-gap,0px);flex-wrap:wrap}.module-blocks-526>.module-body>div .block-item>.block-body>.block-header{float:none;margin-inline:0}.module-blocks-526>.module-body>div .block-item>.block-body>.block-header+.block-wrapper{min-width:0}.module-blocks-526>.module-body>div .block-item>.block-body:after{display:none}.module-blocks-526>.module-body>div .block-header img{width:auto;height:auto;border-radius:2px;--element-border-radius:2px}.module-blocks-526>div.module-body div.block-body{max-width:900px;margin-inline:auto}.module-blocks-526 .module-body .block-item:before{display:none}div.module-blocks-526 .module-body .panel-group .panel-heading a:before{content:\'\\e40b\' !important;font-family:icomoon !important;font-size:1.1em;color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));order:10;margin:0 0 0 auto}.no-touchevents div.module-blocks-526 .module-body .panel-group .panel-heading:hover a:before{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1))}div.module-blocks-526 .module-body .panel-group .panel-active .panel-heading a:before,.no-touchevents div.module-blocks-526 .module-body .panel-group .panel-active .panel-heading:hover a:before{content:\'\\e40a\' !important;font-family:icomoon !important;color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1))}div.module-blocks-526 .module-body .panel-group .panel-heading a{justify-content:flex-start;font-family:\'Urbanist\';font-weight:500;font-size:var(--j-font_size-font-size--title-item-list);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-transform:none;line-height:1.3;padding-top:1.2em;--element-padding-top:1.2em;padding-bottom:1.2em;--element-padding-bottom:1.2em}.no-touchevents div.module-blocks-526 .module-body .panel-group .panel-heading:hover a{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1))}.no-touchevents div.module-blocks-526 .module-body .panel-group .panel-active .panel-heading:hover a,div.module-blocks-526 .module-body .panel-group .panel-active .panel-heading a{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1))}div.module-blocks-526 .module-body .panel-group .panel{--panel-spacing:var(--j-gap-spacing---2)}div.module-blocks-526 .module-body .panel-body{margin-top:var(--j-gap-spacing---5) !important}div.module-blocks-526 .module-body .panel-group .panel:not(:only-child):not(:last-child):after{border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1))}div.module-blocks-526 .module-body .panel-group .panel:last-child .panel-heading{border-width:0 !important;border-bottom-width:0 !important}div.module-blocks-526 .module-body .panel-group .panel-heading a.has-image{padding-top:.7em;--element-padding-top:.7em;padding-bottom:.7em;--element-padding-bottom:.7em}div.module-blocks-526 .module-body .panel-group .panel-body{padding-bottom:var(--j-gap-spacing---7);--element-padding-bottom:var(--j-gap-spacing---7)}div.module-blocks-526 .module-body .panel-group .panel-heading+.panel-collapse .panel-body{border-width:0}div.module-blocks-526 .module-body .panel-group .panel .menu-image>img{background-color:rgba(247,247,247,1);--background-color:rgba(247,247,247,1)}div.module-blocks-526 .module-body .panel-group .panel .menu-image{margin-right:var(--j-gap-spacing---5);--element-margin-right:var(--j-gap-spacing---5);padding:var(--j-gap-spacing---1);--element-padding:var(--j-gap-spacing---1);border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:99px;--element-border-radius:99px}.module-blocks-526>.module-body>.tab-container>.nav-tabs>li>a:not(.item-all-link),.module-blocks-526>.module-body>.tab-container>.nav-tabs>li.active>a:not(.item-all-link),.no-touchevents .module-blocks-526>.module-body>.tab-container>.nav-tabs>li.active>a:not(.item-all-link):hover,.module-blocks-526>.module-body>.tab-container>.nav-tabs>li.active>a:not(.item-all-link):focus{font-family:\'Urbanist\';font-weight:600;font-size:var(--j-font_size-font-size--title-item);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));text-transform:none;line-height:1.3}.no-touchevents .module-blocks-526>.module-body>.tab-container>.nav-tabs>li:hover>a:not(.item-all-link),.module-blocks-526>.module-body>.tab-container>.nav-tabs>li.active>a:not(.item-all-link){color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-blocks-526>.module-body>.tab-container>.nav-tabs>li.active>a:not(.item-all-link),.no-touchevents .module-blocks-526>.module-body>.tab-container>.nav-tabs>li.active>a:not(.item-all-link):hover,.module-blocks-526>.module-body>.tab-container>.nav-tabs>li.active>a:not(.item-all-link):focus{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.no-touchevents .module-blocks-526>.module-body>.tab-container>.nav-tabs>li:hover{background-color:hsla(var(--j-color-scheme-body-background-h),var(--j-color-scheme-body-background-s),calc(var(--j-color-scheme-body-background-l) - 0%),calc(var(--j-color-scheme-body-background-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-body-background-h),var(--j-color-scheme-body-background-s),calc(var(--j-color-scheme-body-background-l) - 0%),calc(var(--j-color-scheme-body-background-a)*1)) !important}.module-blocks-526>.module-body>.tab-container>ul.nav-tabs>li.active,.no-touchevents .module-blocks-526>.module-body>.tab-container>ul.nav-tabs>li.active:hover,.module-blocks-526>.module-body>.tab-container>ul.nav-tabs>li.active:focus{background-color:hsla(var(--j-color-scheme-body-background-h),var(--j-color-scheme-body-background-s),calc(var(--j-color-scheme-body-background-l) - 0%),calc(var(--j-color-scheme-body-background-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-body-background-h),var(--j-color-scheme-body-background-s),calc(var(--j-color-scheme-body-background-l) - 0%),calc(var(--j-color-scheme-body-background-a)*1)) !important}.module-blocks-526>.module-body>.tab-container>.nav-tabs>li{border-style:none}.module-blocks-526>.module-body>.tab-container>.nav-tabs>li>a:not(.item-all-link){justify-content:center;padding:1.8em;--element-padding:1.8em;padding-right:3em;--element-padding-right:3em;padding-left:3em;--element-padding-left:3em}.module-blocks-526>.module-body>.tab-container>.nav-tabs+.tab-content{--spacing:var(--j-gap-spacing-vertical-xxl);margin-block-start:var(--spacing,0px);margin-inline-start:0}.module-blocks-526>.module-body>.tab-container>.nav-tabs,.module-blocks-526>.module-body>.tab-container>.full-tabs-bg{--tabs-height:60px}.module-blocks-526>.module-body>.tab-container>ul.nav-tabs{--tabs-gap:0px;--page-tabs-scroll:var(--content-gutter,0px);flex-wrap:nowrap;--pb:1px;--overflow-x-scroll:auto;--overflow-y-scroll:hidden;--max-width-display:var(--max-width,100vw)}.module-blocks-526>.module-body>.tab-container>.full-tabs-bg{display:var(--full-bg-display);background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));box-shadow:inset 0 -10px 20px -10px rgb(0 0 0/10%);--full-bg-display:block}.module-blocks-526>.module-body>.tab-container>.nav-tabs{--page-tabs-scroll-padding:var(--page-tabs-scroll-direction,0px);min-width:initial;max-width:var(--max-width-display,100vw);max-height:none;--page-tabs-scroll-direction:var(--page-tabs-scroll,0px);--tab-align:auto;flex-direction:row;align-items:center;padding-bottom:var(--pb);overflow-x:var(--overflow-x-scroll);overflow-y:var(--overflow-y-scroll)}.module-blocks-526>.module-body>.tab-container>{--align-tabs:var(--tabs-align,flex-start);--tabs-align:center}.module-blocks-526>.module-body>.tab-container>.tab-content:before{--full-content-bg-display:block}.module-blocks-526>.module-body>.tab-container>.tab-content{flex-basis:100%;max-height:none;overflow-y:initial;overflow-x:initial}.module-blocks-526>.module-body>.tab-container>ul.nav-tabs>li{flex-grow:0}.module-blocks-526>.module-body>.tab-container>ul.nav-tabs>li:first-child{margin-inline-start:var(--tab-align)}.module-blocks-526>.module-body>.tab-container>ul.nav-tabs>li:last-child{margin-inline-end:var(--tab-align)}.module-blocks-526 .module-body .block-header .title{order:-1} .module-blocks-526 .module-item-1>.block-body{height:100%}.module-blocks-526 .module-item-1 .block-map>iframe{filter:grayscale(0)}.module-blocks-526 .module-item-1 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-526 .module-item-1 .block-expand-overlay{--expand-overlay:rgba(255,235,235,1)}.module-blocks-526 .module-item-1 .block-content{column-count:initial}.module-blocks-526 .module-item-1 .block-footer .btn{transform:scale(calc(100/100));transform-origin:center} .module-blocks-526 .module-item-2>.block-body{height:100%}.module-blocks-526 .module-item-2 .block-map>iframe{filter:grayscale(0)}.module-blocks-526 .module-item-2 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-526 .module-item-2 .block-content{column-count:initial}.module-blocks-526 .module-item-2 .block-footer .btn{transform:scale(calc(100/100));transform-origin:center} .module-blocks-526 .module-item-3>.block-body{height:100%}.module-blocks-526 .module-item-3 .block-map>iframe{filter:grayscale(0)}.module-blocks-526 .module-item-3 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-526 .module-item-3 .block-content{column-count:initial}.module-blocks-526 .module-item-3 .block-footer .btn{transform:scale(calc(100/100));transform-origin:center} .module-blocks-526 .module-item-4>.block-body{height:100%}.module-blocks-526 .module-item-4 .block-map>iframe{filter:grayscale(0)}.module-blocks-526 .module-item-4 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-526 .module-item-4 .block-content{column-count:initial}.module-blocks-526 .module-item-4 .block-footer .btn{transform:scale(calc(100/100));transform-origin:center} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Urbanist' => 
+      array (
+        700 => '700',
+        500 => '500',
+        600 => '600',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'color_scheme' => '',
+    'display' => 'tabs',
+    'displayTablet' => '',
+    'displayPhone' => '',
+    'carousel' => false,
+    'carouselStyle' => 'SIDE_ARROWS',
+    'carouselStyleIconButtonsStyle' => 'DEFAULT',
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'default' => '',
+    'lazyLoad' => true,
+    'gridType' => 'auto',
+    'title' => '',
+    'blocksStyle' => 'DEFAULT',
+    'blocksStyleTitleStyleBody' => 'LARGE',
+    'imageDimensions' => 
+    array (
+      'width' => 700,
+      'height' => 500,
+      'resize' => 'fill',
+    ),
+    'accordionStyle' => 'DEFAULT',
+    'accordionStyleMenuImage' => 'DEFAULT',
+    'tabsStyle' => 'PAGE_TABS_SHADOW',
+    'titlePosition' => 'body',
+    'status' => true,
+    'module_id' => 526,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blocks',
+      2 => 'module-blocks-526',
+      3 => '',
+      4 => '',
+      5 => 'blocks-tabs',
+      'carousel-mode' => false,
+      'align-to-content' => false,
+    ),
+    'edit' => 'module_layout/blocks/edit/526',
+    'name' => 'CMS Blocks / Tabbed Page Blocks',
+    'swiper_carousel' => false,
+    'carouselOptions' => 
+    array (
+      'speed' => 500,
+      'autoplay' => false,
+      'pauseOnHover' => true,
+      'loop' => false,
+    ),
+    'dummy_image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAH0AQMAAADll2ycAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAEJJREFUeNrtwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfgat1AABgjlNmQAAAABJRU5ErkJggg==',
+    'default_index' => 1,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'color_scheme' => '',
+        'type' => 'custom',
+        'tabType' => 'content',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'blockLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'blockHeaderLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'module' => '',
+        'products' => '',
+        'gallery' => '',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => 'Button',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 1,
+        'id' => '526-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => '',
+          3 => '',
+          'tab-pane' => true,
+          'active' => true,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => true,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/placeholder-700x500w.png',
+        'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/placeholder-1400x1000w.png',
+        'title' => 'About Us',
+        'content' => '<p><span class="drop-cap">S</span>ince 2013, <a href="https://themeforest.net/item/journal-advanced-opencart-theme/4260361" target="_blank">Journal</a> has been the best selling and most loved OpenCart theme on the market. Now at version 3, it brings many new and revolutionary features such as an advanced page builder with 30+ multi-purpose modules that can be added on any page in any grid layout configuration, as well as the best possible customizable options for any area of your store.</p><blockquote>This is best template on the market. Everything works fine, simple installation, no bugs. This template is very advanced, so you need to spend some time learning it. However, once you get to know it, you\'ll build a great website in a few days. I recommend it 1000%. Just bought another licence this is my fifth license and not last one. GJ !!</blockquote><p>Journal 3 also comes with fully customizable CSS options with the added possibility of setting each option differently on any breakpoint. This breakthrough feature will greatly enhance your design skills and allow you to create pixel perfect layouts at any screen width.</p><p>The new advanced Status mechanism allow you to set up modules and menus based on device, customer login status or customer groups.<br></p><blockquote>Journal is THE essential opencart theme. So well thought out and engineered, the degree of design flexibility it offers is huge.Way more than a theme but a professional design tool. Won\'t build custom themes ever again. Amazing 5*****+</blockquote><p>The new Schedule feature&nbsp;allows you to display any module at specific dates in the future, or to disable any module automatically at a certain time and date. Imagine the possibilities and peace of mind...designing your promotional banners or sliders, or entire product modules that only show up on specific dates and are disabled automatically whenever you don\'t need them anymore.&nbsp;</p><p>These are just a few of the outstanding features available in the new Journal 3 framework, there are so many new options and possibilities that it will takes us a very long time to list them all.</p><p><br></p><p><br></p><p></p><p><a class="btn" href="https://themeforest.net/item/journal-advanced-opencart-theme/4260361" target="_blank">Buy Journal</a></p>
+
+',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'color_scheme' => '',
+        'type' => 'custom',
+        'tabType' => 'content',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'blockLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'blockHeaderLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'text',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'module' => '',
+        'products' => '',
+        'gallery' => '',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => 'Button',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 2,
+        'id' => '526-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => '',
+          3 => '',
+          'tab-pane' => true,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-2',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/placeholder-700x500w.png',
+        'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/placeholder-1400x1000w.png',
+        'title' => 'Delivery Info',
+        'content' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'color_scheme' => '',
+        'type' => 'custom',
+        'tabType' => 'content',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'blockLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'blockHeaderLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'text',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'module' => '',
+        'products' => '',
+        'gallery' => '',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => 'Button',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 3,
+        'id' => '526-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => '',
+          3 => '',
+          'tab-pane' => true,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-3',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/placeholder-700x500w.png',
+        'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/placeholder-1400x1000w.png',
+        'title' => 'Covid-19 Delay',
+        'content' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'color_scheme' => '',
+        'type' => 'custom',
+        'tabType' => 'content',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'blockLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'blockHeaderLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'text',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'module' => '',
+        'products' => '',
+        'gallery' => '',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => 'Button',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 4,
+        'id' => '526-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => '',
+          3 => '',
+          'tab-pane' => true,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-4',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://control.betagroup.me/image/cache/catalog/journal3/placeholder-700x500w.png',
+        'image2x' => 'https://control.betagroup.me/image/cache/catalog/journal3/placeholder-1400x1000w.png',
+        'title' => 'Another Block',
+        'content' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

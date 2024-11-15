@@ -1,0 +1,67 @@
+<?php $val = array (
+  'css' => '.grid-row-646-1>.row-bg{width:100%;left:0;transform:translate3d(0,0,0)}.grid-row-646-1:before{display:block}.grid-col-646-1-1{min-width:100%;display:block}.grid-col-646-1-1>.grid-items:before{display:none}.grid-items>.grid-item.grid-module-product_blocks-646-1-1-1{display:flex} ',
+  'js' => NULL,
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'type' => 'custom',
+    'position' => 'bottom',
+    'positionTablet' => '',
+    'positionPhone' => '',
+    'blockType' => 'grid',
+    'status' => true,
+    'grid_classes' => 
+    array (
+      0 => 'product-blocks-bottom',
+      1 => 'product-blocks-646',
+      2 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'color_scheme' => '',
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-646-1',
+          2 => '',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-646-1-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-product_blocks-646-1-1-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '877',
+                  'name' => 'Mini Products / Recently Viewed - Most Viewed Copy',
+                  'type' => 'side_products',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

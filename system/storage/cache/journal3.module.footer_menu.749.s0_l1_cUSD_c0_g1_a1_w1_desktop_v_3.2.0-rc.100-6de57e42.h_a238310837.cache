@@ -1,0 +1,242 @@
+<?php $val = array (
+  'css' => 'footer>div{background-color:hsla(var(--j-color-scheme-body-background-h),var(--j-color-scheme-body-background-s),calc(var(--j-color-scheme-body-background-l) - 0%),calc(var(--j-color-scheme-body-background-a)*1));--background-color:hsla(var(--j-color-scheme-body-background-h),var(--j-color-scheme-body-background-s),calc(var(--j-color-scheme-body-background-l) - 0%),calc(var(--j-color-scheme-body-background-a)*1))}footer{overflow:hidden}footer>.grid-rows>.grid-row-5{--col-gap:var(--j-gap-spacing-vr-row-m);padding-top:var(--j-gap-spacing-vr-row-l);padding-bottom:var(--j-gap-spacing-vr-row-l);padding-bottom:var(--j-gap-spacing-vr-row-m)}footer>.grid-rows>.grid-row-5>.grid-cols-wrapper>.grid-cols>.grid-col{flex-basis:calc((1024px + 1px - (100*var(--unit,1%)))*9999);--unit:1vw}footer>.grid-rows>.grid-row-5:before{display:block;left:0;right:0;width:100%}footer>.grid-rows>.grid-row-5 .wave-top{display:block}footer>.grid-rows>.grid-row-5>.wave-top{transform:translate3d(0,-63%,0) scale(1)}footer>.grid-rows>.grid-row-5>.grid-cols-wrapper>.grid-cols>.grid-col-1{min-width:25%;display:block}footer>.grid-rows>.grid-row-5>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items>.grid-item:not(:empty){height:auto}footer>.grid-rows>.grid-row-5>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items>.grid-item:not(:first-child):not(:only-child){margin-top:var(--j-gap-spacing-vertical-l)}footer>.grid-rows>.grid-row-5>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items:before{--unit:1%;left:0;right:auto;display:none}.grid-items>.grid-item.grid-module-footer-5-1-1{display:flex} .grid-items>.grid-item.grid-module-footer-5-1-2{display:flex} .grid-items>.grid-item.grid-module-footer-5-1-3{display:flex} footer>.grid-rows>.grid-row-5>.grid-cols-wrapper>.grid-cols>.grid-col-2{min-width:75%;display:block}footer>.grid-rows>.grid-row-5>.grid-cols-wrapper>.grid-cols>.grid-col-2>.grid-items>.grid-item:not(:empty){height:auto}footer>.grid-rows>.grid-row-5>.grid-cols-wrapper>.grid-cols>.grid-col-2>.grid-items:before{--unit:1%;left:0;right:auto;display:none}.grid-items>.grid-item.grid-module-footer-5-2-1{display:flex} footer>.grid-rows>.grid-row-6:before{display:block}footer>.grid-rows>.grid-row-6 .wave-top{display:block}footer>.grid-rows>.grid-row-6>.wave-top{transform:translate3d(0,-63%,0) scale(1)}footer>.grid-rows>.grid-row-6>.grid-cols-wrapper>.grid-cols>.grid-col-1{min-width:100%;display:block}footer>.grid-rows>.grid-row-6>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items>.grid-item:not(:empty){height:auto}footer>.grid-rows>.grid-row-6>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items:before{--unit:1%;left:0;right:auto;display:none}.grid-items>.grid-item.grid-module-footer-6-1-1{display:flex} footer>.grid-rows>.grid-row-7{--col-gap:var(--j-gap-spacing-gap-3);padding-top:var(--j-gap-spacing---8);padding-bottom:var(--j-gap-spacing---8)}footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col{flex-basis:calc((600px + 1px - (100*var(--unit,1%)))*9999);--unit:1vw}footer>.grid-rows>.grid-row-7>.row-bg{border-width:0;border-top-width:1px;border-style:none;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1))}footer>.grid-rows>.grid-row-7:before{display:block;left:0;right:0;width:100%}footer>.grid-rows>.grid-row-7 .wave-top{display:block}footer>.grid-rows>.grid-row-7>.wave-top{transform:translate3d(0,-63%,0) scale(1)}footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-1{min-width:40%;display:block}footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items{justify-content:center}footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items>.grid-item:not(:empty){height:auto}footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items:before{--unit:1%;left:0;right:auto;display:none}.grid-items>.grid-item.grid-module-footer-7-1-1{display:flex} footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-2{min-width:60%;display:block}footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-2>.grid-items{justify-content:center;align-items:flex-end}footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-2>.grid-items>.grid-item:not(:empty){height:auto}footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-2>.grid-items:before{--unit:1%;left:0;right:auto;display:none}@media (max-width:600px){footer>.grid-rows>.grid-row-7>.grid-cols-wrapper>.grid-cols>.grid-col-2>.grid-items{align-items:flex-start}}.grid-items>.grid-item.grid-module-footer-7-2-1{display:flex} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'color_scheme' => '',
+    'footerType' => 'default',
+    'grid_classes' => 
+    array (
+      0 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      5 => 
+      array (
+        'color_scheme' => '',
+        'contentAlign' => false,
+        'waveStatus' => false,
+        'waveDirection' => '5',
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-5',
+          'fullwidth-row' => false,
+          'align-content-row' => false,
+          2 => '',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-footer-5-1-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '499',
+                  'name' => 'Image / Logo Default',
+                  'type' => 'image',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-footer-5-1-2',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '751',
+                  'name' => 'Links Menu / Footer / Address, Phone, Contact',
+                  'type' => 'links_menu',
+                ),
+              ),
+              3 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-footer-5-1-3',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '61',
+                  'name' => 'Icons Menu / Social Icons',
+                  'type' => 'icons_menu',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-footer-5-2-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '453',
+                  'name' => 'Catalog Menu / Footer Links (Auto Carousel)',
+                  'type' => 'catalog',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      6 => 
+      array (
+        'color_scheme' => '',
+        'contentAlign' => false,
+        'waveStatus' => false,
+        'waveDirection' => '5',
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-6',
+          'fullwidth-row' => false,
+          'align-content-row' => false,
+          2 => '',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-footer-6-1-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '944',
+                  'name' => 'Spacer / Divider / Border',
+                  'type' => 'spacer',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      7 => 
+      array (
+        'color_scheme' => '',
+        'contentAlign' => false,
+        'waveStatus' => false,
+        'waveDirection' => '5',
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-7',
+          'fullwidth-row' => false,
+          'align-content-row' => false,
+          2 => '',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-footer-7-1-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '328',
+                  'name' => 'Product Page - Free shipping qualifier',
+                  'type' => 'info_blocks',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-footer-7-2-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '228',
+                  'name' => 'Icons Menu - Payment icons',
+                  'type' => 'icons_menu',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);
