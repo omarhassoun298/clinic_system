@@ -1,0 +1,140 @@
+{{ header }}{{ column_left }}
+<div id="content">
+	<div class="page-header">
+		<div class="container-fluid">
+			<div class="float-end">
+				<button type="submit" form="form-blog" data-bs-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary">
+					<i class="fa fa-save"></i>
+				</button>
+				<a href="{{ cancel }}" data-bs-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-secondary">
+					<i class="fa fa-reply"></i>
+				</a>
+			</div>
+			<nav aria-label="breadcrumb">
+				<h1>{{ heading_title }}</h1>
+				<ol class="breadcrumb">
+					{% for breadcrumb in breadcrumbs %}
+						<li class="breadcrumb-item">
+							<a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a>
+						</li>
+					{% endfor %}
+				</ol>
+			</nav>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="card">
+			<div class="card-header">
+				<i class="fa fa-pencil"></i>
+				 Edit Doctor 
+			</div>
+			<div class="card-body">
+				<form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-blog" class="row">
+					<div class="mb-3 row required">
+						<label for="input-name" class="col-md-2 col-form-label">Name</label>
+						<div class="col-md-10">
+							<input type="text" name="username" id="input-name" value="{{ username }}" placeholder="Doctor Name" class="form-control {% if error_username %}is-invalid{% endif %}"/>
+							 {% if error_username %}
+								<div id="error-username" class="invalid-feedback d-block">{{ error_username }}</div>
+							 {% endif %}
+						</div>
+					</div>
+                    <div class="mb-3 row ">
+						<label for="input-specialization" class="col-md-2 col-form-label">Specialization</label>
+						<div class="col-md-10">
+							<input type="text" name="specialization" id="input-specialization" value="{{ specialization }}" placeholder="Doctor Specialization" class="form-control "/>
+						</div>
+					</div>
+                    <div class="mb-3 row required">
+						<label for="input-telephone" class="col-md-2 col-form-label">Telephone</label>
+						<div class="col-md-10">
+							<input type="text" name="phone_number" id="input-telephone" value="{{ phone_number }}" placeholder="Doctor Name" class="form-control {% if error_phone_number %}is-invalid{% endif %}"/>
+                            {% if error_phone_number %}
+								<div id="error-username" class="invalid-feedback d-block">{{ error_phone_number }}</div>
+							 {% endif %}
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="input-description" class="col-sm-2 col-form-label">Description</label>
+						<div class="col-sm-10">
+							<textarea name="description" id="input-description"  class="form-control">{{description}}</textarea>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	// keyword
+$('#input-keyword').autocomplete({
+'source': function (request, response) {
+$.ajax({
+url: 'index.php?route=blog/keyword/autocomplete&user_token=  {{ user_token }}&filter_name=' + encodeURIComponent(request),
+dataType: 'json',
+success: function (json) {
+response($.map(json, function (item) {
+return {label: item['name'], value: item['keyword_id']}
+}));
+}
+});
+},
+'select': function (item) {
+$('#input-keyword').val('');
+
+$('#blog-keyword-' + item['value']).remove();
+
+html = '<tr id="blog-keyword-' + item['value'] + '">';
+html += '  <td>' + item['label'] + '<input type="hidden" name="blog_keyword[]" value="' + item['value'] + '"/></td>';
+html += '  <td class="text-end"><button type="button" class="btn btn-danger"><i class="fa-solid fa-minus-circle"></i></button></td>';
+html += '</tr>';
+
+$('#blog-keyword tbody').append(html);
+}
+});
+
+$('#blog-keyword').on('click', '.btn', function () {
+$(this).parent().parent().remove();
+});
+</script>
+<script type="text/javascript">
+
+
+$('#button-filter').on('click', function () {
+var url = '';
+var filter_name = $('input[name=\'filter_name\']').val();
+
+if (filter_name) {
+url += '&filter_name=' + encodeURIComponent(filter_name);
+}
+
+location = 'index.php?route=catalog/blog&user_token=  {{ user_token }}' + url;
+});
+
+$('button[form=\'form-blog\']').on('click', function (e) {
+$('#form-blog').attr('action', $(this).attr('formaction'));
+});
+
+$('#input-parent').autocomplete({
+'source': function (request, response) {
+$.ajax({
+url: 'index.php?route=catalog/blog/autocomplete&user_token=  {{ user_token }}&filter_title=' + encodeURIComponent(request),
+dataType: 'json',
+success: function (json) {
+json.unshift({'title': '{{ text_none }}', 'blog_id': '0'});
+
+response($.map(json, function (item) {
+return {value: item['blog_id'], label: item['title']}
+}));
+}
+});
+},
+'select': function (item) {
+$('#input-parent').val(item['label']);
+$('#input-parent-id').val(item['value']);
+}
+});
+</script>
+
+{{ footer }}

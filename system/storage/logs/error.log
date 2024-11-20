@@ -1,125 +1,14 @@
-2024-10-30 11:45:19 - PHP Warning:  Undefined array key "content" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/blog.php on line 93
-2024-10-30 11:45:19 - PHP Warning:  Undefined array key "content" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/blog.php on line 93
-2024-10-30 11:46:13 - PHP Warning:  Undefined array key "content" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/blog.php on line 92
-2024-10-30 11:46:13 - PHP Warning:  Undefined array key "content" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/blog.php on line 93
-2024-10-30 11:46:13 - PHP Warning:  Undefined array key "content" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/blog.php on line 92
-2024-10-30 11:46:13 - PHP Warning:  Undefined array key "content" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/blog.php on line 93
-2024-10-30 11:46:28 - PHP Warning:  Undefined array key "content" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/blog.php on line 93
-2024-10-30 11:46:28 - PHP Warning:  Undefined array key "content" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/blog.php on line 93
-2024-10-31 11:45:50 - PHP Warning:  Undefined variable $faqs in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/admin/controller/common/column_left.php on line 113
-2024-10-31 12:45:48 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''oc_investment_form' SET name ='test', email ='test', telephone ='65656565', ...' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:45:49 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''oc_investment_form' SET name ='test', email ='test', telephone ='65656565', ...' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:46:11 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'key ='test', gender ='male'' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:46:21 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'key ='test', gender ='male'' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:46:22 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'key ='test', gender ='male'' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:46:47 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'key ='test', gender ='male'' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:47:26 - PHP Warning:  mysqli::query(): (42S22/1054): Unknown column 'telephone' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:47:37 - PHP Warning:  mysqli::query(): (42S22/1054): Unknown column 'telephone' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:47:38 - PHP Warning:  mysqli::query(): (42S22/1054): Unknown column 'telephone' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:47:39 - PHP Warning:  mysqli::query(): (42S22/1054): Unknown column 'telephone' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 12:49:33 - PHP Warning:  mysqli::query(): (23000/1062): Duplicate entry 'test@gmail.com' for key 'email' in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 14:00:10 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:00:10 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''test'' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-10-31 14:00:40 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:01:09 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:01:25 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:01:38 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:01:43 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:02:46 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:10:00 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:12:11 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:12:41 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:12:54 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:13:00 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-10-31 14:13:22 - PHP Unknown:  Required parameter $type follows optional parameter $data in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/model/rest/investment_form.php on line 4
-2024-11-07 7:28:15 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 84
-2024-11-07 7:28:15 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 85
-2024-11-07 7:28:15 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 84
-2024-11-07 7:28:15 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 85
-2024-11-07 7:34:58 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:34:58 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:34:58 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:34:58 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:35:07 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:35:07 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:35:07 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:35:07 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:35:08 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:35:08 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:35:08 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:35:08 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:35:47 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:35:47 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:35:47 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:35:47 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:36:02 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:36:02 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:36:02 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:36:02 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:36:07 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:36:07 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:36:07 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:36:07 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:37:11 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:37:11 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 90
-2024-11-07 7:37:11 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:37:11 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 90
-2024-11-07 7:37:12 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:37:12 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 90
-2024-11-07 7:37:12 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:37:12 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 90
-2024-11-07 7:38:05 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:38:05 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 90
-2024-11-07 7:38:12 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:38:12 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:38:24 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:38:24 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:38:49 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:38:49 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:38:49 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:38:49 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:38:49 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:38:49 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:38:49 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:38:49 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:39:02 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:39:02 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:39:34 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:39:34 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:39:39 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:39:39 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:42:01 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:42:01 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:42:07 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:42:07 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:43:51 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:43:51 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:45:57 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:45:57 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:46:32 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:46:32 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 7:47:16 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 7:47:16 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 9:27:04 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%'hh%' ORDER BY broker_id ASC LIMIT 0,20' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-11-07 9:27:17 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 9:27:17 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-07 9:27:17 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%'hh%'' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/system/library/db/mysqli.php on line 25
-2024-11-07 9:27:23 - PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 88
-2024-11-07 9:27:23 - PHP Warning:  Undefined array key "location" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/catalog/controller/rest/broker.php on line 89
-2024-11-15 11:55:07 - PHP Warning:  Undefined array key "custom_field" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/admin/controller/customer/customer.php on line 755
-2024-11-15 11:55:11 - PHP Warning:  Undefined array key "custom_field" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/admin/controller/customer/customer.php on line 1556
-2024-11-15 11:55:11 - PHP Warning:  Undefined array key "custom_field" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/admin/controller/customer/customer.php on line 1556
-2024-11-15 11:55:11 - PHP Warning:  Undefined array key "custom_field" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/admin/model/customer/customer.php on line 211
-2024-11-15 11:55:12 - PHP Warning:  Undefined array key "custom_field" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/admin/controller/customer/customer.php on line 1556
-2024-11-15 11:55:12 - PHP Warning:  Undefined array key "custom_field" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/admin/controller/customer/customer.php on line 1556
-2024-11-15 11:55:12 - PHP Warning:  Undefined array key "custom_field" in /Applications/XAMPP/xamppfiles/htdocs/raoul_beta/admin/model/customer/customer.php on line 211
-2024-11-15 13:15:20 - PHP Warning:  rmdir(/Applications/XAMPP/xamppfiles/htdocs/clinic_system/image/catalog/test): Directory not empty in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/filemanager.php on line 452
-2024-11-15 13:15:25 - PHP Warning:  rmdir(/Applications/XAMPP/xamppfiles/htdocs/clinic_system/image/catalog/test): Directory not empty in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/filemanager.php on line 452
-2024-11-15 13:16:13 - PHP Warning:  Undefined variable $faq_info in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/catalog/faq.php on line 242
-2024-11-15 13:16:13 - PHP Warning:  Trying to access array offset on value of type null in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/catalog/faq.php on line 242
-2024-11-15 13:17:52 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 133
-2024-11-15 13:19:13 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 133
-2024-11-15 13:20:13 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 133
-2024-11-15 13:20:14 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 133
-2024-11-15 13:20:19 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 133
-2024-11-15 13:20:25 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 133
+2024-11-19 22:22:01 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-19 22:22:03 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-19 22:22:04 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-19 22:22:06 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-19 22:22:09 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-20 11:28:44 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-20 11:28:46 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-20 11:28:47 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-20 11:28:48 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-20 11:28:49 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-20 11:28:50 - PHP Warning:  Undefined variable $blog in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/column_left.php on line 152
+2024-11-20 12:04:22 - PHP Warning:  rmdir(/Applications/XAMPP/xamppfiles/htdocs/clinic_system/image/catalog/logos): Directory not empty in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/filemanager.php on line 452
+2024-11-20 12:04:22 - PHP Warning:  rmdir(/Applications/XAMPP/xamppfiles/htdocs/clinic_system/image/catalog/test): Directory not empty in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/filemanager.php on line 452
+2024-11-20 12:04:54 - PHP Warning:  rmdir(/Applications/XAMPP/xamppfiles/htdocs/clinic_system/image/catalog/test): Directory not empty in /Applications/XAMPP/xamppfiles/htdocs/clinic_system/admin/controller/common/filemanager.php on line 452

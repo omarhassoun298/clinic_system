@@ -52,6 +52,25 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => $setting
 				];
 			}
+			//doctor
+			if ($this->user->hasPermission('access', 'clinic/doctor')) {
+				$data['menus'][] = [
+					'id'       => 'menu-doctor',
+					'icon'	   => 'fa-solid fa-user-doctor',
+					'name'	   => 'Doctor',
+					'href'     =>  $this->url->link('clinic/doctor', 'user_token=' . $this->session->data['user_token'], true),
+				];
+			}
+
+			//patient
+			if ($this->user->hasPermission('access', 'clinic/patient')) {
+				$data['menus'][] = [
+					'id'       => 'menu-patient',
+					'icon'	   => 'fa-solid fa-person',
+					'name'	   => 'Patient',
+					'href'     =>  $this->url->link('clinic/patient', 'user_token=' . $this->session->data['user_token'], true),
+				];
+			}
 
 			// Catalog
 			$catalog = [];

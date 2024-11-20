@@ -1,0 +1,127 @@
+{{ header }}{{ column_left }}
+<div id="content">
+	<div class="page-header">
+		<div class="container-fluid">
+			<div class="float-end">
+				<button type="submit" form="form-blog" data-bs-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary">
+					<i class="fa fa-save"></i>
+				</button>
+				<a href="{{ cancel }}" data-bs-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-secondary">
+					<i class="fa fa-reply"></i>
+				</a>
+			</div>
+			<nav aria-label="breadcrumb">
+				<h1>{{ heading_title }}</h1>
+				<ol class="breadcrumb">
+					{% for breadcrumb in breadcrumbs %}
+						<li class="breadcrumb-item">
+							<a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a>
+						</li>
+					{% endfor %}
+				</ol>
+			</nav>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="card">
+			<div class="card-header">
+				<i class="fa fa-pencil"></i>
+				Edit Patient
+			</div>
+			<div class="card-body">
+				<form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-blog" class="row">
+					<div class="mb-3 row required">
+						<label for="input-name" class="col-md-2 col-form-label">Name</label>
+						<div class="col-md-10">
+							<input type="text" name="name" id="input-name" value="{{ name }}" placeholder="Doctor Name" class="form-control {% if error_name %}is-invalid{% endif %}"/>
+							{% if error_name %}
+								<div id="error-name" class="invalid-feedback d-block">{{ error_name }}</div>
+							{% endif %}
+						</div>
+					</div>
+					<div class="mb-3 row ">
+						<label for="input-email" class="col-md-2 col-form-label">Email</label>
+						<div class="col-md-10">
+							<input type="text" name="email" id="input-email" value="{{ email }}" placeholder="Patient Email" class="form-control"/>
+						</div>
+					</div>
+					<div class="mb-3 row required">
+						<label for="input-telephone" class="col-md-2 col-form-label">Telephone</label>
+						<div class="col-md-10">
+							<input type="text" name="telephone" id="input-telephone" value="{{ telephone }}" placeholder="Doctor Telephone" class="form-control {% if error_telephone %}is-invalid{% endif %}"/>
+							{% if error_telephone %}
+								<div id="error-telephone" class="invalid-feedback d-block">{{ error_telephone }}</div>
+							{% endif %}
+						</div>
+					</div>
+					<div class="mb-3 row ">
+						<label for="input-gender" class="col-md-2 col-form-label">Gender</label>
+						<div class="col-md-10">
+							<select name="gender" id="input-gender" class="form-select">
+								<option value="">-- Please Select --</option>
+								<option value="male" {% if gender == 'male' %} selected {% endif %}>Male</option>
+								<option value="female" {% if gender == 'female' %} selected {% endif %}>Female</option>
+							</select>
+						</div>
+					</div>
+					<div class="mb-3 row ">
+						<label for="input-diagnosis" class="col-md-2 col-form-label">Diagnosis</label>
+						<div class="col-md-10">
+							<textarea name="diagnosis" id="input-diagnosis" class="form-control">{{diagnosis}}</textarea>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="input-description" class="col-sm-2 col-form-label">Description</label>
+						<div class="col-sm-10">
+							<textarea name="description" id="input-description" class="form-control">{{description}}</textarea>
+						</div>
+					</div>
+
+
+					<div class="row mb-3">
+						<label for="input-address" class="col-sm-2 col-form-label">address</label>
+						<div class="col-sm-10">
+							<textarea name="address" id="input-address" class="form-control">{{address}}</textarea>
+						</div>
+					</div>
+                    <div class="row mb-3">
+						<label for="input-doctor" class="col-sm-2 col-form-label">Doctor</label>
+						<div class="col-sm-10">
+							<input type="text" name="doctor" value="{{ doctor }}" placeholder="Doctor" id="input-doctor" data-oc-target="autocomplete-doctor" class="form-control" autocomplete="off"/>
+							<ul id="autocomplete-doctor" class="dropdown-menu"></ul>
+							<input type="hidden" name="doctor_id" value="{{ doctor_id }}" id="input-doctor-id"/>
+							<div class="form-text">{{ help_doctor }}</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+$('#input-doctor').autocomplete({
+    'source': function (request, response) {
+        $.ajax({
+            url: 'index.php?route=clinic/doctor/autocomplete&user_token={{ user_token }}&filter_username=' + encodeURIComponent(request),
+            dataType: 'json',
+            success: function (json) {
+                response($.map(json, function (item) { 
+                    return {
+                        value: item['doctor_id'],
+                        label: item['username']  
+                    };
+                }));
+            }
+        });
+    },
+    'select': function (item) {
+        $('#input-doctor').val(item['label']);
+        $('#input-doctor-id').val(item['value']); 
+    }
+});
+
+</script>
+
+{{ footer }}
