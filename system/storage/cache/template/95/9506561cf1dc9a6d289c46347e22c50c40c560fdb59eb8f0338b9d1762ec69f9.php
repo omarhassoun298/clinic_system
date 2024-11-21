@@ -1,0 +1,274 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* clinic/patient_list.twig */
+class __TwigTemplate_591bb9b7d73cca22bc4e119fce8bddc2ecde9a1e6f6655f567619166f32b241c extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo ($context["header"] ?? null);
+        echo ($context["column_left"] ?? null);
+        echo "
+<div id=\"content\">
+  <div class=\"page-header\">
+    <div class=\"container-fluid\">
+      <div class=\"float-end\">
+        <a href=\"";
+        // line 6
+        echo ($context["add"] ?? null);
+        echo "\" data-bs-toggle=\"tooltip\" title=\"";
+        echo ($context["button_add"] ?? null);
+        echo "\" class=\"btn btn-primary\">
+          <i class=\"fa-solid fa-plus\"></i>
+        </a>
+        <button type=\"button\" data-bs-toggle=\"tooltip\" title=\"";
+        // line 9
+        echo ($context["button_delete"] ?? null);
+        echo "\" class=\"btn btn-danger\" 
+          onclick=\"confirm('";
+        // line 10
+        echo ($context["text_confirm"] ?? null);
+        echo "') ? document.getElementById('form-manufacturer').submit() : false;\">
+          <i class=\"fa-regular fa-trash-can\"></i>
+        </button>
+      </div>
+      <h1>";
+        // line 14
+        echo ($context["heading_title"] ?? null);
+        echo "</h1>
+      <ul class=\"breadcrumb\">
+        ";
+        // line 16
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["breadcrumbs"] ?? null));
+        foreach ($context['_seq'] as $context["_key"] => $context["breadcrumb"]) {
+            // line 17
+            echo "        <li class=\"breadcrumb-item\"><a href=\"";
+            echo twig_get_attribute($this->env, $this->source, $context["breadcrumb"], "href", [], "any", false, false, false, 17);
+            echo "\">";
+            echo twig_get_attribute($this->env, $this->source, $context["breadcrumb"], "text", [], "any", false, false, false, 17);
+            echo "</a></li>
+        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 19
+        echo "      </ul>
+    </div>
+  </div>
+  <div class=\"container-fluid\">
+      ";
+        // line 23
+        if (($context["error_warning"] ?? null)) {
+            // line 24
+            echo "         <div class=\"alert alert-danger alert-dismissible\"><i class=\"fa-solid fa-check-circle\"></i> ";
+            echo ($context["error_warning"] ?? null);
+            echo " <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\"></button></div>
+      ";
+        }
+        // line 26
+        echo "      ";
+        if (($context["success"] ?? null)) {
+            // line 27
+            echo "         <div class=\"alert alert-success alert-dismissible\"><i class=\"fa-solid fa-check-circle\"></i> ";
+            echo ($context["success"] ?? null);
+            echo " <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\"></button></div>
+      ";
+        }
+        // line 29
+        echo "    <div class=\"card\">
+      <div class=\"card-header\">
+        <i class=\"fa fa-list\"></i> ";
+        // line 31
+        echo ($context["text_list"] ?? null);
+        echo "
+      </div>
+      <div class=\"card-body\">
+        <form action=\"";
+        // line 34
+        echo ($context["delete"] ?? null);
+        echo "\" method=\"post\" enctype=\"multipart/form-data\" id=\"form-manufacturer\">
+          <div class=\"table-responsive\">
+            <table class=\"table table-bordered table-hover\">
+              <thead>
+                <tr>
+                  <th style=\"width: 1px;\" class=\"text-center\">
+                    <input type=\"checkbox\" class=\"form-check-input\" onclick=\"document.querySelectorAll('input[name*=\\'selected\\']').forEach(el => el.checked = this.checked);\" />
+                  </th>
+                  <th class=\"text-left\">Information</th>
+                  <th class=\"text-left\">Doctor</th>
+                  <th class=\"text-left\">Diagnosis</th>
+                  <th class=\"text-left\">Description</th>
+                  <th class=\"text-end\">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                ";
+        // line 50
+        if (($context["patients"] ?? null)) {
+            // line 51
+            echo "                ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable(($context["patients"] ?? null));
+            foreach ($context['_seq'] as $context["_key"] => $context["patient"]) {
+                // line 52
+                echo "                <tr>
+                  <td class=\"text-center\">
+                    ";
+                // line 54
+                if (twig_in_filter(twig_get_attribute($this->env, $this->source, $context["patient"], "patient_id", [], "any", false, false, false, 54), ($context["selected"] ?? null))) {
+                    // line 55
+                    echo "                    <input type=\"checkbox\" class=\"form-check-input\" name=\"selected[]\" value=\"";
+                    echo twig_get_attribute($this->env, $this->source, $context["patient"], "patient_id", [], "any", false, false, false, 55);
+                    echo "\" checked />
+                    ";
+                } else {
+                    // line 57
+                    echo "                    <input type=\"checkbox\" class=\"form-check-input\" name=\"selected[]\" value=\"";
+                    echo twig_get_attribute($this->env, $this->source, $context["patient"], "patient_id", [], "any", false, false, false, 57);
+                    echo "\" />
+                    ";
+                }
+                // line 59
+                echo "                  </td>
+                  <td class=\"text-left\">
+                 <table>
+                        <tbody><tr><td style=\"padding-right:3px;\"><i class=\"fa fa-user\" aria-hidden=\"true\"></i></td><td>";
+                // line 62
+                echo twig_get_attribute($this->env, $this->source, $context["patient"], "name", [], "any", false, false, false, 62);
+                echo "</td></tr>
+                            <tr><td style=\"padding-right:3px;\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></td><td>";
+                // line 63
+                echo twig_get_attribute($this->env, $this->source, $context["patient"], "email", [], "any", false, false, false, 63);
+                echo "</td></tr>
+                            <tr><td style=\"padding-right:3px;\"><i class=\"fa fa-phone\" aria-hidden=\"true\"></i></td><td>";
+                // line 64
+                echo twig_get_attribute($this->env, $this->source, $context["patient"], "telephone", [], "any", false, false, false, 64);
+                echo "</td></tr>
+                        </tbody>
+                 </table>
+                  </td>
+                  <td class=\"text-left\">";
+                // line 68
+                echo twig_get_attribute($this->env, $this->source, $context["patient"], "doctor", [], "any", false, false, false, 68);
+                echo "</td>
+                  <td class=\"text-left\">";
+                // line 69
+                echo twig_get_attribute($this->env, $this->source, $context["patient"], "diagnosis", [], "any", false, false, false, 69);
+                echo "</td>
+                  <td class=\"text-left\">";
+                // line 70
+                echo twig_get_attribute($this->env, $this->source, $context["patient"], "description", [], "any", false, false, false, 70);
+                echo "</td>
+                  <td class=\"text-end\">
+                    <a href=\"";
+                // line 72
+                echo twig_get_attribute($this->env, $this->source, $context["patient"], "edit", [], "any", false, false, false, 72);
+                echo "\" data-bs-toggle=\"tooltip\" title=\"";
+                echo ($context["button_edit"] ?? null);
+                echo "\" class=\"btn btn-primary\">
+                    <i class=\"fa fa-pencil\"></i>
+                    </a>
+                  </td>
+                </tr>
+                ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['patient'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 78
+            echo "                ";
+        } else {
+            // line 79
+            echo "                <tr>
+                  <td class=\"text-center\" colspan=\"6\">";
+            // line 80
+            echo ($context["text_no_results"] ?? null);
+            echo "</td>
+                </tr>
+                ";
+        }
+        // line 83
+        echo "              </tbody>
+            </table>
+          </div>
+        </form>
+        <div class=\"row\">
+          <div class=\"col-sm-6 text-start\">";
+        // line 88
+        echo ($context["pagination"] ?? null);
+        echo "</div>
+          <div class=\"col-sm-6 text-end\">";
+        // line 89
+        echo ($context["results"] ?? null);
+        echo "</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+";
+        // line 95
+        echo ($context["footer"] ?? null);
+        echo "
+";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "clinic/patient_list.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  241 => 95,  232 => 89,  228 => 88,  221 => 83,  215 => 80,  212 => 79,  209 => 78,  195 => 72,  190 => 70,  186 => 69,  182 => 68,  175 => 64,  171 => 63,  167 => 62,  162 => 59,  156 => 57,  150 => 55,  148 => 54,  144 => 52,  139 => 51,  137 => 50,  118 => 34,  112 => 31,  108 => 29,  102 => 27,  99 => 26,  93 => 24,  91 => 23,  85 => 19,  74 => 17,  70 => 16,  65 => 14,  58 => 10,  54 => 9,  46 => 6,  37 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "clinic/patient_list.twig", "");
+    }
+}

@@ -34,7 +34,7 @@
 					<div class="mb-3 row required">
 						<label for="input-name" class="col-md-2 col-form-label">Name</label>
 						<div class="col-md-10">
-							<input type="text" name="name" id="input-name" value="{{ name }}" placeholder="Doctor Name" class="form-control {% if error_name %}is-invalid{% endif %}"/>
+							<input type="text" name="name" id="input-name" value="{{ name }}" placeholder="Patient Name" class="form-control {% if error_name %}is-invalid{% endif %}"/>
 							{% if error_name %}
 								<div id="error-name" class="invalid-feedback d-block">{{ error_name }}</div>
 							{% endif %}
@@ -49,7 +49,7 @@
 					<div class="mb-3 row required">
 						<label for="input-telephone" class="col-md-2 col-form-label">Telephone</label>
 						<div class="col-md-10">
-							<input type="text" name="telephone" id="input-telephone" value="{{ telephone }}" placeholder="Doctor Telephone" class="form-control {% if error_telephone %}is-invalid{% endif %}"/>
+							<input type="text" name="telephone" id="input-telephone" value="{{ telephone }}" placeholder="Patient Telephone" class="form-control {% if error_telephone %}is-invalid{% endif %}"/>
 							{% if error_telephone %}
 								<div id="error-telephone" class="invalid-feedback d-block">{{ error_telephone }}</div>
 							{% endif %}
@@ -59,7 +59,7 @@
 						<label for="input-gender" class="col-md-2 col-form-label">Gender</label>
 						<div class="col-md-10">
 							<select name="gender" id="input-gender" class="form-select">
-								<option value="">-- Please Select --</option>
+								<option value="">-- Select Gender --</option>
 								<option value="male" {% if gender == 'male' %} selected {% endif %}>Male</option>
 								<option value="female" {% if gender == 'female' %} selected {% endif %}>Female</option>
 							</select>

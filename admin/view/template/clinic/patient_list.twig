@@ -7,7 +7,7 @@
           <i class="fa-solid fa-plus"></i>
         </a>
         <button type="button" data-bs-toggle="tooltip" title="{{ button_delete }}" class="btn btn-danger" 
-          onclick="confirm('{{ text_confirm }}') ? document.getElementById('form-manufacturer').submit() : false;">
+          onclick="confirm('{{ text_confirm }}') ? document.getElementById('form-doctor').submit() : false;">
           <i class="fa-regular fa-trash-can"></i>
         </button>
       </div>
@@ -20,74 +20,162 @@
     </div>
   </div>
   <div class="container-fluid">
-      {% if error_warning %}
-         <div class="alert alert-danger alert-dismissible"><i class="fa-solid fa-check-circle"></i> {{ error_warning }} <button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>
-      {% endif %}
-      {% if success %}
-         <div class="alert alert-success alert-dismissible"><i class="fa-solid fa-check-circle"></i> {{ success }} <button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>
-      {% endif %}
-    <div class="card">
-      <div class="card-header">
-        <i class="fa fa-list"></i> {{ text_list }}
-      </div>
-      <div class="card-body">
-        <form action="{{ delete }}" method="post" enctype="multipart/form-data" id="form-manufacturer">
-          <div class="table-responsive">
-            <table class="table table-bordered table-hover">
-              <thead>
-                <tr>
-                  <th style="width: 1px;" class="text-center">
-                    <input type="checkbox" class="form-check-input" onclick="document.querySelectorAll('input[name*=\'selected\']').forEach(el => el.checked = this.checked);" />
-                  </th>
-                  <th class="text-left">Information</th>
-                  <th class="text-left">Specialization</th>
-                  <th class="text-left">Telephone</th>
-                  <th class="text-end">Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                {% if patients %}
-                {% for patient in patients %}
-                <tr>
-                  <td class="text-center">
-                    {% if patient.patient_id in selected %}
-                    <input type="checkbox" class="form-check-input" name="selected[]" value="{{ patient.patient_id }}" checked />
-                    {% else %}
-                    <input type="checkbox" class="form-check-input" name="selected[]" value="{{ patient.patient_id }}" />
-                    {% endif %}
-                  </td>
-                  <td class="text-left">
-                 <table>
-                        <tbody><tr><td style="padding-right:3px;"><i class="fa fa-user" aria-hidden="true"></i></td><td>{{patient.name}}</td></tr>
-                            <tr><td style="padding-right:3px;"><i class="fa fa-envelope" aria-hidden="true"></i></td><td>{{patient.email}}</td></tr>
-                            <tr><td style="padding-right:3px;"><i class="fa fa-phone" aria-hidden="true"></i></td><td>{{patient.telephone}}</td></tr>
-                        </tbody>
-                 </table>
-                  </td>
-                  <td class="text-left">{{ patient.specialization }}</td>
-                  <td class="text-left">{{ patient.telephone }}</td>
-                  <td class="text-end">
-                    <a href="{{ patient.edit }}" data-bs-toggle="tooltip" title="{{ button_edit }}" class="btn btn-primary">
-                    <i class="fa fa-pencil"></i>
-                    </a>
-                  </td>
-                </tr>
-                {% endfor %}
-                {% else %}
-                <tr>
-                  <td class="text-center" colspan="6">{{ text_no_results }}</td>
-                </tr>
-                {% endif %}
-              </tbody>
-            </table>
+    <div class="row">
+      <div id="filter-country" class="col-lg-3 col-md-12 order-lg-last d-none d-lg-block mb-3">
+        <div class="card">
+          <div class="card-header"><i class="fa-solid fa-filter"></i> {{ text_filter }}</div>
+          <div class="card-body">
+            <div class="mb-3">
+              <label class="form-label">Name</label> <input type="text" name="filter_name" value="{{ filter_name }}" data-oc-target="autocomplete-name" autocomplete="off" placeholder="Enter Name" id="input-name" class="form-control"/>
+              <ul id="autocomplete-name" class="dropdown-menu"></ul>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Telephone</label> <input type="text" name="filter_telephone" value="{{filter_telephone}}" placeholder="Enter Telephone"  data-oc-target="autocomplete-telephone" autocomplete="off" id="input-telephone" class="form-control"/>
+              <ul id="autocomplete-telephone" class="dropdown-menu"></ul>
+            </div>
+            <div class="text-end">
+              <button type="button" id="button-filter" class="btn btn-light"><i class="fa-solid fa-filter"></i> {{ button_filter }}</button>
+              <button type="button" id="button-clear" class="btn btn-danger"><i class="fa fa-eraser"></i> Clear</button>
+            </div>
           </div>
-        </form>
-        <div class="row">
-          <div class="col-sm-6 text-start">{{ pagination }}</div>
-          <div class="col-sm-6 text-end">{{ results }}</div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-12">
+        <div class="card">
+          <div class="card-header"><i class="fa-solid fa-list"></i> Patient List</div>
+          <div id="country" class="card-body">
+              <form action="{{ delete }}" method="post" enctype="multipart/form-data" id="form-doctor">
+                  <div class="table-wrapper" style="overflow-x: auto; max-height: 400px;">
+                    <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th style="width: 1px;" class="text-center">
+                            <input type="checkbox" class="form-check-input" onclick="document.querySelectorAll('input[name*=\'selected\']').forEach(el => el.checked = this.checked);" />
+                          </th>
+                          <th class="text-left">Information</th>
+                          <th class="text-left">Doctor</th>
+                          <th class="text-left">Diagnosis</th>
+                          <th class="text-left">Description</th>
+                          <th class="text-end">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {% if patients %}
+                        {% for patient in patients %}
+                        <tr>
+                          <td class="text-center">
+                            {% if patient.patient_id in selected %}
+                            <input type="checkbox" class="form-check-input" name="selected[]" value="{{ patient.patient_id }}" checked />
+                            {% else %}
+                            <input type="checkbox" class="form-check-input" name="selected[]" value="{{ patient.patient_id }}" />
+                            {% endif %}
+                          </td>
+                          <td class="text-left">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td style="padding-right:3px;"><i class="fa fa-user" aria-hidden="true"></i></td>
+                                  <td>{{ patient.name }}</td>
+                                </tr>
+                                <tr>
+                                  <td style="padding-right:3px;"><i class="fa fa-envelope" aria-hidden="true"></i></td>
+                                  <td>{{ patient.email }}</td>
+                                </tr>
+                                <tr>
+                                  <td style="padding-right:3px;"><i class="fa fa-phone" aria-hidden="true"></i></td>
+                                  <td>{{ patient.telephone }}</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class="text-left">{{ patient.doctor }}</td>
+                          <td class="text-left">{{ patient.diagnosis }}</td>
+                          <td class="text-left">{{ patient.description }}</td>
+                          <td class="text-end">
+                            <a href="{{ patient.edit }}" data-bs-toggle="tooltip" title="{{ button_edit }}" class="btn btn-primary">
+                              <i class="fa fa-pencil"></i>
+                            </a>
+                          </td>
+                        </tr>
+                        {% endfor %}
+                        {% else %}
+                        <tr>
+                          <td class="text-center" colspan="6">{{ text_no_results }}</td>
+                        </tr>
+                        {% endif %}
+                      </tbody>
+                    </table>
+                  </div>
+                </form>
+                <div class="row">
+                  <div class="col-sm-6 text-start">{{ pagination }}</div>
+                  <div class="col-sm-6 text-end">{{ results }}</div>
+                </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<script>
+$('input[name=\'filter_name\']').autocomplete({
+	'source': function(request, response) {
+		$.ajax({
+			url: 'index.php?route=clinic/patient/autocomplete&user_token={{ user_token }}&filter_name=' +  encodeURIComponent(request),
+			dataType: 'json',
+			success: function(json) {
+				response($.map(json, function(item) {
+					return {
+						label: item['name'],
+						value: item['patient_id']
+					}
+				}));
+			}
+		});
+	},
+	'select': function(item) {
+		$('input[name=\'filter_name\']').val(item['label']);
+	}
+});
+$('input[name=\'filter_telephone\']').autocomplete({
+	'source': function(request, response) {
+		$.ajax({
+			url: 'index.php?route=clinic/patient/autocompleteTelephone&user_token={{ user_token }}&filter_telephone=' +  encodeURIComponent(request),
+			dataType: 'json',
+			success: function(json) {
+				response($.map(json, function(item) {
+					return {
+						label: item['telephone'],
+						value: item['patient_id']
+					}
+				}));
+			}
+		});
+	},
+	'select': function(item) {
+		$('input[name=\'filter_telephone\']').val(item['label']);
+	}
+});
+</script>
+<script type="text/javascript"><!--
+$('#button-clear').on('click',function(){
+  	location = 'index.php?route=clinic/patient&user_token={{ user_token }}';
+})
+$('#button-filter').on('click', function () {
+    var url = '';
+
+    var filter_name = $('#input-name').val();
+
+    if (filter_name) {
+        url += '&filter_name=' + encodeURIComponent(filter_name);
+    }
+    var filter_telephone = $('#input-telephone').val();
+
+    if (filter_telephone) {
+        url += '&filter_telephone=' + encodeURIComponent(filter_telephone);
+    }
+
+    location='index.php?route=clinic/patient&user_token={{ user_token }}'+ url;
+});
+//--></script>
 {{ footer }}

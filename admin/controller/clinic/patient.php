@@ -90,6 +90,18 @@ class ControllerClinicPatient extends Controller {
 		$this->load->model('tool/image');
 		$this->load->language('clinic/patient');
 	
+		if(isset($this->request->get['filter_name'])){
+			$filter_name = $this->request->get['filter_name'];
+		}else{
+			$filter_name = '';
+		}
+
+		if(isset($this->request->get['filter_telephone'])){
+			$filter_telephone = $this->request->get['filter_telephone'];
+		}else{
+			$filter_telephone = '';
+		}
+
 		$data['breadcrumbs'] = array();
 	
 		$data['breadcrumbs'][] = array(
@@ -126,13 +138,15 @@ class ControllerClinicPatient extends Controller {
 
 		$page = isset($this->request->get['page']) ? (int)$this->request->get['page'] : 1;
 		$filter_data = array(
+			'filter_name' => $filter_name,
+			'filter_telephone' => $filter_telephone,
 			'sort'  => 'title',
 			'order' => 'ASC',
 			'start' => ($page - 1) * $this->config->get('config_limit_admin'),
 			'limit' => $this->config->get('config_limit_admin')
 		);
 	
-		$blog_total = $this->model_clinic_patient->getTotalPatients();
+		$blog_total = $this->model_clinic_patient->getTotalPatients($filter_data);
 	
 		$results = $this->model_clinic_patient->getPatients($filter_data);
 
@@ -142,6 +156,7 @@ class ControllerClinicPatient extends Controller {
 				'patient_id'  => $result['patient_id'],
 				'name'    => $result['name'],
 				'email'  => $result['email'],
+				'doctor'  => $result['doctor'],
 				'telephone'   => $result['telephone'],
                 'address'   => $result['address'],
 				'diagnosis'   => $result['diagnosis'],
@@ -160,6 +175,11 @@ class ControllerClinicPatient extends Controller {
 		]);
 
 		$data['results'] = sprintf($this->language->get('text_pagination'), ($blog_total) ? (($page - 1) * $this->config->get('config_limit_admin')) + 1 : 0, ((($page - 1) * $this->config->get('config_limit_admin')) > ($blog_total - $this->config->get('config_limit_admin'))) ? $blog_total : ((($page - 1) * $this->config->get('config_limit_admin')) + $this->config->get('config_limit_admin')), $blog_total, ceil($blog_total / $this->config->get('config_limit_admin')));
+
+		$data['user_token'] = $this->session->data['user_token'];
+		$data['filter_name'] = $filter_name;
+		$data['filter_telephone'] = $filter_telephone;
+
 
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
@@ -280,13 +300,13 @@ class ControllerClinicPatient extends Controller {
 	public function autocomplete() {
 		$json = array();
 
-		if (isset($this->request->get['filter_title']) || isset($this->request->get['filter_model'])) {
+		if (isset($this->request->get['filter_name'])) {
 			$this->load->model('clinic/patient');
 
-			if (isset($this->request->get['filter_title'])) {
-				$filter_title = $this->request->get['filter_title'];
+			if (isset($this->request->get['filter_name'])) {
+				$filter_name = $this->request->get['filter_name'];
 			} else {
-				$filter_title = '';
+				$filter_name = '';
 			}
 
 			if (isset($this->request->get['limit'])) {
@@ -296,18 +316,55 @@ class ControllerClinicPatient extends Controller {
 			}
 
 			$filter_data = array(
-				'filter_title'  => $filter_title,
+				'filter_name'  => $filter_name,
 				'start'        => 0,
 				'limit'        => $limit
 			);
 
-			$results = $this->model_clinic_patient->getblogPatients($filter_data);
+			$results = $this->model_clinic_patient->getPatients($filter_data);
 
 			foreach ($results as $result) {
 
 				$json[] = array(
 					'patient_id' => $result['patient_id'],
-					'title'       =>($result['title'])
+					'name'       =>($result['name'])
+				);
+			}
+		$this->response->addHeader('Content-Type: application/json');
+		$this->response->setOutput(json_encode($json));
+	}
+	}
+
+	public function autocompleteTelephone() {
+		$json = array();
+
+		if (isset($this->request->get['filter_telephone'])) {
+			$this->load->model('clinic/patient');
+
+			if (isset($this->request->get['filter_telephone'])) {
+				$filter_telephone = $this->request->get['filter_telephone'];
+			} else {
+				$filter_telephone = '';
+			}
+
+			if (isset($this->request->get['limit'])) {
+				$limit = (int)$this->request->get['limit'];
+			} else {
+				$limit = 5;
+			}
+
+			$filter_data = array(
+				'filter_telephone'  => $filter_telephone,
+				'start'        => 0,
+				'limit'        => $limit
+			);
+
+			$results = $this->model_clinic_patient->getPatients($filter_data);
+
+			foreach ($results as $result) {
+				$json[] = array(
+					'patient_id' => $result['patient_id'],
+					'telephone'       =>($result['telephone'])
 				);
 			}
 		$this->response->addHeader('Content-Type: application/json');

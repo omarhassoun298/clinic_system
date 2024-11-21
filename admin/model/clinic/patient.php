@@ -15,9 +15,16 @@ class ModelClinicPatient extends Model {
 	public function deletePatient($patient_id) {
 		$this->db->query("DELETE FROM " . DB_PREFIX . "patient WHERE patient_id = '" . (int)$patient_id . "'");
 	}	
-	public function getTotalPatients() {
-        $query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "patient");
+	public function getTotalPatients($data = array()) {
+       $sql = "SELECT COUNT(*) AS total FROM " . DB_PREFIX . "patient WHERE 1";
 
+		if (!empty($data['filter_name'])) {
+			$sql .= " AND `name` LIKE '" . $this->db->escape($data['filter_name']) . "%'";
+		}
+		if (!empty($data['filter_telephone'])) {
+			$sql .= " AND telephone LIKE '" . $this->db->escape($data['filter_telephone']) . "%'";
+		}
+		$query = $this->db->query($sql);
 		return $query->row['total'];
 	}
 
@@ -26,11 +33,15 @@ class ModelClinicPatient extends Model {
         return $query->row;
     }
     public function getPatients($data = array()) {
-		$sql = "SELECT * FROM " . DB_PREFIX . "patient";
+		$sql = "SELECT * FROM " . DB_PREFIX . "patient WHERE 1";
 
 		if (!empty($data['filter_name'])) {
-			$sql .= " WHERE name LIKE '" . $this->db->escape($data['filter_name']) . "%'";
+			$sql .= " AND `name` LIKE '" . $this->db->escape($data['filter_name']) . "%'";
 		}
+		if (!empty($data['filter_telephone'])) {
+			$sql .= " AND telephone LIKE '" . $this->db->escape($data['filter_telephone']) . "%'";
+		}
+
 
 		$sort_data = array(
 			'patient_id',

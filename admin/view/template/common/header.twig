@@ -46,11 +46,6 @@
             <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle"><img src="{{ image }}" alt="{{ firstname }} {{ lastname }}" title="{{ username }}" class="rounded-circle"/><span class="d-none d-md-inline d-lg-inline">&nbsp;&nbsp;&nbsp;{{ firstname }} {{ lastname }} <i class="fa-solid fa-caret-down fa-fw"></i></span></a>
             <ul class="dropdown-menu dropdown-menu-end">
               <li><a href="{{ profile }}" class="dropdown-item"><i class="fa-solid fa-user-circle fa-fw"></i> {{ text_profile }}</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><h6 class="dropdown-header">{{ text_store }}</h6></li>
-              {% for store in stores %}
-                <a href="{{ store.href }}" target="_blank" class="dropdown-item">{{ store.name }}</a>
-              {% endfor %}
             </ul>
           </li>
           <li id="nav-logout" class="nav-item"><a href="{{ logout }}" class="nav-link"><i class="fa-solid fa-sign-out"></i> <span class="d-none d-md-inline">{{ text_logout }}</span></a></li>
